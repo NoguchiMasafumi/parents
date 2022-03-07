@@ -1,0 +1,100 @@
+<html>
+
+    <head>
+        <meta description="漢字">
+    	<link rel="stylesheet" href="css/parents.css">
+<style>
+    .letter1{font-size:120px;font-family: serif;line-height: 100%;
+    float:left;
+    margin-right:30px;
+    margin-left:50px;
+    }
+
+    .judge{font-size:120px;font-family: serif;line-height: 100%;
+    float:left;}
+
+
+    .flt_lef{float:left;}
+    .over_flow_no{overflow: hidden;}
+
+    .mar_b30{margin-bottom:30px;}
+    .mar_b32{margin-bottom:32px;}
+    .mar_l50{margin-left:50px;}
+
+        .btn_c06{background-color: rgb(221, 221, 255);}
+        .fnt_c00{color:#ffffff;
+        }
+
+
+        .h120{height:120px;}
+        .pad_a16{padding:16px;}
+        .mar_r8{margin-right:8px;}
+
+        .rad_8{
+        /*-moz-border-radius: 6px;  */
+        /*-webkit-border-radius: 6px;  */
+        border-radius: 8px 8px 8px 8px;
+        behavior:urL(http://asp.center.his/media/js/radius.htc);
+        }
+
+</style>
+
+    </head>
+
+
+    <body>
+
+        <div id="title1">
+            <div class="logo">
+            </div>
+        </div>
+
+
+        <div id="content">
+            <div id="app-blog" class="main_cont">
+                <div v-for="item in items" class="over_flow_no link_card mar_b30">
+                    
+                    <div class="over_flow_no">
+                     <div class="letter1 mar_b32">{{ item.letter }}</div>
+                        <div class="flt_lef mar_b32">
+
+                            <div class="">{{ item.school}}{{ item.year}} {{ item.season}}</div>
+
+
+                            <div class="">{{ item.e1read}}</div>
+
+                            <p class="pad_lr16">{{ item.part}}</p>
+
+
+                        </div>
+                        </div>
+
+                        <div class="mar_l50 mar_b32">{{ item.e1sample}}</div>
+
+
+<div class="flt_lef btn_c06 h120 pad_a16 mar_r8 fnt_c00 rad_8">&lt;</div>
+<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8">○</div>
+<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8">X</div>
+<div class="flt_lef btn_c06 h120 pad_a16 fnt_c00 rad_8">></div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+
+
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        <script src="js/contents.js"></script>
+    </footer>
+
+
+
+</html>
