@@ -1,10 +1,10 @@
-    .letter1{font-size:120px;font-family: serif;line-height: 100%;
+    .letter1{font-size:480px;font-family: serif;line-height: 100%;
     float:left;
     margin-right:30px;
     margin-left:50px;
     }
 
-    .judge{font-size:120px;font-family: serif;line-height: 100%;
+    .judge{font-size:480px;font-family: serif;line-height: 100%;
     float:left;}
 
 
@@ -20,7 +20,7 @@
         }
 
 
-        .h120{height:120px;}
+        .h120{height:480px;}
         .pad_a16{padding:16px;}
         .mar_r8{margin-right:8px;}
 
