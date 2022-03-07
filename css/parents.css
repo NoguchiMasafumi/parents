@@ -30,3 +30,14 @@
         border-radius: 8px 8px 8px 8px;
         behavior:urL(http://asp.center.his/media/js/radius.htc);
         }
+
+
+.chkd{
+    background-color: rgb(255, 255, 255);
+    color:rgb(161, 177, 192);
+}
+
+.caution1{
+    background-color: rgb(212, 39, 39);
+    color:rgb(255, 255, 255);
+}

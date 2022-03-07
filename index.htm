@@ -16,11 +16,11 @@
 
 
         <div id="content">
-            <div id="app-blog" class="main_cont">
-                <div v-for="item in items" class="over_flow_no link_card mar_b30" v-if="item.year == 3">
+            <div id="app-blog2" class="main_cont">
+                <div v-for="(item, index) in shuffle_items" class="over_flow_no link_card mar_b30" v-if="item.year == 3">
                     
                     <div class="over_flow_no">
-                     <div class="letter1 mar_b32">{{ item.letter }}</div>
+                     <div class="letter1 mar_b32" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
                         <div class="flt_lef mar_b32">
 
                             <div class="">{{ item.school}}{{ item.year}} {{ item.season}}</div>
@@ -38,8 +38,8 @@
 
 
 <div class="flt_lef btn_c06 h120 pad_a16 mar_r8 fnt_c00 rad_8">&lt;</div>
-<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8">○</div>
-<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8">X</div>
+<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8 jud_o" v-bind:id="['jud_o_'+ index + 1]">○</div>
+<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8 jud_x" v-bind:id="['jud_x_'+ index + 1]">X</div>
 <div class="flt_lef btn_c06 h120 pad_a16 fnt_c00 rad_8">></div>
 
                 </div>
