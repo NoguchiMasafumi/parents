@@ -20,15 +20,15 @@
                 <div v-for="(item, index) in shuffle_items" class="over_flow_no link_card mar_b30" v-if="item.year == 3">
                     
                     <div class="over_flow_no">
-                     <div class="letter1 mar_b32" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
+                        <div v-if="item.weak == 1" class="letter1 mar_b32 caution1" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
+                        <div v-else class="letter1 mar_b32" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
+
                         <div class="flt_lef mar_b32">
 
                             <div class="fnt_s24">{{ item.school}}{{ item.year}} {{ item.season}}</div>
 
 
                             <div class="fnt_s72">{{ item.e1read}}</div>
-                            <div class="fnt_s72">{{ item.e2read}}</div>
-                            <div class="fnt_s72">{{ item.e3read}}</div>
 
                             <p class="pad_lr16 fnt_s72">{{ item.part}}</p>
 
