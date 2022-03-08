@@ -11,15 +11,16 @@
 
     <body>
 
-        <div id="title1">
-            <div class="logo">
-            </div>
+        <div id="header">
+                <a href="https://forparents.netlify.app/weak.htm">苦手</a>　年　学期　表示切替　パスワード発行
         </div>
 
 
         <div id="content">
+
+
             <div id="app-blog2" class="main_cont">
-                <div v-for="(item, index) in shuffle_items" class="over_flow_no link_card mar_b30" v-if="item.year == 3">
+                <div v-for="(item, index) in shuffle_items" class="over_flow_no link_card mar_b30" v-if="item.year == 3" v-cloak>
                     
                     <div class="over_flow_no">
                         <div v-if="item.weak == 1" class="letter1 mar_b32 caution1" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
@@ -41,12 +42,41 @@
                         </div>
 
                         <div class="mar_l50 mar_b32 fnt_s72">{{ item.e1sample}}</div>
+<div class="over_flow_no mar_b48">
+    <a href="#" class="tex_dec_no disp_blk w200 mar_r48 flt_lef">
+        <div class="btn-radius-solid w200 h200 tex_cen">
+            <div class="fnt_s108 lh100p mar_t32 fnt_c00">></div>
+            <div class="fnt_s36 fnt_c00">つぎへ</div>
+        </div>
+    </a>
+
+    <a href="#" class="tex_dec_no disp_blk w200 mar_r48 flt_lef">
+        <div class="btn-radius-solid w200 h200 tex_cen">
+            <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
+            <div class="fnt_s36 fnt_c00">もどる</div>
+        </div>
+    </a>
+</div>
+
+<a href="#" class="tex_dec_no disp_blk w448 mar_b48 jud_o" v-bind:id="['jud_o_'+ index + 1]">
+    <div class="btn-radius-solid h144 tex_cen">
+        <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/o.png"></div>
+    </div>
+</a>
+
+<a href="#" class="tex_dec_no disp_blk w448 mar_b48 jud_x" v-bind:id="['jud_o_'+ index + 1]">
+    <div class="btn-radius-solid h144 tex_cen">
+        <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/x.png"></div>
+    </div>
+</a>
+
+<a href="#" class="tex_dec_no disp_blk w448 mar_b48">
+    <div class="btn-radius-solid h144 tex_cen">
+        <div class="fnt_s72 lh100p mar_t32 fnt_c00">cancel</div>
+    </div>
+</a>
 
 
-<div class="flt_lef btn_c06 h120 pad_a16 mar_r8 fnt_c00 rad_8">&lt;</div>
-<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8 jud_o" v-bind:id="['jud_o_'+ index + 1]">○</div>
-<div class="judge btn_c06 pad_a16 mar_r8 fnt_c00 rad_8 jud_x" v-bind:id="['jud_x_'+ index + 1]">X</div>
-<div class="flt_lef btn_c06 h120 pad_a16 fnt_c00 rad_8">></div>
 
                 </div>
 
