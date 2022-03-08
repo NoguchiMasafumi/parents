@@ -27853,7 +27853,7 @@ document.addEventListener('DOMContentLoaded', function(){
 document.addEventListener('DOMContentLoaded', function(){
 	function jud_xClick(){
         document.getElementById(this.id.replace("jud_x","letter")).classList.add("caution1");
-        document.getElementById(this.id.replace("jud_o","letter")).classList.remove("chkd");
+        document.getElementById(this.id.replace("jud_x","letter")).classList.remove("chkd");
 	}
 	const jud_x = document.getElementsByClassName('jud_x');
 	for(let i = 0; i < jud_x.length; i++) {
@@ -27861,6 +27861,16 @@ document.addEventListener('DOMContentLoaded', function(){
 	}
 }, false);
 
+document.addEventListener('DOMContentLoaded', function(){
+	function jud_cxlClick(){
+        document.getElementById(this.id.replace("jud_cxl","letter")).classList.remove("caution1");
+        document.getElementById(this.id.replace("jud_cxl","letter")).classList.remove("chkd");
+	}
+	const jud_cxl = document.getElementsByClassName('jud_cxl');
+	for(let i = 0; i < jud_cxl.length; i++) {
+    	jud_cxl[i].addEventListener('click', jud_cxlClick, false);
+	}
+}, false);
 
 
 
