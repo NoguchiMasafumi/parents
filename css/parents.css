@@ -8,7 +8,7 @@ a{color:#000000;}
     width:100%;
     background-color: #ffffff;
 }
-
+#header a{text-decoration:none;color:#000000;}
 
 #content{
     padding-top:144px;
@@ -69,6 +69,7 @@ a{color:#000000;}
 .w448{width:448px;}
 
 .pad_a16{padding:16px;}
+.pad_l48{padding-left:48px;}
 
 .tex_cen{text-align:center;}
 
