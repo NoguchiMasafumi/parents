@@ -23,7 +23,7 @@
                 <div class="offset-3 col-6" v-if="!completed">
                     <div class="card">
 
-                        <div class="over_flow_no">
+                        <div class="over_flow_no h648">
                             <div v-if="currentTurn.weak == 1" class="letter1 mar_b32 caution1" >{{ currentTurn.letter }}</div>
                             <div v-else class="letter1 mar_b32" >{{ currentTurn.letter }}</div>
                             <div class="flt_lef mar_b32">
@@ -43,6 +43,12 @@
                                 <div class="fnt_s108 lh100p mar_t32 fnt_c00">></div>
                                 <div class="fnt_s36 fnt_c00">つぎへ</div>
                             </div>
+
+                            <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef" @click="reduceAnswer()">
+                                <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
+                                <div class="fnt_s36 fnt_c00">もどる</div>
+                            </div>
+
                         </div>
 
                     </div>
@@ -27840,7 +27846,13 @@
                             /*console.log(this.questions[this.turnIndex].year)*/
                             this.turnIndex++;
                         }
+                    },
+                    reduceAnswer: function(index) {
+                        this.answers.pop(index);
+                        this.turnIndex--;
                     }
+
+
                 },
                 computed: {
                     currentTurn: function() {
