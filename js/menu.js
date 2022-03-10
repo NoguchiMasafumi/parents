@@ -1,1 +1,1 @@
-document.write("<a href='year_select.htm'>年</a>　学期　表示切替　パスワード発行")
+document.write("<a href='year_select.htm'>年</a>　学期　表示切替　パス")
