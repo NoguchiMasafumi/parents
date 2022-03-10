@@ -11,7 +11,7 @@
     <body>
 
 
-        <div id="header" class="fnt_s24">
+        <div id="header" class="fnt_s72">
             <script src="js/menu.js"></script>
         </div>
 
@@ -27872,7 +27872,7 @@ if (str_school=="" && str_year==""){str_year=3}
                             this.turnIndex++;
                             this.answers.push(0);
                         }
-                        if(str_year==1){
+                        if(str_year!=""){
                             while(this.questions[this.turnIndex].year!=str_year){
                                 this.turnIndex++;
                                 this.answers.push(0);
