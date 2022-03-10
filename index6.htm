@@ -54,7 +54,13 @@
                     </div>
                 </div>
                 <div class="offset-3 col-6" v-if="completed">
-                    終了です！
+                    <div class="fnt_s72">終了です！</div>
+
+                    <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
+                        <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
+                        <div class="fnt_s36 fnt_c00">もどる</div>
+                    </div>
+
                 </div>
             </div>
         </div>
