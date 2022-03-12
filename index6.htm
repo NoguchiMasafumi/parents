@@ -84,6 +84,8 @@ if (str_school=="" && str_year==""){str_year=3}
                 el: '#app',
                 data: {
                     answers: [],
+                    shuffle_items: [],
+                    shuffled:0,
                     turnIndex: 0,
                     questionCnt: 0,
                     questions: [
@@ -27868,12 +27870,27 @@ if (str_school=="" && str_year==""){str_year=3}
                     reduceAnswer: function(index) {
                         this.answers.pop(index);
                         this.turnIndex--;
+                    },
+                    shuffle: function(array) {
+                        for (let i = array.length - 1; i > 0; i--) {
+                            let r = Math.floor(Math.random() * (i + 1))
+                            let tmp = array[i]
+                            array[i] = array[r]
+                            array[r] = tmp
+                        }
+                        /*array.splice(12,array.length)*/
+                        return array
                     }
 
 
                 },
                 computed: {
                     currentTurn: function() {
+                        if(this.shuffled==0){
+                            this.shuffle_items = this.shuffle(this.questions)
+                            this.shuffled=1
+                        }
+
                         while(this.questions[this.turnIndex].school!=str_school){
                             this.turnIndex++;
                             this.answers.push(0);
