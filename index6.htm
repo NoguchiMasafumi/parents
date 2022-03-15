@@ -24,12 +24,12 @@
                 <div class="offset-3 col-6" v-if="!completed">
                     <div class="card">
 
-                        <div class="over_flow_no h648">
-                            <div v-if="currentTurn.weak == 1" class="letter1 mar_b32 caution1" >{{ currentTurn.letter }}</div>
-                            <div v-else class="letter1 mar_b32" >{{ currentTurn.letter }}</div>
+                        <div class="over_flow_no">
+                            <div v-if="currentTurn.weak == 1" class="letter1 mar_b32 caution1" v-bind:id="['letter_'+ turnIndex]">{{ currentTurn.letter }}</div>
+                            <div v-else class="letter1 mar_b32" v-bind:id="['letter_'+ turnIndex]">{{ currentTurn.letter }}</div>
                             <div class="flt_lef mar_b32">
                                 <div class="fnt_s24">{{ currentTurn.school}}{{ currentTurn.year}} {{ currentTurn.season}}</div>
-                                <div class="fnt_s48 over_flow_wrap_any">
+                                <div class="fnt_s48 over_flow_wrap_any h216">
                                     {{ currentTurn.e1read}}
                                     {{ currentTurn.e2read}}
                                     {{ currentTurn.j1read}}
@@ -38,7 +38,7 @@
                             </div>
                         </div>
 
-                        <div class="mar_b32 fnt_s72">{{ currentTurn.e1sample}}{{ currentTurn.j1sample}}</div>
+                        <div class="mar_b32 fnt_s48 h144">{{ currentTurn.e1sample}}{{ currentTurn.j1sample}}</div>
 
 
                         <div class="over_flow_no mar_b48">
@@ -47,12 +47,24 @@
                                 <div class="fnt_s36 fnt_c00">つぎへ</div>
                             </div>
 
-                            <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
+                            <div class="btn-radius-solid w200 h200 tex_cen flt_lef cur_poi" @click="reduceAnswer()">
                                 <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
                                 <div class="fnt_s36 fnt_c00">もどる</div>
                             </div>
-
                         </div>
+
+                        <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_o cur_poi" v-bind:id="['jud_o_'+ turnIndex]">
+                            <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/o.png"></div>
+                        </div>
+                        
+                        <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_x cur_poi" v-bind:id="['jud_x_'+ turnIndex]">
+                            <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/x.png"></div>
+                        </div>
+                        
+                        <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_cxl cur_poi" v-bind:id="['jud_cxl_'+ turnIndex]">
+                            <div class="fnt_s72 lh100p mar_t32 fnt_c00">cancel</div>
+                        </div>
+
 
                     </div>
                 </div>
