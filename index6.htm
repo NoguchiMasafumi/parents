@@ -25,8 +25,13 @@
                     <div class="card">
 
                         <div class="over_flow_no">
-                            <div v-if="currentTurn.weak == 1" class="letter1 mar_b32 caution1" v-bind:id="['letter_'+ turnIndex]">{{ currentTurn.letter }}</div>
-                            <div v-else class="letter1 mar_b32" v-bind:id="['letter_'+ turnIndex]">{{ currentTurn.letter }}</div>
+
+<div v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b32" v-bind:class="[v_cau]">
+    {{ currentTurn.letter }} {{ currentTurn.v_cau }}
+</div>                            
+                            
+                            
+                            
                             <div class="flt_lef mar_b32">
                                 <div class="fnt_s24">{{ currentTurn.school}}{{ currentTurn.year}} {{ currentTurn.season}}</div>
                                 <div class="fnt_s48 over_flow_wrap_any h216">
@@ -53,8 +58,9 @@
                             </div>
                         </div>
 
-                        <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_o cur_poi" v-bind:id="['jud_o_'+ turnIndex]">
-                            <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/o.png"></div>
+                        <!-- div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_o cur_poi" v-bind:id="['jud_o_'+ turnIndex]" -->
+                        <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_o cur_poi" @click="jud_o()">
+                                <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/o.png"></div>
                         </div>
                         
                         <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_x cur_poi" v-bind:id="['jud_x_'+ turnIndex]">

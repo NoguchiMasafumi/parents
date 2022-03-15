@@ -15,6 +15,7 @@ var value = new Vue({
         filtered_cnt:0,
         shuffled:0,
         turnIndex: 0,
+        bef_Index: 0,
         questionCnt: 0,
         questions: [
             {
@@ -27785,19 +27786,37 @@ var value = new Vue({
                 j1read:'ワン',j1sample:'腕章、腕力、敏腕',j2read:'うで',j2sample:'腕、腕前、細腕',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             }
-        ]
+        ],
+        v_cau:'caution1'
     },
     methods: {
         addAnswer: function(index) {
+            //document.getElementById('letter_'+this.turnIndex).classList.remove("caution1");
+            //document.getElementById('letter_'+this.turnIndex).classList.remove("chkd");
+
+
+            //this.v_cau.$set("caution1");
+            this.rest_clss()
             this.answers.push(index);
             //if(!this.completed) {
                 /*console.log(this.questions[this.turnIndex].year)*/
+                this.bef_Index=this.turnIndex;
+
                 this.turnIndex++;
             //}
         },
         reduceAnswer: function(index) {
             this.answers.pop(index);
             this.turnIndex--;
+        },
+        jud_o: function(index){
+            this.v_cau="chkd"
+        },
+        jud_x: function(index){
+            this.v_cau="caution1"
+        },
+        jud_cxl: function(index){
+            this.v_cau=""
         },
         shuffle: function(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -27826,6 +27845,14 @@ var value = new Vue({
             }
             /*array.splice(12,array.length)*/
             return this.filtered_items
+        },
+        rest_clss: function(index){
+            this.v_cau="cc" + this.turnIndex
+            if(this.filtered_items[this.turnIndex].weak==1){
+                this.v_cau="caution1"
+            }else{
+                this.v_cau=""
+            }
         }
 
 
@@ -27841,6 +27868,7 @@ var value = new Vue({
                 this.shuffled=1
             }
             //return this.questions[this.turnIndex];
+
             return this.filtered_items[this.turnIndex];
         },
         completed: function() {
@@ -27851,67 +27879,3 @@ var value = new Vue({
         }
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.addEventListener('DOMContentLoaded', function(){
-	function jud_oClick(){
-        document.getElementById(this.id.replace("jud_o","letter")).classList.add("chkd");
-        document.getElementById(this.id.replace("jud_o","letter")).classList.remove("caution1");
-	}
-	const jud_o = document.getElementsByClassName('jud_o');
-	for(let i = 0; i < jud_o.length; i++) {
-    	jud_o[i].addEventListener('click', jud_oClick, false);
-	}
-}, false);
-
-
-document.addEventListener('DOMContentLoaded', function(){
-	function jud_xClick(){
-        document.getElementById(this.id.replace("jud_x","letter")).classList.add("caution1");
-        document.getElementById(this.id.replace("jud_x","letter")).classList.remove("chkd");
-	}
-	const jud_x = document.getElementsByClassName('jud_x');
-	for(let i = 0; i < jud_x.length; i++) {
-    	jud_x[i].addEventListener('click', jud_xClick, false);
-	}
-}, false);
-
-document.addEventListener('DOMContentLoaded', function(){
-	function jud_cxlClick(){
-        document.getElementById(this.id.replace("jud_cxl","letter")).classList.remove("caution1");
-        document.getElementById(this.id.replace("jud_cxl","letter")).classList.remove("chkd");
-	}
-	const jud_cxl = document.getElementsByClassName('jud_cxl');
-	for(let i = 0; i < jud_cxl.length; i++) {
-    	jud_cxl[i].addEventListener('click', jud_cxlClick, false);
-	}
-}, false);
-
-
-
-
-
-
-
-
-
