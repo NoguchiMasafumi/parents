@@ -27791,32 +27791,27 @@ var value = new Vue({
     },
     methods: {
         addAnswer: function(index) {
-            //document.getElementById('letter_'+this.turnIndex).classList.remove("caution1");
-            //document.getElementById('letter_'+this.turnIndex).classList.remove("chkd");
-
-
-            //this.v_cau.$set("caution1");
-            this.rest_clss()
             this.answers.push(index);
-            //if(!this.completed) {
-                /*console.log(this.questions[this.turnIndex].year)*/
-                this.bef_Index=this.turnIndex;
-
-                this.turnIndex++;
-            //}
+            this.turnIndex++;
+            this.rest_clss()
         },
         reduceAnswer: function(index) {
             this.answers.pop(index);
             this.turnIndex--;
+            this.rest_clss()
         },
         jud_o: function(index){
             this.v_cau="chkd"
+            this.filtered_items[this.turnIndex].weak="9"
         },
         jud_x: function(index){
             this.v_cau="caution1"
+            this.filtered_items[this.turnIndex].weak="1"
         },
         jud_cxl: function(index){
             this.v_cau=""
+            this.filtered_items[this.turnIndex].weak=""
+
         },
         shuffle: function(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -27850,6 +27845,8 @@ var value = new Vue({
             this.v_cau="cc" + this.turnIndex
             if(this.filtered_items[this.turnIndex].weak==1){
                 this.v_cau="caution1"
+            }else if(this.filtered_items[this.turnIndex].weak==9){
+                this.v_cau="chkd"
             }else{
                 this.v_cau=""
             }
@@ -27867,8 +27864,6 @@ var value = new Vue({
                 this.filtered_cnt=this.filtered_items.length
                 this.shuffled=1
             }
-            //return this.questions[this.turnIndex];
-
             return this.filtered_items[this.turnIndex];
         },
         completed: function() {
