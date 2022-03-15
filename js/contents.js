@@ -27787,7 +27787,7 @@ var value = new Vue({
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             }
         ],
-        v_cau:'caution1'
+        v_cau:''
     },
     methods: {
         addAnswer: function(index) {
@@ -27867,6 +27867,8 @@ var value = new Vue({
 
                 this.filtered_cnt=this.filtered_items.length
                 this.shuffled=1
+                this.rest_clss()
+
             }
             return this.filtered_items[this.turnIndex];
         },
