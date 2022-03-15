@@ -27800,6 +27800,10 @@ var value = new Vue({
             this.turnIndex--;
             this.rest_clss()
         },
+        back_to_first: function(){
+            this.turnIndex=0;
+            this.rest_clss()
+        },
         jud_o: function(index){
             this.v_cau="chkd"
             this.filtered_items[this.turnIndex].weak="9"
