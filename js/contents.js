@@ -3141,7 +3141,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'悪',
                 figure:'11',
                 part:'心',
@@ -3154,7 +3154,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'安',
                 figure:'6',
                 part:'宀',
@@ -3167,7 +3167,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'暗',
                 figure:'13',
                 part:'日',
@@ -3180,7 +3180,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'医',
                 figure:'7',
                 part:'匸',
@@ -3193,7 +3193,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'委',
                 figure:'8',
                 part:'女',
@@ -3206,7 +3206,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'意',
                 figure:'13',
                 part:'心',
@@ -3219,7 +3219,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'育',
                 figure:'8',
                 part:'月',
@@ -3232,7 +3232,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'員',
                 figure:'10',
                 part:'口',
@@ -3245,7 +3245,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'院',
                 figure:'10',
                 part:'阝',
@@ -3258,7 +3258,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'飲',
                 figure:'12',
                 part:'飠',
@@ -3271,7 +3271,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'運',
                 figure:'12',
                 part:'辶',
@@ -3284,7 +3284,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'泳',
                 figure:'8',
                 part:'氵',
@@ -3297,7 +3297,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'駅',
                 figure:'14',
                 part:'馬',
@@ -3310,7 +3310,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'央',
                 figure:'5',
                 part:'大',
@@ -3323,7 +3323,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'横',
                 figure:'15',
                 part:'木',
@@ -3336,7 +3336,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'屋',
                 figure:'9',
                 part:'尸',
@@ -3349,7 +3349,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'温',
                 figure:'12',
                 part:'氵',
@@ -3362,7 +3362,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'化',
                 figure:'4',
                 part:'匕',
@@ -3375,7 +3375,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'荷',
                 figure:'10',
                 part:'艹',
@@ -3388,7 +3388,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'界',
                 figure:'9',
                 part:'田',
@@ -3401,7 +3401,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'開',
                 figure:'12',
                 part:'門',
@@ -3414,7 +3414,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'階',
                 figure:'12',
                 part:'阝',
@@ -3427,7 +3427,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'寒',
                 figure:'12',
                 part:'宀',
@@ -3440,7 +3440,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'感',
                 figure:'13',
                 part:'心',
@@ -3453,7 +3453,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'漢',
                 figure:'13',
                 part:'氵',
@@ -3466,7 +3466,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'館',
                 figure:'16',
                 part:'飠',
@@ -3479,7 +3479,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'岸',
                 figure:'8',
                 part:'山',
@@ -3492,7 +3492,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'起',
                 figure:'10',
                 part:'走',
@@ -3505,7 +3505,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'期',
                 figure:'12',
                 part:'月',
@@ -3518,7 +3518,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'客',
                 figure:'9',
                 part:'宀',
@@ -3531,7 +3531,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'究',
                 figure:'7',
                 part:'穴',
@@ -3544,7 +3544,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'急',
                 figure:'9',
                 part:'心',
@@ -3557,7 +3557,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'級',
                 figure:'9',
                 part:'糸',
@@ -3570,7 +3570,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'宮',
                 figure:'10',
                 part:'宀',
@@ -3583,7 +3583,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'球',
                 figure:'11',
                 part:'王',
@@ -3596,7 +3596,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'去',
                 figure:'5',
                 part:'厶',
@@ -3609,7 +3609,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'橋',
                 figure:'16',
                 part:'木',
@@ -3622,7 +3622,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'業',
                 figure:'13',
                 part:'木',
@@ -3635,7 +3635,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'曲',
                 figure:'6',
                 part:'曰',
@@ -3648,7 +3648,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'局',
                 figure:'7',
                 part:'尸',
@@ -3661,7 +3661,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'銀',
                 figure:'14',
                 part:'金',
@@ -3674,7 +3674,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'区',
                 figure:'4',
                 part:'匸',
@@ -3687,7 +3687,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'苦',
                 figure:'8',
                 part:'艹',
@@ -3700,7 +3700,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'具',
                 figure:'8',
                 part:'八',
@@ -3713,7 +3713,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'君',
                 figure:'7',
                 part:'口',
@@ -3726,7 +3726,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'係',
                 figure:'9',
                 part:'亻',
@@ -3739,7 +3739,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'軽',
                 figure:'12',
                 part:'車',
@@ -3752,7 +3752,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'血',
                 figure:'6',
                 part:'血',
@@ -3765,7 +3765,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'決',
                 figure:'7',
                 part:'氵',
@@ -3778,7 +3778,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'研',
                 figure:'9',
                 part:'石',
@@ -3791,7 +3791,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'県',
                 figure:'9',
                 part:'目',
@@ -3804,7 +3804,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'庫',
                 figure:'10',
                 part:'广',
@@ -3817,7 +3817,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'湖',
                 figure:'12',
                 part:'氵',
@@ -3830,7 +3830,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'向',
                 figure:'6',
                 part:'口',
@@ -3843,7 +3843,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'幸',
                 figure:'8',
                 part:'干',
@@ -3856,7 +3856,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'港',
                 figure:'12',
                 part:'氵',
@@ -3869,7 +3869,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'号',
                 figure:'5',
                 part:'口',
@@ -3882,7 +3882,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'根',
                 figure:'10',
                 part:'木',
@@ -3895,7 +3895,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'祭',
                 figure:'11',
                 part:'示',
@@ -3908,7 +3908,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'皿',
                 figure:'5',
                 part:'皿',
@@ -3921,7 +3921,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'仕',
                 figure:'5',
                 part:'亻',
@@ -3934,7 +3934,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'死',
                 figure:'6',
                 part:'歹',
@@ -3947,7 +3947,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'使',
                 figure:'8',
                 part:'亻',
@@ -3960,7 +3960,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'始',
                 figure:'8',
                 part:'女',
@@ -3973,7 +3973,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'指',
                 figure:'9',
                 part:'扌',
@@ -3986,7 +3986,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'歯',
                 figure:'12',
                 part:'歯',
@@ -3999,7 +3999,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'詩',
                 figure:'13',
                 part:'言',
@@ -4012,7 +4012,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'次',
                 figure:'6',
                 part:'欠',
@@ -4025,7 +4025,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'事',
                 figure:'8',
                 part:'亅',
@@ -4038,7 +4038,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'持',
                 figure:'9',
                 part:'扌',
@@ -4051,7 +4051,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'式',
                 figure:'6',
                 part:'弋',
@@ -4064,7 +4064,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'実',
                 figure:'8',
                 part:'宀',
@@ -4077,7 +4077,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'写',
                 figure:'5',
                 part:'冖',
@@ -4090,7 +4090,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'者',
                 figure:'8',
                 part:'耂',
@@ -4103,7 +4103,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'主',
                 figure:'5',
                 part:'丶',
@@ -4116,7 +4116,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'守',
                 figure:'6',
                 part:'宀',
@@ -4129,7 +4129,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'取',
                 figure:'8',
                 part:'又',
@@ -4142,7 +4142,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'酒',
                 figure:'10',
                 part:'酉',
@@ -4155,7 +4155,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'受',
                 figure:'8',
                 part:'又',
@@ -4168,7 +4168,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'州',
                 figure:'6',
                 part:'川',
@@ -4181,7 +4181,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'拾',
                 figure:'9',
                 part:'扌',
@@ -4194,7 +4194,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'終',
                 figure:'11',
                 part:'糸',
@@ -4207,7 +4207,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'習',
                 figure:'11',
                 part:'羽',
@@ -4220,7 +4220,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'集',
                 figure:'12',
                 part:'隹',
@@ -4233,7 +4233,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'住',
                 figure:'7',
                 part:'亻',
@@ -4246,7 +4246,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'重',
                 figure:'9',
                 part:'里',
@@ -4259,7 +4259,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'宿',
                 figure:'11',
                 part:'宀',
@@ -4272,7 +4272,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'所',
                 figure:'8',
                 part:'戶',
@@ -4285,7 +4285,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'暑',
                 figure:'12',
                 part:'日',
@@ -4298,7 +4298,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'助',
                 figure:'7',
                 part:'力',
@@ -4311,7 +4311,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'昭',
                 figure:'9',
                 part:'日',
@@ -4324,7 +4324,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'消',
                 figure:'10',
                 part:'氵',
@@ -4337,7 +4337,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'商',
                 figure:'11',
                 part:'口',
@@ -4350,7 +4350,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'章',
                 figure:'11',
                 part:'立',
@@ -4363,7 +4363,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'勝',
                 figure:'12',
                 part:'力',
@@ -4376,7 +4376,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'乗',
                 figure:'9',
                 part:'丿',
@@ -4389,7 +4389,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'植',
                 figure:'12',
                 part:'木',
@@ -4402,7 +4402,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'申',
                 figure:'5',
                 part:'田',
@@ -4415,7 +4415,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'身',
                 figure:'7',
                 part:'身',
@@ -4428,7 +4428,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'神',
                 figure:'9',
                 part:'礻',
@@ -4441,7 +4441,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'真',
                 figure:'10',
                 part:'目',
@@ -4454,7 +4454,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'深',
                 figure:'11',
                 part:'氵',
@@ -4467,7 +4467,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'進',
                 figure:'11',
                 part:'辶',
@@ -4480,7 +4480,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'世',
                 figure:'5',
                 part:'一',
@@ -4493,7 +4493,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'整',
                 figure:'16',
                 part:'攵',
@@ -4506,7 +4506,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'昔',
                 figure:'8',
                 part:'日',
@@ -4519,7 +4519,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'全',
                 figure:'6',
                 part:'人',
@@ -4532,7 +4532,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'相',
                 figure:'9',
                 part:'目',
@@ -4545,7 +4545,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'送',
                 figure:'9',
                 part:'辶',
@@ -4558,7 +4558,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'想',
                 figure:'13',
                 part:'心',
@@ -4571,7 +4571,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'息',
                 figure:'10',
                 part:'心',
@@ -4584,7 +4584,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'速',
                 figure:'10',
                 part:'辶',
@@ -4597,7 +4597,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'族',
                 figure:'11',
                 part:'方',
@@ -4610,7 +4610,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'他',
                 figure:'5',
                 part:'亻',
@@ -4623,7 +4623,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'打',
                 figure:'5',
                 part:'扌',
@@ -4636,7 +4636,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'対',
                 figure:'7',
                 part:'寸',
@@ -4649,7 +4649,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'待',
                 figure:'9',
                 part:'彳',
@@ -4662,7 +4662,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'代',
                 figure:'5',
                 part:'亻',
@@ -4675,7 +4675,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'第',
                 figure:'11',
                 part:'竹',
@@ -4688,7 +4688,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'題',
                 figure:'18',
                 part:'頁',
@@ -4701,7 +4701,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'炭',
                 figure:'9',
                 part:'火',
@@ -4714,7 +4714,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'短',
                 figure:'12',
                 part:'矢',
@@ -4727,7 +4727,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'談',
                 figure:'15',
                 part:'言',
@@ -4740,7 +4740,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'着',
                 figure:'12',
                 part:'羊',
@@ -4753,7 +4753,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'注',
                 figure:'8',
                 part:'氵',
@@ -4766,7 +4766,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'柱',
                 figure:'9',
                 part:'木',
@@ -4779,7 +4779,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'丁',
                 figure:'2',
                 part:'一',
@@ -4792,7 +4792,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'帳',
                 figure:'11',
                 part:'巾',
@@ -4805,7 +4805,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'調',
                 figure:'15',
                 part:'言',
@@ -4818,7 +4818,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'追',
                 figure:'9',
                 part:'辶',
@@ -4831,7 +4831,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'定',
                 figure:'8',
                 part:'宀',
@@ -4844,7 +4844,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'庭',
                 figure:'10',
                 part:'广',
@@ -4857,7 +4857,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'笛',
                 figure:'11',
                 part:'竹',
@@ -4870,7 +4870,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'鉄',
                 figure:'13',
                 part:'金',
@@ -4883,7 +4883,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'転',
                 figure:'11',
                 part:'車',
@@ -4896,7 +4896,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'都',
                 figure:'11',
                 part:'阝',
@@ -4909,7 +4909,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'度',
                 figure:'9',
                 part:'广',
@@ -4922,7 +4922,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'投',
                 figure:'7',
                 part:'扌',
@@ -4935,7 +4935,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'豆',
                 figure:'7',
                 part:'豆',
@@ -4948,7 +4948,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'島',
                 figure:'10',
                 part:'山',
@@ -4961,7 +4961,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'湯',
                 figure:'12',
                 part:'氵',
@@ -4974,7 +4974,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'登',
                 figure:'12',
                 part:'癶',
@@ -4987,7 +4987,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'等',
                 figure:'12',
                 part:'竹',
@@ -5000,7 +5000,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'動',
                 figure:'11',
                 part:'力',
@@ -5013,7 +5013,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'童',
                 figure:'12',
                 part:'立',
@@ -5026,7 +5026,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'農',
                 figure:'13',
                 part:'辰',
@@ -5039,7 +5039,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'波',
                 figure:'8',
                 part:'氵',
@@ -5052,7 +5052,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'配',
                 figure:'10',
                 part:'酉',
@@ -5065,7 +5065,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'倍',
                 figure:'10',
                 part:'亻',
@@ -5078,7 +5078,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'箱',
                 figure:'15',
                 part:'竹',
@@ -5091,7 +5091,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'畑',
                 figure:'9',
                 part:'田',
@@ -5104,7 +5104,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'発',
                 figure:'9',
                 part:'癶',
@@ -5117,7 +5117,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'反',
                 figure:'4',
                 part:'又',
@@ -5130,7 +5130,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'坂',
                 figure:'7',
                 part:'土',
@@ -5143,7 +5143,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'板',
                 figure:'8',
                 part:'木',
@@ -5156,7 +5156,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'皮',
                 figure:'5',
                 part:'皮',
@@ -5169,7 +5169,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'悲',
                 figure:'12',
                 part:'心',
@@ -5182,7 +5182,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'美',
                 figure:'9',
                 part:'羊',
@@ -5195,7 +5195,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'鼻',
                 figure:'14',
                 part:'鼻',
@@ -5208,7 +5208,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'筆',
                 figure:'12',
                 part:'竹',
@@ -5221,7 +5221,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'氷',
                 figure:'5',
                 part:'水',
@@ -5234,7 +5234,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'表',
                 figure:'8',
                 part:'衣',
@@ -5247,7 +5247,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'秒',
                 figure:'9',
                 part:'禾',
@@ -5260,7 +5260,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'病',
                 figure:'10',
                 part:'疒',
@@ -5273,7 +5273,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'品',
                 figure:'9',
                 part:'口',
@@ -5286,7 +5286,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'負',
                 figure:'9',
                 part:'貝',
@@ -5299,7 +5299,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'部',
                 figure:'11',
                 part:'阝',
@@ -5312,7 +5312,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'服',
                 figure:'8',
                 part:'月',
@@ -5325,7 +5325,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'福',
                 figure:'13',
                 part:'礻',
@@ -5338,7 +5338,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'物',
                 figure:'8',
                 part:'牜',
@@ -5351,7 +5351,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'平',
                 figure:'5',
                 part:'干',
@@ -5364,7 +5364,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'返',
                 figure:'7',
                 part:'辶',
@@ -5377,7 +5377,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'勉',
                 figure:'10',
                 part:'力',
@@ -5390,7 +5390,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'放',
                 figure:'8',
                 part:'攵',
@@ -5403,7 +5403,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'味',
                 figure:'8',
                 part:'口',
@@ -5416,7 +5416,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'命',
                 figure:'8',
                 part:'口',
@@ -5429,7 +5429,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'面',
                 figure:'9',
                 part:'面',
@@ -5442,7 +5442,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'問',
                 figure:'11',
                 part:'口',
@@ -5455,7 +5455,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'役',
                 figure:'7',
                 part:'彳',
@@ -5468,7 +5468,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'薬',
                 figure:'16',
                 part:'艹',
@@ -5481,7 +5481,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'由',
                 figure:'5',
                 part:'田',
@@ -5494,7 +5494,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'油',
                 figure:'8',
                 part:'氵',
@@ -5507,7 +5507,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'有',
                 figure:'6',
                 part:'月',
@@ -5520,7 +5520,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'遊',
                 figure:'12',
                 part:'辶',
@@ -5533,7 +5533,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'予',
                 figure:'4',
                 part:'亅',
@@ -5546,7 +5546,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'羊',
                 figure:'6',
                 part:'羊',
@@ -5559,7 +5559,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'洋',
                 figure:'9',
                 part:'氵',
@@ -5572,7 +5572,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'葉',
                 figure:'12',
                 part:'艹',
@@ -5585,7 +5585,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'陽',
                 figure:'12',
                 part:'阝',
@@ -5598,7 +5598,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'様',
                 figure:'14',
                 part:'木',
@@ -5611,7 +5611,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'落',
                 figure:'12',
                 part:'艹',
@@ -5624,7 +5624,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'流',
                 figure:'10',
                 part:'氵',
@@ -5637,7 +5637,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'旅',
                 figure:'10',
                 part:'方',
@@ -5650,7 +5650,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'両',
                 figure:'6',
                 part:'一',
@@ -5663,7 +5663,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'緑',
                 figure:'14',
                 part:'糸',
@@ -5676,7 +5676,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'3',
                 letter:'礼',
                 figure:'5',
                 part:'礻',
@@ -5689,7 +5689,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'列',
                 figure:'6',
                 part:'刂',
@@ -5702,7 +5702,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'練',
                 figure:'14',
                 part:'糸',
@@ -5715,7 +5715,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'1',
                 letter:'路',
                 figure:'13',
                 part:'足',
@@ -5728,7 +5728,7 @@ var value = new Vue({
             {
                 school:'Elementary',
                 year:'3',
-                season:'',
+                season:'2',
                 letter:'和',
                 figure:'8',
                 part:'口',
@@ -27786,6 +27786,7 @@ var value = new Vue({
                 j1read:'ワン',j1sample:'腕章、腕力、敏腕',j2read:'うで',j2sample:'腕、腕前、細腕',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             }
+            
         ],
         v_cau:''
     },
