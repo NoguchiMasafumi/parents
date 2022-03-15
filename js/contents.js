@@ -11,6 +11,8 @@ var value = new Vue({
     data: {
         answers: [],
         shuffle_items: [],
+        filtered_items: [],
+        filtered_cnt:0,
         shuffled:0,
         turnIndex: 0,
         questionCnt: 0,
@@ -27788,10 +27790,10 @@ var value = new Vue({
     methods: {
         addAnswer: function(index) {
             this.answers.push(index);
-            if(!this.completed) {
+            //if(!this.completed) {
                 /*console.log(this.questions[this.turnIndex].year)*/
                 this.turnIndex++;
-            }
+            //}
         },
         reduceAnswer: function(index) {
             this.answers.pop(index);
@@ -27806,6 +27808,24 @@ var value = new Vue({
             }
             /*array.splice(12,array.length)*/
             return array
+        },
+        filtering: function(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                let int_doit1=0
+                if(array[i].school==str_school){int_doit1=1}
+                if(str_year!=""){
+                    if(array[i].year==str_year){int_doit1=1}else{int_doit1=0}
+                }
+                if(str_weak!=""){
+                    if(array[i].weak==str_weak){int_doit1=1}else{int_doit1=0}
+                }
+                if(int_doit1==1){
+                    this.filtered_items.push(array[i])
+                }
+
+            }
+            /*array.splice(12,array.length)*/
+            return this.filtered_items
         }
 
 
@@ -27813,31 +27833,21 @@ var value = new Vue({
     computed: {
         currentTurn: function() {
             if(this.shuffled==0){
-                this.shuffle_items = this.shuffle(this.questions)
+                /*this.shuffle_items = this.shuffle(this.questions)*/
+                this.shuffle(this.questions)
+                this.filtering(this.questions)
+
+                this.filtered_cnt=this.filtered_items.length
                 this.shuffled=1
             }
-
-            while(this.questions[this.turnIndex].school!=str_school){
-                this.turnIndex++;
-                this.answers.push(0);
-            }
-            if(str_year!=""){
-                while(this.questions[this.turnIndex].year!=str_year){
-                    this.turnIndex++;
-                    this.answers.push(0);
-                }
-            }
-            if(str_weak==1){
-                while(this.questions[this.turnIndex].weak!=str_weak){
-                    this.turnIndex++;
-                    this.answers.push(0);
-                }
-            }
-
-            return this.questions[this.turnIndex];
+            //return this.questions[this.turnIndex];
+            return this.filtered_items[this.turnIndex];
         },
         completed: function() {
-            return (this.questions.length == this.answers.length);
+            if(this.shuffled!=0){
+                /*return (this.filtered_items.length == this.answers.length);*/
+                //return (this.questions.length == this.answers.length);
+            }
         }
     }
 })

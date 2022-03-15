@@ -17,8 +17,9 @@
 
 
         <div id="content">
-
             <div id="app" class="row" v-cloak>
+                <div class="fnt_s48">{{ turnIndex+1 }} / {{ filtered_items.length }}</div>
+
                 <!-- クイズを表示する部分 -->
                 <div class="offset-3 col-6" v-if="!completed">
                     <div class="card">
@@ -37,7 +38,7 @@
                             </div>
                         </div>
 
-                        <div class="mar_l50 mar_b32 fnt_s72">{{ currentTurn.e1sample}}{{ currentTurn.j1sample}}</div>
+                        <div class="mar_b32 fnt_s72">{{ currentTurn.e1sample}}{{ currentTurn.j1sample}}</div>
 
 
                         <div class="over_flow_no mar_b48">
