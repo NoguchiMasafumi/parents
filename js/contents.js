@@ -27829,7 +27829,7 @@ var value = new Vue({
 
         },
         create_year_group: function(array){
-            for (let i = array.length - 1; i > 0; i--) {
+            for (let i = array.length - 1; i > -1; i--) {
                 if(array[i].year==str_year){
                     this.year_group.push(array[i])
                 }
