@@ -27846,7 +27846,7 @@ var value = new Vue({
             return array
         },
         filtering: function(array) {
-            for (let i = array.length - 1; i > 0; i--) {
+            for (let i = array.length - 1; i > -1; i--) {
                 let int_doit1=0
                 if(array[i].school==str_school){int_doit1=1}
                 if(int_doit1==1 && str_year!=""){
