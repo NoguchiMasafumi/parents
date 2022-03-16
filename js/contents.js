@@ -28006,29 +28006,24 @@ var value = new Vue({
             if(this.shuffled==0){
                 /*this.shuffle_items = this.shuffle(this.questions)*/
                 //console.log(str_status)
-                if(str_status!=null){
-                    this.dec_to_bin(str_status)
-                }
 
 
                 this.create_year_group(this.questions)
 
-                let int_loop1_rev=0
-                for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
-                    
-                    
-                    /* **********************ここでweak対比表が見られる************************* */
-                    /* **********************ここでweak対比表が見られる************************* */
-                    //console.log(this.year_group[int_loop1].letter + " " + this.weak_binary_from_status[int_loop1_rev])
-                    /* **********************ここでweak対比表が見られる************************* */
-                    /* **********************ここでweak対比表が見られる************************* */
-                    
-                    
-                    this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
-
-
-                    int_loop1_rev=int_loop1_rev+1
+                if(str_status!=null){
+                    this.dec_to_bin(str_status)
+                    let int_loop1_rev=0
+                    for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
+                        /* **********************ここでweak対比表が見られる************************* */
+                        /* **********************ここでweak対比表が見られる************************* */
+                        //console.log(this.year_group[int_loop1].letter + " " + this.weak_binary_from_status[int_loop1_rev])
+                        /* **********************ここでweak対比表が見られる************************* */
+                        /* **********************ここでweak対比表が見られる************************* */
+                        this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
+                        int_loop1_rev=int_loop1_rev+1
+                    }
                 }
+
                 
                 for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
                     this.shuffle_items.push(this.year_group[int_loop1])
