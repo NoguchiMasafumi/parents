@@ -3,6 +3,9 @@ var str_school=params.get("school");
 var str_year=params.get("year");
 var str_semester=params.get("semester");
 var str_weak=params.get("weak");
+var str_status=params.get("status");
+var str_digit=params.get("digit");
+
 if (str_school=="" && str_year==""){str_year=3}
 
 
@@ -12,10 +15,13 @@ var value = new Vue({
         answers: [],
         shuffle_items: [],
         filtered_items: [],
+        year_group: [],
         filtered_cnt:0,
         shuffled:0,
         turnIndex: 0,
         bef_Index: 0,
+        current_url:'',
+        weak_binary_from_status:'',
         questionCnt: 0,
         questions: [
             {
@@ -27792,9 +27798,13 @@ var value = new Vue({
     },
     methods: {
         addAnswer: function(index) {
+            if(index!=1){index=''}
             this.answers.push(index);
             this.turnIndex++;
-            this.rest_clss()
+            if(this.filtered_items.length!=this.turnIndex){
+                this.rest_clss()
+            }
+
         },
         reduceAnswer: function(index) {
             this.answers.pop(index);
@@ -27817,6 +27827,13 @@ var value = new Vue({
             this.v_cau=""
             this.filtered_items[this.turnIndex].weak=""
 
+        },
+        create_year_group: function(array){
+            for (let i = array.length - 1; i > 0; i--) {
+                if(array[i].year==str_year){
+                    this.year_group.push(array[i])
+                }
+            }
         },
         shuffle: function(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -27858,28 +27875,191 @@ var value = new Vue({
             }else{
                 this.v_cau=""
             }
-        }
+        },
+        create_status_code: function(){
+            //console.log(this.year_group[0].letter)
+            console.log(this.year_group.length)
+            console.log(this.filtered_items.length)
+            let str_binary=""
+            for (let int_loop1 = this.year_group.length - 1 ; int_loop1 >-1 ; int_loop1--) {
+                //console.log(this.year_group[int_loop1].letter)
+                //console.log("1")
 
+                let int_weak=0
+                let int_exist1=0
+                for (let int_loop2 = 0; int_loop2 < this.filtered_items.length; int_loop2++) {
+                    if(this.year_group[int_loop1].letter == this.filtered_items[int_loop2].letter){
+                        if(this.answers[int_loop2].length!=0){
+                            int_weak=this.answers[int_loop2]
+                            int_exist1=1
+                            break
+                        }
+                    }
+                }
+                //******途中でurl生成した場合苦手が合った場合0になるのを防ぐよ***** */
+                if(int_exist1==0 && this.year_group[int_loop1].weak==1){
+                    int_weak=1
+                }
+                str_binary=str_binary+int_weak
+                console.log(this.year_group[int_loop1].letter +" "+ int_weak)
+            }
+            //console.log(str_binary)
+            //let str_dec="x"
+            //str_dec=str_dec+parseInt(str_binary, 2)
+            //console.log(str_dec)
+
+            /* ******************************************************************************* */
+            var num = new Num();
+            let str_decimal=""
+            for (var i = 0, loop = str_binary.length; i < loop; i++) {
+                var digit = str_binary.charAt(i);
+                var x;
+                if ("0" <= digit && digit <= '9') {
+                    x = digit.charCodeAt(0) - "0".charCodeAt(0);
+                } else if ("a" <= digit && digit <= 'f') {
+                    x = digit.charCodeAt(0) - "a".charCodeAt(0) + 10;
+                } else {
+                    x = digit.charCodeAt(0) - "A".charCodeAt(0) + 10;
+                }
+                num = num.multiply(2).add(x);
+            }
+            //var byte;
+            //var num10=num
+            //var over = new Num(256).power(byte);
+            //num10 = over.subtract(num).negate();
+            //console.log(num10.value[0]);
+            for(let int_loop1=0;int_loop1 < num.value.length;int_loop1++){
+                str_decimal=str_decimal+num.value[int_loop1]
+            }
+
+
+
+            this.current_url=location.protocol
+            this.current_url=this.current_url+location.pathname
+            this.current_url=this.current_url+'?school='+str_school
+            this.current_url=this.current_url+'&year='+str_year
+            this.current_url=this.current_url+'&semester='+str_semester
+            this.current_url=this.current_url+'&weak='+str_weak
+            
+            this.current_url=this.current_url+'&status='+str_decimal
+            this.current_url=this.current_url+'&digit='+this.year_group.length
+
+            //console.log(location.href+'&status='+str_decimal+'&digit='+str_binary.length)
+        },
+        dec_to_bin: function(value){
+            /* ******************************************************************************* */
+            num = new Num(value);
+
+            var num2=num
+            var byte;
+            var over = new Num(256).power(byte);
+            if (byte != 0) {
+
+                var max;
+                var min;
+                var over = new Num(256).power(byte);
+                var plusMax = over.divide(2).subtract(1);
+                max = plusMax;
+                min = over.divide(2).negate();
+
+                if (num.compareTo(Num.ZERO) == -1) {
+                    num2 = over.add(num);
+                }
+            }
+
+
+
+            var result = '';
+            while (true) {
+                var ans = num2.divideAndRemainder(2);
+                num2 = ans[0];
+                var digit = Math.abs(ans[1].toNumber());
+
+                var x;
+                if (digit < 10) {
+                    x = digit;
+                } else {
+                    x = String.fromCharCode(digit + "A".charCodeAt(0) - 10);
+                }
+
+                result = x + result;
+                if (num2.equals(Num.ZERO)) {
+                    break;
+                }
+            }
+            let str_zero_digit=""
+
+
+            for(int_loop1=0;int_loop1 < parseInt(str_digit);int_loop1++){
+                str_zero_digit=str_zero_digit+0
+            }
+            //console.log(str_zero_digit)
+            //console.log(result)
+            var str_pre_binary=str_zero_digit+result
+            this.weak_binary_from_status = str_pre_binary.slice(-str_digit)
+            //console.log(this.weak_binary_from_status)
+        }
 
     },
     computed: {
         currentTurn: function() {
             if(this.shuffled==0){
                 /*this.shuffle_items = this.shuffle(this.questions)*/
-                this.shuffle(this.questions)
-                this.filtering(this.questions)
+                //console.log(str_status)
+                if(str_status!=null){
+                    this.dec_to_bin(str_status)
+                }
+
+
+                this.create_year_group(this.questions)
+
+                let int_loop1_rev=0
+                for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
+                    
+                    
+                    /* **********************ここでweak対比表が見られる************************* */
+                    /* **********************ここでweak対比表が見られる************************* */
+                    //console.log(this.year_group[int_loop1].letter + " " + this.weak_binary_from_status[int_loop1_rev])
+                    /* **********************ここでweak対比表が見られる************************* */
+                    /* **********************ここでweak対比表が見られる************************* */
+                    
+                    
+                    this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
+
+
+                    int_loop1_rev=int_loop1_rev+1
+                }
+                
+                for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
+                    this.shuffle_items.push(this.year_group[int_loop1])
+                }
+                
+                //console.log(this.year_group[0].letter)
+              
+                this.shuffle(this.shuffle_items)
+                this.filtering(this.shuffle_items)
 
                 this.filtered_cnt=this.filtered_items.length
                 this.shuffled=1
                 this.rest_clss()
+                //console.log(this.year_group[0].letter)
 
             }
+            //console.log(this.year_group.length)
             return this.filtered_items[this.turnIndex];
         },
         completed: function() {
             if(this.shuffled!=0){
-                /*return (this.filtered_items.length == this.answers.length);*/
-                //return (this.questions.length == this.answers.length);
+                //console.log(this.filtered_items.length)
+                //console.log(this.turnIndex)
+                if(this.filtered_items.length==this.turnIndex){
+                    console.log("gg")
+                    this.create_status_code()
+                    return this.current_url
+                } 
+
+
+                return (this.filtered_items.length == this.turnIndex);
             }
         }
     }

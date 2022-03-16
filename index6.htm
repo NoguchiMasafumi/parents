@@ -26,9 +26,9 @@
 
                         <div class="over_flow_no">
 
-<div v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b32" v-bind:class="[v_cau]">
-    {{ currentTurn.letter }} {{ currentTurn.v_cau }}
-</div>                            
+                            <div v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b32" v-bind:class="[v_cau]">
+                                {{ currentTurn.letter }} {{ currentTurn.v_cau }}
+                            </div>                            
                             
                             
                             
@@ -81,7 +81,7 @@
                 </div>
                 <div class="offset-3 col-6" v-if="completed">
                     <div class="fnt_s72">終了です！</div>
-
+                    <div class="fnt_s24"><a v-bind:href="[current_url]">今回生成されたURL</a></div>
                     <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
                         <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
                         <div class="fnt_s36 fnt_c00">もどる</div>
@@ -93,6 +93,7 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+        <script src="js/num.min.js"></script>
         <script src="js/contents.js"></script>
 
     </body>
