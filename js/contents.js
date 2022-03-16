@@ -8531,7 +8531,7 @@ var value = new Vue({
                 year:'4',
                 semester:'社会',
                 letter:'沖',
-                figure:'',
+                figure:'7',
                 part:'氵',
                 weak:'',
                 etc2:'',
