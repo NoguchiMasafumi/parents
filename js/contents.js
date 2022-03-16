@@ -27878,8 +27878,8 @@ var value = new Vue({
         },
         create_status_code: function(){
             //console.log(this.year_group[0].letter)
-            console.log(this.year_group.length)
-            console.log(this.filtered_items.length)
+            //console.log(this.year_group.length)
+            //console.log(this.filtered_items.length)
             let str_binary=""
             for (let int_loop1 = this.year_group.length - 1 ; int_loop1 >-1 ; int_loop1--) {
                 //console.log(this.year_group[int_loop1].letter)
@@ -27901,7 +27901,7 @@ var value = new Vue({
                     int_weak=1
                 }
                 str_binary=str_binary+int_weak
-                console.log(this.year_group[int_loop1].letter +" "+ int_weak)
+                //console.log(this.year_group[int_loop1].letter +" "+ int_weak)
             }
             //console.log(str_binary)
             //let str_dec="x"
@@ -28010,7 +28010,7 @@ var value = new Vue({
 
                 this.create_year_group(this.questions)
 
-                if(str_status!=null){
+                if(str_status!=null && str_status.length!=0){
                     this.dec_to_bin(str_status)
                     let int_loop1_rev=0
                     for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){

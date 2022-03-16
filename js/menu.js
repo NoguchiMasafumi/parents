@@ -8,6 +8,7 @@ var str_digit=params_menu.get("digit");
 
 if (str_school=="" && str_year==""){str_year=3};
 if(str_weak==1){str_weak=""}else{str_weak=1}
+
 if(str_status==null){str_status=''}
 if(str_digit==null){str_digit=''}
 
