@@ -35,12 +35,13 @@
                             
                             <div class="flt_lef mar_b32 w320">
                                 <div class="fnt_s24">{{ currentTurn.school}}{{ currentTurn.year}}<span v-if="currentTurn.semester!=''"> Semester{{ currentTurn.semester}}</span></div>
-                                <div class="fnt_s48 over_flow_wrap_any h216">
+                                <div class="fnt_s48 over_flow_wrap_any h256">
                                     {{ currentTurn.e1read}}
                                     {{ currentTurn.e2read}}
                                     {{ currentTurn.j1read}}
                                 </div>
-                                <p class="pad_lr16 fnt_s72">{{ currentTurn.part}}</p>
+                                <div class="fnt_s72">{{ currentTurn.part}}</div>
+                                <div class="fnt_s24">{{ part_item_name}}</div>
                             </div>
                         </div>
 
