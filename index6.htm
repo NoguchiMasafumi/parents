@@ -18,10 +18,11 @@
 
         <div id="content">
             <div id="app" class="row" v-cloak>
-                <div class="fnt_s48">{{ turnIndex+1 }} / {{ filtered_items.length }}</div>
 
                 <!-- クイズを表示する部分 -->
                 <div class="offset-3 col-6" v-if="!completed">
+                    <div class="fnt_s48">{{ turnIndex+1 }} / {{ filtered_items.length }}</div>
+
                     <div class="card">
 
                         <div class="over_flow_no">
@@ -80,12 +81,18 @@
                     </div>
                 </div>
                 <div class="offset-3 col-6" v-if="completed">
-                    <div class="fnt_s72">終了です！</div>
-                    <div class="fnt_s24"><a v-bind:href="[current_url]">今回生成されたURL</a></div>
+                    <div class="fnt_s72 mar_b48">{{ filtered_items.length }}問 終了です！</div>
+                    <div class="fnt_s48 mar_b48"><a v-bind:href="[current_url]">今回生成されたURL</a></div>
+
                     <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
                         <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
                         <div class="fnt_s36 fnt_c00">もどる</div>
                     </div>
+                    <div class="btn-radius-solid w200 h200 tex_cen flt_lef cur_poi" @click="back_to_first()">
+                        <div class="fnt_s36 lh100p mar_t72 fnt_c00">はじめに</div>
+                        <div class="fnt_s36 fnt_c00">もどる</div>
+                    </div>
+
 
                 </div>
             </div>
