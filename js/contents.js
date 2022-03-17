@@ -28241,16 +28241,25 @@ var value = new Vue({
             }
             //console.log(this.year_group.length)
 
+let ar_path=location.pathname.split("/")
+str_page_file=ar_path[ar_path.length-1]
+console.log(str_page_file)
 
-            //console.log(this.filtered_items[this.turnIndex].part)
-            for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
-                if(this.part_items[int_loop1].part==this.filtered_items[this.turnIndex].part){
-                    this.part_item_name=this.part_items[int_loop1].part_name
-                    break;
+
+            if(str_page_file!="index_all.htm"){
+                //console.log(this.filtered_items[this.turnIndex].part)
+                for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
+                    if(this.part_items[int_loop1].part==this.filtered_items[this.turnIndex].part){
+                        this.part_item_name=this.part_items[int_loop1].part_name
+                        break;
+                    }
                 }
+                return this.filtered_items[this.turnIndex];
+            }else{
+                return this.filtered_items;
             }
 
-            return this.filtered_items[this.turnIndex];
+
         },
         completed: function() {
             if(this.shuffled!=0){

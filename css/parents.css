@@ -55,8 +55,16 @@ a{color:#000000;}
 .fnt_c00{color:#ffffff;}
 
 
+
+.bor_c01{border-color:rgb(212, 224, 236)}
+
+.bor_w1{border-width:1px;border-style: solid;}
+
+
+
 .disp_blk{display: block;}
 
+.h48{height:48px;}
 .h120{height:120px;}
 .h144{height:144px;}
 .h200{height:200px;}
@@ -69,6 +77,10 @@ a{color:#000000;}
 .lh50p{line-height:50%}
 .lh100p{line-height:100%}
 
+
+
+.w120{width:120px;}
+
 .w200{width:200px;}
 .w448{width:448px;}
 .w320{width:320px;}
@@ -76,6 +88,7 @@ a{color:#000000;}
 
 .pad_a16{padding:16px;}
 .pad_t16{padding-top:16px;}
+.pad_t144{padding-top:144px;}
 
 .pad_l48{padding-left:48px;}
 
@@ -83,16 +96,20 @@ a{color:#000000;}
 
 
 .mar_t16{margin-top:16px;}
+.mar_t24{margin-top:24px;}
+
 .mar_t32{margin-top:32px;}
 .mar_t72{margin-top:72px;}
 
 .mar_r8{margin-right:8px;}
+.mar_r24{margin-right:24px;}
 .mar_r48{margin-right:48px;}
 
 .mar_b30{margin-bottom:30px;}
 .mar_b32{margin-bottom:32px;}
 .mar_b48{margin-bottom:48px;}
 
+.mar_l24{margin-left:24px;}
 .mar_l50{margin-left:50px;}
 
 
@@ -137,6 +154,30 @@ a{color:#000000;}
     background: linear-gradient(to top, #77d4ff 0%, #2b80ff 100%);
     border-radius: 0.5rem;
 }
+
+
+
+
+.smooth_corner_r26 {
+    background: ...;
+    border-radius: 26px;
+  }
+  @supports (mask-image: paint(smooth-corners)) {
+    .el.is-loaded {
+      border-radius: 0;
+      mask-image: paint(smooth-corners);
+      --smooth-corners: 12;
+    }
+  }
+
+
+
+
+
+
+
+
+
 
 
 [v-cloak]{display:none;}
