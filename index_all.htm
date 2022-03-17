@@ -17,17 +17,16 @@
 
 
         <div id="content_all" class="mar_l24 pad_t144">
-            <div id="app" class="row">
-
+            <div id="app" class="row" v-cloak>
+xx
                 {{ turnIndex }}
-                {{ currentTurn.letter }}
                 {{filtered_items.length}}
 
 
 
-                <div v-for="currentTurn in filtered_items">
+                <div v-for="(currentTurn,index) in filtered_items">
                     <div class="flt_lef tex_cen" style="width:232px;">
-                        <div style="font-size:170px;width:184px;height:184px;font-family: 'Noto Serif JP',serif;line-height:94%;" class="smooth_corner_r41 bor_w1 bor_c01 mar_r_at mar_l_at">
+                        <div v-if class="letter2 smooth_corner_r41 bor_w1 bor_c01 mar_r_at mar_l_at" v-bind:id="['letter_'+index]" v-bind:class="[v_cau_all]">
                             {{ currentTurn.letter}}
                         </div>
                         <div class="fnt_s24" style="height:72px;">
