@@ -5,8 +5,15 @@ var str_semester=params.get("semester");
 var str_weak=params.get("weak");
 var str_status=params.get("status");
 var str_digit=params.get("digit");
+var str_view_mode=params.get("view_mode");
+
 
 if (str_school=="" && str_year==""){str_year=3}
+if(str_status==null || str_status==""){str_status=""}
+if(str_digit==null || str_digit==""){str_digit=""}
+if(str_view_mode==null || str_view_mode==""){str_view_mode=0}
+
+
 
 
 var value = new Vue({
@@ -15,6 +22,7 @@ var value = new Vue({
         answers: [],
         shuffle_items: [],
         filtered_items: [],
+        weak_items: [],
         year_group: [],
         filtered_cnt:0,
         shuffled:0,
@@ -23,6 +31,7 @@ var value = new Vue({
         current_url:'',
         weak_binary_from_status:'',
         questionCnt: 0,
+        view_mode:'',
         questions: [
             {
                 school:'Elementary',
@@ -28028,6 +28037,41 @@ var value = new Vue({
             this.filtered_items[this.turnIndex].weak=""
 
         },
+        rtn_toggle: function(index){
+            var tgt=document.getElementById('letter_'+index).classList
+            if(tgt.contains('caution1_all')==true){
+                tgt.remove('caution1_all')
+                tgt.add('chkd')
+            }else if(tgt.contains('chkd')==true){
+                tgt.remove('chkd')
+            }else{
+                tgt.add('caution1_all')
+            }
+        },
+        view_toggle: function(){
+            console.log(this.view_mode)
+            if(this.view_mode==0){
+                this.view_mode=1
+            }else if(this.view_mode==1){
+                this.view_mode=2
+            }else if(this.view_mode==2){
+                this.view_mode=3
+            }else if(this.view_mode==3){
+                this.view_mode=0
+            }
+            this.turnIndex=0
+
+
+
+
+
+
+
+
+
+
+
+        },
         create_year_group: function(array){
             for (let i = array.length - 1; i > -1; i--) {
                 if(array[i].year==str_year){
@@ -28055,9 +28099,6 @@ var value = new Vue({
                 if(int_doit1==1 && str_semester!=""){
                     if(array[i].semester==str_semester){int_doit1=1}else{int_doit1=0}
                 }
-                if(int_doit1==1 && str_weak!=""){
-                    if(array[i].weak==str_weak){int_doit1=1}else{int_doit1=0}
-                }
                 if(int_doit1==1){
                     this.filtered_items.push(array[i])
                 }
@@ -28068,17 +28109,13 @@ var value = new Vue({
         },
         rest_clss: function(index){
             this.v_cau="cc" + this.turnIndex
-            this.v_cau_all="cc" + this.turnIndex
             if(this.filtered_items[this.turnIndex].weak==1){
                 this.v_cau="caution1"
-                this.v_cau_all="caution1_all"
             }else if(this.filtered_items[this.turnIndex].weak==9){
                 this.v_cau="chkd"
-                this.v_cau_all="chkd_all"
 
             }else{
                 this.v_cau=""
-                this.v_cau_all=""
             }
         },
         create_status_code: function(){
@@ -28239,9 +28276,23 @@ var value = new Vue({
                 this.shuffle(this.shuffle_items)
                 this.filtering(this.shuffle_items)
 
-                this.filtered_cnt=this.filtered_items.length
+
+                for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
+                    if(this.filtered_items[int_loop1].weak==1){
+                        this.weak_items.push(this.filtered_items[int_loop1])
+                    }
+                }
+
+
+
+
+
+
                 this.shuffled=1
                 this.rest_clss()
+                //console.log(str_view_mode)    
+                this.view_mode=str_view_mode
+  
                 //console.log(this.year_group[0].letter)
 
             }
@@ -28249,21 +28300,32 @@ var value = new Vue({
 
             let ar_path=location.pathname.split("/")
             str_page_file=ar_path[ar_path.length-1]
-            console.log(str_page_file)
+            //console.log(this.view_mode)
 
 
-            if(str_page_file!="index_all.htm"){
+            if(this.view_mode==0){
                 //console.log(this.filtered_items[this.turnIndex].part)
+
                 for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
                     if(this.part_items[int_loop1].part==this.filtered_items[this.turnIndex].part){
                         this.part_item_name=this.part_items[int_loop1].part_name
                         break;
                     }
                 }
-                return this.filtered_items[this.turnIndex];
-            }else{
+                this.filtered_cnt=this.shuffle_items.length
+                return this.shuffle_items[this.turnIndex];
+            }else if(this.view_mode==1){
+                    this.filtered_cnt=this.weak_items.length
+                    this.v_cau="caution1"
+                    return this.weak_items[this.turnIndex];
+            }else if(this.view_mode==2){
+                this.filtered_cnt=this.filtered_items.length
                 return this.filtered_items;
+            }else if(this.view_mode==3){
+                this.filtered_cnt=this.weak_items.length
+                return this.weak_items;
             }
+
 
 
         },
