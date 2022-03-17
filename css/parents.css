@@ -40,13 +40,13 @@ a{color:#000000;}
 }
 
 .caution1{
-    background-color: rgb(212, 39, 39);
+    background-color: rgb(212,39,39);
     color:rgb(255, 255, 255);
     border-radius: 32px 32px 32px 32px;
 }
 
 .caution1_all{
-    background-color: rgb(212, 39, 39);
+    background-color: rgb(212,39,39);
     color:rgb(255, 255, 255);
 }
 
@@ -69,17 +69,17 @@ a{color:#000000;}
 .fnt_c00{color:rgb(255, 255, 255);}
 .fnt_c01{color:rgb(212, 224, 236);}
 .fnt_c03{color:rgb(161, 177, 192);}
-.fnt_c17{color:rgb(212,  39,  39);}
+.fnt_c17{color:rgb(212,39,39);}
 
 .bg_c00{background-color: rgb(255, 255, 255);}
 .bg_c01{background-color: rgb(212, 224, 236);}
 .bg_c03{background-color: rgb(161, 177, 192);}
-.bg_c17{background-color: rgb(212,  39,  39);}
+.bg_c17{background-color: rgb(212,39,39);}
 
 .bor_c00{border-color:rgb(255, 255, 255);}
 .bor_c01{border-color:rgb(212, 224, 236);}
 .bor_c03{border-color:rgb(161, 177, 192);}
-.bor_c17{border-color: rgb(212,  39,  39);}
+.bor_c17{border-color: rgb(212,39,39);}
 
 
 
