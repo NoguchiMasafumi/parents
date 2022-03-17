@@ -158,15 +158,14 @@ a{color:#000000;}
 
 
 
-.smooth_corner_r26 {
-    background: ...;
-    border-radius: 26px;
+.smooth_corner_r41 {
+    border-radius: 41px;
   }
   @supports (mask-image: paint(smooth-corners)) {
     .el.is-loaded {
       border-radius: 0;
       mask-image: paint(smooth-corners);
-      --smooth-corners: 12;
+      --smooth-corners: 6.8;
     }
   }
 
