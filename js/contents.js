@@ -27795,6 +27795,7 @@ var value = new Vue({
             
         ],
         v_cau:'',
+        v_cau_all:'',
         part_items:[
             {part:'一',part_name:'イチ'},
             {part:'口',part_name:'くち くちへん'},
@@ -28067,12 +28068,17 @@ var value = new Vue({
         },
         rest_clss: function(index){
             this.v_cau="cc" + this.turnIndex
+            this.v_cau_all="cc" + this.turnIndex
             if(this.filtered_items[this.turnIndex].weak==1){
                 this.v_cau="caution1"
+                this.v_cau_all="caution1_all"
             }else if(this.filtered_items[this.turnIndex].weak==9){
                 this.v_cau="chkd"
+                this.v_cau_all="chkd_all"
+
             }else{
                 this.v_cau=""
+                this.v_cau_all=""
             }
         },
         create_status_code: function(){
@@ -28241,9 +28247,9 @@ var value = new Vue({
             }
             //console.log(this.year_group.length)
 
-let ar_path=location.pathname.split("/")
-str_page_file=ar_path[ar_path.length-1]
-console.log(str_page_file)
+            let ar_path=location.pathname.split("/")
+            str_page_file=ar_path[ar_path.length-1]
+            console.log(str_page_file)
 
 
             if(str_page_file!="index_all.htm"){
