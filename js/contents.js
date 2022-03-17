@@ -28049,7 +28049,7 @@ var value = new Vue({
             }
         },
         view_toggle: function(){
-            console.log(this.view_mode)
+            //console.log(this.view_mode)
             if(this.view_mode==0){
                 this.view_mode=1
             }else if(this.view_mode==1){
@@ -28060,15 +28060,6 @@ var value = new Vue({
                 this.view_mode=0
             }
             this.turnIndex=0
-
-
-
-
-
-
-
-
-
 
 
         },
