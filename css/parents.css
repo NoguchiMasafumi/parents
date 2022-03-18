@@ -1,5 +1,5 @@
 /********************************** for pc? where is for tablet!! **************************/
-@media screen and (min-width:931px){
+@media screen and (min-width:415px){
     .letter1{
         font-size:110px;
         font-family: 'Noto Serif JP',serif;
@@ -70,15 +70,17 @@
 
 
 /******************** for smart phone ***************************/
-@media screen and (max-width:930px){
+@media screen and (max-width:414px){
 
     .letter1{
-        font-size:480px;
+        font-size:calc((100vw - 48px) * 0.48);
+        width:calc((100vw - 48px) * 0.5);
+        height:calc((100vw - 48px) * 0.5);
+
         font-family: 'Noto Serif JP',serif;
         line-height: 95%;
         float:left;
         margin-right:48px;
-        padding-bottom:48px;
     }
     
     .letter2{
@@ -111,12 +113,13 @@
         border-bottom-style:solid;
         width:100%;
         background-color: #ffffff;
-        font-size:72px;
         padding-left:48px;
+        font-size:calc((100vw - 48px) * 0.08);
+
     }
     #content{
         padding-top:144px;
-        margin-left:48px;
+        margin-left:24px;
         width: calc(100% - 48px);
     }
     .caution1{
