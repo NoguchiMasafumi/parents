@@ -77,6 +77,16 @@
     .mar_b32{margin-bottom:32px;}
     .mar_b48{margin-bottom:48px;}
 
+    .h48{height:48px;}
+    .h120{height:120px;}
+    .h144{height:144px;}
+    .h200{height:200px;}
+    .h216{height:216px;}
+    .h240{height:240px;}
+    .h256{height:256px;}
+    
+    .h648{height:648px;}
+
 
 }
 
@@ -173,6 +183,11 @@
     .btn_square_tex2{
         font-size:calc(((100vw / 4) * 0.9) / 5);
     }
+    .btn_banner1{
+        width:calc(100vw - 48px);
+    }
+
+
     .mar_t_btn_square_tex2{
         margin-top:calc(((100vw / 4) * 0.9) / 3);
     }
@@ -187,7 +202,16 @@
     .mar_b32{margin-bottom:calc(((100vw / 4) * 0.9) / 7);}
     .mar_b48{margin-bottom:calc(((100vw / 4) * 0.9) / 4);}
     
-
+    .h48{height:calc((100vw - 48px) * 0.008);}
+    .h112{height:calc((100vw - 48px) * 0.17);}
+    .h120{height:calc((100vw - 48px) * 0.19);}
+    .h144{height:calc((100vw - 48px) * 0.25);}
+    .h200{height:calc((100vw - 48px) * 0.41);}
+    .h216{height:calc((100vw - 48px) * 0.45);}
+    .h240{height:calc((100vw - 48px) * 0.52);}
+    .h256{height:calc((100vw - 48px) * 0.56);}
+    
+    .h648{height:648px;}
 
 }
 /******************** for smart phone ***************************/
@@ -249,15 +273,7 @@ a{color:#000000;}
 
 .disp_blk{display: block;}
 
-.h48{height:48px;}
-.h120{height:120px;}
-.h144{height:144px;}
-.h200{height:200px;}
-.h216{height:216px;}
-.h240{height:240px;}
-.h256{height:256px;}
 
-.h648{height:648px;}
 
 .lh50p{line-height:50%}
 .lh100p{line-height:100%}
