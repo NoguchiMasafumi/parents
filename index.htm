@@ -1,5 +1,4 @@
 <html>
-
     <head>
         <meta description="漢字">
     	<link rel="stylesheet" href="css/parents.css">
@@ -11,85 +10,152 @@
 
     <body>
 
-        <div id="header">
-                <a href="https://forparents.netlify.app/weak.htm">苦手</a>　年　学期　表示切替　パスワード発行
-        </div>
+        <div id="app">
+
+            <div id="header" class="">
+                <!--script src="js/menu.js"></script-->
+                <a href='year_select.htm'>年</a>　
+                <span class="cur_poi" @click="view_toggle()">表示切替</span>　
+                <span>学期</span>　
+                <span>パス</span>
+            </div>
 
 
-        <div id="content">
+            <div id="content">
+                <div class="row" v-cloak>
 
 
-            <div id="app-blog2" class="main_cont">
-                <div v-for="(item, index) in shuffle_items" class="over_flow_no link_card mar_b30" v-if="item.year == 3" v-cloak>
-                    
-                    <div class="over_flow_no">
-                        <div v-if="item.weak == 1" class="letter1 mar_b32 caution1" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
-                        <div v-else class="letter1 mar_b32" v-bind:id="['letter_'+ index + 1]">{{ item.letter }}</div>
+                    <!-- ************************************************************ -->
+                    <div v-if="view_mode==0 || view_mode==1">
+                        <div class="offset-3 col-6" v-if="!completed">
+                            <div class="fnt_s48">{{ turnIndex+1 }} / {{ filtered_cnt }}</div>
 
-                        <div class="flt_lef mar_b32">
+                            <div class="card">
 
-                            <div class="fnt_s24">{{ item.school}}{{ item.year}} {{ item.season}}</div>
+                                <div class="over_flow_no">
+
+                                    <div v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b32" v-bind:class="[v_cau]">
+                                        {{ currentTurn.letter }}
+                                    </div>                            
+                                    
+                                    
+                                    
+                                    <div class="flt_lef mar_b32 w320">
+                                        <div class="fnt_s24">{{ currentTurn.school}}{{ currentTurn.year}}<span v-if="currentTurn.semester!=''"> Semester{{ currentTurn.semester}}</span></div>
+                                        <div class="fnt_s48 over_flow_wrap_any h256">
+                                            {{ currentTurn.e1read}}
+                                            {{ currentTurn.e2read}}
+                                            {{ currentTurn.j1read}}
+                                        </div>
+                                        <div class="over_flow_no">
+                                            <div class="fnt_s72 flt_lef">{{ currentTurn.part}}　</div>
+                                            <div class="fnt_s48 pad_t16 flt_lef">{{ currentTurn.figure}}画</div>
+                                        </div>
+                                        <div class="fnt_s24">{{ part_item_name}}</div>
+                                    </div>
+                                </div>
+
+                                <div class="mar_b32 fnt_s48 h144">{{ currentTurn.e1sample}}{{ currentTurn.j1sample}}</div>
 
 
-                            <div class="fnt_s72">{{ item.e1read}}</div>
-                            <div class="fnt_s72">{{ item.e2read}}</div>
-                            <div class="fnt_s72">{{ item.e3read}}</div>
+                                <div class="over_flow_no mar_b48">
+                                    <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="addAnswer(currentTurn.weak)">
+                                        <div class="fnt_s108 lh100p mar_t32 fnt_c00">></div>
+                                        <div class="fnt_s36 fnt_c00">つぎへ</div>
+                                    </div>
 
-                            <p class="pad_lr16 fnt_s72">{{ item.part}}</p>
+                                    <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
+                                        <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
+                                        <div class="fnt_s36 fnt_c00">もどる</div>
+                                    </div>
+
+                                    <div class="btn-radius-solid w200 h200 tex_cen flt_lef cur_poi" @click="back_to_first()">
+                                        <div class="fnt_s36 lh100p mar_t72 fnt_c00">はじめに</div>
+                                        <div class="fnt_s36 fnt_c00">もどる</div>
+                                    </div>
+
+                                </div>
+
+                                <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_o cur_poi" @click="jud_o()">
+                                        <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/o.png"></div>
+                                </div>
+                                
+                                <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_x cur_poi" @click="jud_x()">
+                                    <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/x.png"></div>
+                                </div>
+                                
+                                <div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_cxl cur_poi" @click="jud_cxl()">
+                                    <div class="fnt_s72 lh100p mar_t32 fnt_c00">cancel</div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="offset-3 col-6" v-if="completed">
+                            <div class="fnt_s72 mar_b48">{{ filtered_items.length }}問 終了です！</div>
+                            <div class="fnt_s48 mar_b48"><a v-bind:href="[current_url]">今回生成されたURL</a></div>
+
+                            <div class="btn-radius-solid w200 h200 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
+                                <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
+                                <div class="fnt_s36 fnt_c00">もどる</div>
+                            </div>
+                            <div class="btn-radius-solid w200 h200 tex_cen flt_lef cur_poi" @click="back_to_first()">
+                                <div class="fnt_s36 lh100p mar_t72 fnt_c00">はじめに</div>
+                                <div class="fnt_s36 fnt_c00">もどる</div>
+                            </div>
 
 
                         </div>
+                    </div>
+
+
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==2">
+                        <div v-for="(currentTurn,index) in filtered_items">
+                            <div class="flt_lef tex_cen letter2_box cur_poi" @click="rtn_toggle(index)">
+                                <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at" v-bind:id="['letter_'+index]">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else class="letter2 bor_w1 bor_c01 mar_r_at mar_l_at" v-bind:id="['letter_'+index]">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div class="read_sample2">
+                                    {{currentTurn.e1sample}} {{currentTurn.j1sample}}
+                                </div>
+                            </div>
                         </div>
+                    </div>
 
-                        <div class="mar_l50 mar_b32 fnt_s72">{{ item.e1sample}}</div>
-<div class="over_flow_no mar_b48">
-    <a href="#" class="tex_dec_no disp_blk w200 mar_r48 flt_lef">
-        <div class="btn-radius-solid w200 h200 tex_cen">
-            <div class="fnt_s108 lh100p mar_t32 fnt_c00">></div>
-            <div class="fnt_s36 fnt_c00">つぎへ</div>
-        </div>
-    </a>
 
-    <a href="#" class="tex_dec_no disp_blk w200 mar_r48 flt_lef">
-        <div class="btn-radius-solid w200 h200 tex_cen">
-            <div class="fnt_s108 lh100p mar_t32 fnt_c00"><</div>
-            <div class="fnt_s36 fnt_c00">もどる</div>
-        </div>
-    </a>
-</div>
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==3">
+                        <div v-for="(currentTurn,index) in weak_items">
+                            <div class="flt_lef tex_cen letter2_box cur_poi" @click="rtn_toggle(index)">
+                                <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at" v-bind:id="['letter_'+index]">
+                                    {{ currentTurn.letter}}
+                                </div>
 
-<div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_o cur_poi" v-bind:id="['jud_o_'+ index + 1]">
-    <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/o.png"></div>
-</div>
+                                <div v-else class="letter2 bor_w1 bor_c01 mar_r_at mar_l_at" v-bind:id="['letter_'+index]">
+                                    {{ currentTurn.letter}}
+                                </div>
 
-<div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_x cur_poi" v-bind:id="['jud_x_'+ index + 1]">
-    <div class="fnt_s108 lh100p mar_t16 fnt_c00"><img src="img/x.png"></div>
-</div>
-
-<div class="btn-radius-solid h144 tex_cen w448 mar_b48 jud_cxl cur_poi" v-bind:id="['jud_cxl_'+ index + 1]">
-    <div class="fnt_s72 lh100p mar_t32 fnt_c00">cancel</div>
-</div>
-
+                                <div class="read_sample2">
+                                    {{currentTurn.e1sample}} {{currentTurn.j1sample}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
-
-
-
             </div>
-
         </div>
 
-
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+        <script src="js/num.min.js"></script>
+        <script src="js/contents.js"></script>
 
     </body>
-
-
-    <footer>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-        <script src="js/contents.js"></script>
-    </footer>
-
-
-
 </html>

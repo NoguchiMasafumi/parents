@@ -15,7 +15,7 @@ if(str_digit==null){str_digit=''}
 document.write(
     "<a href='year_select.htm'>年</a>　",
 "<span @click='view_toggle()'>s</span>",
-    "<a href='index6.htm?school="+str_school+"&year="+str_year+"&semester="+str_semester+"&weak="+str_weak+"&status="+str_status+"&digit="+str_digit+"'>表示切替</a>　",
+    "<a href='index.htm?school="+str_school+"&year="+str_year+"&semester="+str_semester+"&weak="+str_weak+"&status="+str_status+"&digit="+str_digit+"'>表示切替</a>　",
     "学期　",
     "パス"
 )

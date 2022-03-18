@@ -28255,6 +28255,8 @@ var value = new Vue({
                         this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
                         int_loop1_rev=int_loop1_rev+1
                     }
+
+                    console.log(this.weak_binary_from_status)
                 }
 
                 
