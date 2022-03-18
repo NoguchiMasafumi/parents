@@ -202,14 +202,14 @@
     .mar_b32{margin-bottom:calc(((100vw / 4) * 0.9) / 7);}
     .mar_b48{margin-bottom:calc((100vw - (((100vw / 4) * 0.9) * 4)) / 3);}
     
-    .h48{height:calc((100vw - 48px) * 0.008);}
-    .h112{height:calc((100vw - 48px) * 0.17);}
-    .h120{height:calc((100vw - 48px) * 0.19);}
-    .h144{height:calc((100vw - 48px) * 0.25);}
-    .h200{height:calc((100vw - 48px) * 0.41);}
-    .h216{height:calc((100vw - 48px) * 0.45);}
-    .h240{height:calc((100vw - 48px) * 0.52);}
-    .h256{height:calc((100vw - 48px) * 0.56);}
+    .h48{height:calc((100vw - 48px) * 0.003);}
+    .h112{height:calc((100vw - 48px) * 0.12);}
+    .h120{height:calc((100vw - 48px) * 0.14);}
+    .h144{height:calc((100vw - 48px) * 0.2);}
+    .h200{height:calc((100vw - 48px) * 0.36);}
+    .h216{height:calc((100vw - 48px) * 0.4);}
+    .h240{height:calc((100vw - 48px) * 0.47);}
+    .h256{height:calc((100vw - 48px) * 0.51);}
     
     .h648{height:648px;}
 
