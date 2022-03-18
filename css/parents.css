@@ -200,7 +200,7 @@
     
     .mar_b30{margin-bottom:calc(((100vw / 4) * 0.9) / 7);}
     .mar_b32{margin-bottom:calc(((100vw / 4) * 0.9) / 7);}
-    .mar_b48{margin-bottom:calc(((100vw / 4) * 0.9) / 4);}
+    .mar_b48{margin-bottom:calc((100vw - (((100vw / 4) * 0.9) * 4)) / 3);}
     
     .h48{height:calc((100vw - 48px) * 0.008);}
     .h112{height:calc((100vw - 48px) * 0.17);}
