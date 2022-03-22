@@ -28313,6 +28313,93 @@ var value = new Vue({
                 this.filtered_cnt=this.filtered_items.length
 
 
+for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
+
+    ar_spl1=this.filtered_items[int_loop1].e1read.split("-")
+    this.filtered_items[int_loop1].e1sample=this.filtered_items[int_loop1].e1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e2read.split("-")
+    this.filtered_items[int_loop1].e2sample=this.filtered_items[int_loop1].e2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e3read.split("-")
+    this.filtered_items[int_loop1].e3sample=this.filtered_items[int_loop1].e3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e4read.split("-")
+    this.filtered_items[int_loop1].e4sample=this.filtered_items[int_loop1].e4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e5read.split("-")
+    this.filtered_items[int_loop1].e5sample=this.filtered_items[int_loop1].e5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e6read.split("-")
+    this.filtered_items[int_loop1].e6sample=this.filtered_items[int_loop1].e6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e7read.split("-")
+    this.filtered_items[int_loop1].e7sample=this.filtered_items[int_loop1].e7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e8read.split("-")
+    this.filtered_items[int_loop1].e8sample=this.filtered_items[int_loop1].e8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e9read.split("-")
+    this.filtered_items[int_loop1].e9sample=this.filtered_items[int_loop1].e9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e10read.split("-")
+    this.filtered_items[int_loop1].e10sample=this.filtered_items[int_loop1].e10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].e11read.split("-")
+    this.filtered_items[int_loop1].e11sample=this.filtered_items[int_loop1].e11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j1read.split("-")
+    this.filtered_items[int_loop1].j1sample=this.filtered_items[int_loop1].j1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j2read.split("-")
+    this.filtered_items[int_loop1].j2sample=this.filtered_items[int_loop1].j2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j3read.split("-")
+    this.filtered_items[int_loop1].j3sample=this.filtered_items[int_loop1].j3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j4read.split("-")
+    this.filtered_items[int_loop1].j4sample=this.filtered_items[int_loop1].j4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j5read.split("-")
+    this.filtered_items[int_loop1].j5sample=this.filtered_items[int_loop1].j5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j6read.split("-")
+    this.filtered_items[int_loop1].j6sample=this.filtered_items[int_loop1].j6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j7read.split("-")
+    this.filtered_items[int_loop1].j7sample=this.filtered_items[int_loop1].j7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j8read.split("-")
+    this.filtered_items[int_loop1].j8sample=this.filtered_items[int_loop1].j8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j9read.split("-")
+    this.filtered_items[int_loop1].j9sample=this.filtered_items[int_loop1].j9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j10read.split("-")
+    this.filtered_items[int_loop1].j10sample=this.filtered_items[int_loop1].j10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].j11read.split("-")
+    this.filtered_items[int_loop1].j11sample=this.filtered_items[int_loop1].j11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h1read.split("-")
+    this.filtered_items[int_loop1].h1sample=this.filtered_items[int_loop1].h1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h2read.split("-")
+    this.filtered_items[int_loop1].h2sample=this.filtered_items[int_loop1].h2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h3read.split("-")
+    this.filtered_items[int_loop1].h3sample=this.filtered_items[int_loop1].h3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h4read.split("-")
+    this.filtered_items[int_loop1].h4sample=this.filtered_items[int_loop1].h4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h5read.split("-")
+    this.filtered_items[int_loop1].h5sample=this.filtered_items[int_loop1].h5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h6read.split("-")
+    this.filtered_items[int_loop1].h6sample=this.filtered_items[int_loop1].h6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h7read.split("-")
+    this.filtered_items[int_loop1].h7sample=this.filtered_items[int_loop1].h7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h8read.split("-")
+    this.filtered_items[int_loop1].h8sample=this.filtered_items[int_loop1].h8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h9read.split("-")
+    this.filtered_items[int_loop1].h9sample=this.filtered_items[int_loop1].h9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h10read.split("-")
+    this.filtered_items[int_loop1].h10sample=this.filtered_items[int_loop1].h10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    ar_spl1=this.filtered_items[int_loop1].h11read.split("-")
+    this.filtered_items[int_loop1].h11sample=this.filtered_items[int_loop1].h11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 //***********ここを超えると weak 完了*************** */
                 for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
                     if(this.filtered_items[int_loop1].weak==1){
