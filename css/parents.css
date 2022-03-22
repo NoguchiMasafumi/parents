@@ -114,13 +114,22 @@
     }
     
     .letter2{
-        font-size:170px;
-        width:184px;
-        height:184px;
+
+
+
+        font-size:calc((100vw - 48px) * 0.21);
+
+
+        width:calc((((100vw - 48px) / 4) * 0.9) - 2px);
+        height:calc((((100vw - 48px) / 4) * 0.9) - 2px);
         font-family: 'Noto Serif JP',serif;
         line-height:94%;
-        border-radius: 41px;
+        border-radius: 12px;
     }
+
+
+
+
     @supports (mask-image: paint(smooth-corners)) {
         .letter2.is-loaded {
           border-radius: 0;
@@ -128,7 +137,7 @@
           --smooth-corners: 6.8;
         }
     }
-    .letter2_box{width:232px;}
+    .letter2_box{width:calc(((100vw - 48px) / 4));}
     .read_box{
         height:calc((100vw - 48px) * 0.3);
     }
@@ -139,8 +148,8 @@
         height:calc((100vw - 48px) * 0.1);
     }
     .read_sample2{
-        font-size:24px;
-        height:72px;
+        font-size:12px;
+        height:54px;
     }
     
     .quest_rig{
@@ -204,26 +213,10 @@
     .fnt_s72{font-size:calc(((100vw / 4) * 0.9) / 3);}
     .fnt_s108{font-size:calc(((100vw / 4) * 0.9) / 2);}
     
-
-    .mar_t16{margin-top:calc(14-4);}
-    .mar_t24{margin-top:calc(((100vw - 48px) / (24 * 24)) + 7.5px);}
-    .mar_t32{margin-top:calc(((100vw - 48px) / (32 * 32)) + 7.5px);}
-
-    .mar_t48{margin-top:calc(((100vw - 48px) / (48 * 48)) + 7.5px);}
-
-    .mar_t72{margin-top:calc(((100vw - 48px) / (72 * 72)) + 7.5px);}
-
-    
-
-
     .mar_b30{margin-bottom:calc(((100vw / 4) * 0.9) / 7);}
     .mar_b32{margin-bottom:calc(((100vw / 4) * 0.9) / 7);}
     .mar_b48{margin-bottom:calc((100vw - (((100vw / 4) * 0.9) * 4)) / 3);}
     
-
-
-
-
     .h48{height:calc((100vw - 48px) * 0.04);}
     .h112{height:calc((100vw - 48px) * 0.08);}
     .h120{height:calc((100vw - 48px) * 0.1);}
@@ -232,8 +225,17 @@
     .h216{height:calc((100vw - 48px) * 0.36);}
     .h240{height:calc((100vw - 48px) * 0.43);}
     .h256{height:calc((100vw - 48px) * 0.47);}
-    
     .h648{height:648px;}
+
+    .mar_t16{margin-top:calc( (16px * 16) / calc( 414 - 48) + 7.5px );}
+    .mar_t24{margin-top:calc( (24px * 24) / calc( 414 - 48) + 7.5px );}
+    .mar_t32{margin-top:calc( (32px * 32) / calc( 414 - 48) + 7.5px );}
+    .mar_t48{margin-top:calc( (48px * 48) / calc( 414 - 48) + 7.5px );}
+    .mar_t72{margin-top:calc( (72px * 72) / calc( 414 - 48) + 7.5px );}
+
+
+
+
 
 }
 /******************** for smart phone ***************************/
