@@ -152,6 +152,7 @@
         height:54px;
     }
     
+    .quest_lef{width:calc((100vw - 48px) * 0.48);}
     .quest_rig{
         width:calc((100vw - 48px) * 0.48);
     }
@@ -168,10 +169,14 @@
 
     }
     #content{
-        padding-top:calc((100vw - 48px) * 0.2);
+        padding-top:calc((100vw - 48px) * 0.14);
         margin-left:24px;
-        width: calc(100% - 48px);
+        width: calc(100vw - 48px);
     }
+    .w100p{
+        width: calc(100vw - 48px);
+    }
+
     .caution1{
         background-color: rgb(212,39,39);
         color:rgb(255, 255, 255);

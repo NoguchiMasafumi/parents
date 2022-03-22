@@ -25,6 +25,7 @@ var value = new Vue({
         weak_items: [],
         year_group: [],
         filtered_cnt:0,
+        weak_cnt:0,
         shuffled:0,
         turnIndex: 0,
         bef_Index: 0,
@@ -28003,7 +28004,8 @@ var value = new Vue({
             {part:'乚',part_name:''},
             {part:'幺',part_name:'ヨウ いとがしら'}
         ],
-        part_item_name:''
+        part_item_name:'',
+        status_info:''
     },
     methods: {
         addAnswer: function(index) {
@@ -28024,17 +28026,31 @@ var value = new Vue({
             this.turnIndex=0;
             this.rest_clss()
         },
-        jud_o: function(index){
+        jud_o: function(array,index){
             this.v_cau="chkd"
-            this.filtered_items[this.turnIndex].weak="9"
+
+            if(this.view_mode==0){
+                this.filtered_items[this.turnIndex].weak="9"
+            }else{
+                this.weak_items[this.turnIndex].weak="9"
+            }
+        
         },
         jud_x: function(index){
             this.v_cau="caution1"
-            this.filtered_items[this.turnIndex].weak="1"
+            if(this.view_mode==0){
+                this.filtered_items[this.turnIndex].weak="1"
+            }else{
+                this.weak_items[this.turnIndex].weak="9"
+            }
         },
         jud_cxl: function(index){
             this.v_cau=""
-            this.filtered_items[this.turnIndex].weak=""
+            if(this.view_mode==0){
+                this.filtered_items[this.turnIndex].weak=""
+            }else{
+                this.weak_items[this.turnIndex].weak="9"
+            }
 
         },
         rtn_toggle: function(index){
@@ -28120,15 +28136,31 @@ var value = new Vue({
 
                 let int_weak=0
                 let int_exist1=0
-                for (let int_loop2 = 0; int_loop2 < this.filtered_items.length; int_loop2++) {
-                    if(this.year_group[int_loop1].letter == this.filtered_items[int_loop2].letter){
-                        if(this.answers[int_loop2].length!=0){
-                            int_weak=this.answers[int_loop2]
-                            int_exist1=1
-                            break
+
+                if(this.view_mode==0){
+                    for (let int_loop2 = 0; int_loop2 < this.filtered_items.length; int_loop2++) {
+                        if(this.year_group[int_loop1].letter == this.filtered_items[int_loop2].letter){
+                            if(this.answers[int_loop2].length!=0){
+                                int_weak=this.answers[int_loop2]
+                                int_exist1=1
+                                break
+                            }
+                        }
+                    }
+                }else if(this.view_mode==1){
+                    for (let int_loop2 = 0; int_loop2 < this.weak_items.length; int_loop2++) {
+                        if(this.year_group[int_loop1].letter == this.weak_items[int_loop2].letter){
+                            if(this.answers[int_loop2].length!=0){
+                                int_weak=this.answers[int_loop2]
+                                int_exist1=1
+                                break
+                            }
                         }
                     }
                 }
+
+
+
                 //******途中でurl生成した場合苦手が合った場合0になるのを防ぐよ***** */
                 if(int_exist1==0 && this.year_group[int_loop1].weak==1){
                     int_weak=1
@@ -28176,6 +28208,7 @@ var value = new Vue({
             
             this.current_url=this.current_url+'&status='+str_decimal
             this.current_url=this.current_url+'&digit='+this.year_group.length
+            this.current_url=this.current_url+'&view_mode='+this.view_mode
 
             //console.log(location.href+'&status='+str_decimal+'&digit='+str_binary.length)
         },
@@ -28255,26 +28288,32 @@ var value = new Vue({
                         this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
                         int_loop1_rev=int_loop1_rev+1
                     }
-
-                    console.log(this.weak_binary_from_status)
+                    //console.log(this.weak_binary_from_status)
+                }else{
+                    this.status_info="このURLですと苦手問題は判別できません。1度最後まで回答してみて下さい。苦手が反映されたURLが表示されます。";
                 }
 
-                
+                //***********ここを超えると shuffle 完了*************** */
                 for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
                     this.shuffle_items.push(this.year_group[int_loop1])
                 }
-                
                 //console.log(this.year_group[0].letter)
-              
                 this.shuffle(this.shuffle_items)
+
+
+
+                //***********ここを超えると filter 完了*************** */
                 this.filtering(this.shuffle_items)
+                this.filtered_cnt=this.filtered_items.length
 
 
+                //***********ここを超えると weak 完了*************** */
                 for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
                     if(this.filtered_items[int_loop1].weak==1){
                         this.weak_items.push(this.filtered_items[int_loop1])
                     }
                 }
+                this.weak_cnt=this.weak_items.length
 
 
 
@@ -28298,7 +28337,7 @@ var value = new Vue({
 
             if(this.view_mode==0){
                 //console.log(this.filtered_items[this.turnIndex].part)
-
+                this.part_item_name=""
                 for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
                     if(this.part_items[int_loop1].part==this.filtered_items[this.turnIndex].part){
                         this.part_item_name=this.part_items[int_loop1].part_name
@@ -28306,16 +28345,28 @@ var value = new Vue({
                     }
                 }
                 this.filtered_cnt=this.shuffle_items.length
-                return this.shuffle_items[this.turnIndex];
+                //return this.shuffle_items[this.turnIndex];
+
+                if(this.filtered_items[this.turnIndex].weak==1){
+                    this.v_cau="caution1"
+                }else{
+                    this.v_cau=""
+                }
+                return this.filtered_items[this.turnIndex];
+
             }else if(this.view_mode==1){
-                    this.filtered_cnt=this.weak_items.length
+                    this.part_item_name=""
+                    for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
+                        if(this.part_items[int_loop1].part==this.weak_items[this.turnIndex].part){
+                            this.part_item_name=this.part_items[int_loop1].part_name
+                            break;
+                        }
+                    }
                     this.v_cau="caution1"
                     return this.weak_items[this.turnIndex];
             }else if(this.view_mode==2){
-                this.filtered_cnt=this.filtered_items.length
                 return this.filtered_items;
             }else if(this.view_mode==3){
-                this.filtered_cnt=this.weak_items.length
                 return this.weak_items;
             }
 
@@ -28326,14 +28377,28 @@ var value = new Vue({
             if(this.shuffled!=0){
                 //console.log(this.filtered_items.length)
                 //console.log(this.turnIndex)
-                if(this.filtered_items.length==this.turnIndex){
-                    console.log("gg")
-                    this.create_status_code()
-                    return this.current_url
-                } 
 
 
-                return (this.filtered_items.length == this.turnIndex);
+
+
+                if(this.view_mode==0){
+                    if(this.filtered_items.length==this.turnIndex){
+                        console.log("gg")
+                        this.create_status_code()
+                        return this.current_url
+                    } 
+                  
+                    return (this.filtered_items.length == this.turnIndex);
+                }else if(this.view_mode==1){
+                    if(this.weak_items.length==this.turnIndex){
+                        console.log("gg")
+                        this.create_status_code()
+                        return this.current_url
+                    } 
+    
+                    return (this.weak_items.length == this.turnIndex);
+                }
+
             }
         }
     }
