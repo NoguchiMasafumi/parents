@@ -15,6 +15,11 @@ if(str_view_mode==null || str_view_mode==""){str_view_mode=0}
 
 
 
+window.onbeforeunload = function(e) {
+    e.returnValue = "再読込みをしようとしています。よろしいですか？";
+}
+
+
 
 var value = new Vue({
     el: '#app',
@@ -33,6 +38,7 @@ var value = new Vue({
         weak_binary_from_status:'',
         questionCnt: 0,
         view_mode:'',
+        url_prop:'',
         questions: [
             {
                 school:'Elementary',
@@ -3187,7 +3193,7 @@ var value = new Vue({
                 letter:'暗',
                 figure:'13',
                 part:'日',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'アン',e1sample:'暗示、暗愚、明暗',e2read:'くら-い',e2sample:'暗い、暗がり',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3265,7 +3271,7 @@ var value = new Vue({
                 letter:'院',
                 figure:'10',
                 part:'阝',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'イン',e1sample:'院内、議院、病院',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3278,7 +3284,7 @@ var value = new Vue({
                 letter:'飲',
                 figure:'12',
                 part:'飠',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'イン',e1sample:'飲料、飲食、痛飲',e2read:'の-む',e2sample:'飲む、飲み水',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3304,7 +3310,7 @@ var value = new Vue({
                 letter:'泳',
                 figure:'8',
                 part:'氵',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'エイ',e1sample:'泳法、水泳、背泳',e2read:'およ-ぐ',e2sample:'泳ぐ、泳ぎ',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3369,7 +3375,7 @@ var value = new Vue({
                 letter:'温',
                 figure:'12',
                 part:'氵',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'オン',e1sample:'温暖、温厚、気温',e2read:'あたた-か',e2sample:'温かだ',e3read:'あたた-かい',e3sample:'温かい',e4read:'あたた-まる',e4sample:'温まる',e5read:'あたた-める',e5sample:'温める',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3408,7 +3414,7 @@ var value = new Vue({
                 letter:'界',
                 figure:'9',
                 part:'田',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'カイ',e1sample:'境界、限界、世界',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3434,7 +3440,7 @@ var value = new Vue({
                 letter:'階',
                 figure:'12',
                 part:'阝',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'カイ',e1sample:'階段、階級、地階',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3525,7 +3531,7 @@ var value = new Vue({
                 letter:'期',
                 figure:'12',
                 part:'月',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'キ',e1sample:'期間、期待、予期',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3551,7 +3557,7 @@ var value = new Vue({
                 letter:'究',
                 figure:'7',
                 part:'穴',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'キュウ',e1sample:'究明、研究、学究',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'きわ-める',j1sample:'究める',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3642,7 +3648,7 @@ var value = new Vue({
                 letter:'業',
                 figure:'13',
                 part:'木',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ギョウ',e1sample:'業績、職業、卒業',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'わざ',j1sample:'業、仕業、早業',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3746,7 +3752,7 @@ var value = new Vue({
                 letter:'係',
                 figure:'9',
                 part:'亻',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ケイ',e1sample:'係累、係争、関係',e2read:'かか-る',e2sample:'係る',e3read:'かかり',e3sample:'係、係員、庶務係',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -3837,7 +3843,7 @@ var value = new Vue({
                 letter:'湖',
                 figure:'12',
                 part:'氵',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'コ',e1sample:'湖水、湖沼、湖畔',e2read:'みずうみ',e2sample:'湖',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4175,7 +4181,7 @@ var value = new Vue({
                 letter:'受',
                 figure:'8',
                 part:'又',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ジュ',e1sample:'受諾、受験、甘受',e2read:'う-ける',e2sample:'受ける、受付',e3read:'う-かる',e3sample:'受かる',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4253,7 +4259,7 @@ var value = new Vue({
                 letter:'住',
                 figure:'7',
                 part:'亻',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ジュウ',e1sample:'住所、安住、衣食住',e2read:'す-む',e2sample:'住む',e3read:'す-まう',e3sample:'住まう、住まい',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4318,7 +4324,7 @@ var value = new Vue({
                 letter:'助',
                 figure:'7',
                 part:'力',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ジョ',e1sample:'助力、助監督、救助',e2read:'たす-ける',e2sample:'助ける、助け',e3read:'たす-かる',e3sample:'助かる、大助かり',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'すけ',j1sample:'助太刀',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4591,7 +4597,7 @@ var value = new Vue({
                 letter:'息',
                 figure:'10',
                 part:'心',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ソク',e1sample:'休息、消息、子息',e2read:'いき',e2sample:'息、息巻く、吐息',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4643,7 +4649,7 @@ var value = new Vue({
                 letter:'打',
                 figure:'5',
                 part:'扌',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ダ',e1sample:'打撃、打破、乱打',e2read:'う-つ',e2sample:'打つ',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4669,7 +4675,7 @@ var value = new Vue({
                 letter:'待',
                 figure:'9',
                 part:'彳',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'タイ',e1sample:'待機、待遇、期待',e2read:'ま-つ',e2sample:'待つ、待ち遠しい',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4682,7 +4688,7 @@ var value = new Vue({
                 letter:'代',
                 figure:'5',
                 part:'亻',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ダイ',e1sample:'代理、世代、現代',e2read:'タイ',e2sample:'代謝、交代',e3read:'か-わる',e3sample:'代わる、代わり',e4read:'か-える',e4sample:'代える',e5read:'よ',e5sample:'代、神代',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'しろ',j1sample:'代物、苗代',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4773,7 +4779,7 @@ var value = new Vue({
                 letter:'注',
                 figure:'8',
                 part:'氵',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'チュウ',e1sample:'注入、注意、発注',e2read:'そそ-ぐ',e2sample:'注ぐ',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4812,7 +4818,7 @@ var value = new Vue({
                 letter:'帳',
                 figure:'11',
                 part:'巾',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'チョウ',e1sample:'帳面、帳簿、通帳',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4825,7 +4831,7 @@ var value = new Vue({
                 letter:'調',
                 figure:'15',
                 part:'言',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'チョウ',e1sample:'調和、調査、好調',e2read:'しら-べる',e2sample:'調べる、調べ',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'ととの-う',j1sample:'調う',j2read:'ととの-える',j2sample:'調える',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4864,7 +4870,7 @@ var value = new Vue({
                 letter:'庭',
                 figure:'10',
                 part:'广',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'テイ',e1sample:'庭園、校庭、家庭',e2read:'にわ',e2sample:'庭、庭先',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4877,7 +4883,7 @@ var value = new Vue({
                 letter:'笛',
                 figure:'11',
                 part:'竹',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'テキ',e1sample:'汽笛、警笛、牧笛',e2read:'ふえ',e2sample:'笛、口笛',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4903,7 +4909,7 @@ var value = new Vue({
                 letter:'転',
                 figure:'11',
                 part:'車',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'テン',e1sample:'転出、回転、運転',e2read:'ころ-がる',e2sample:'転がる',e3read:'ころ-げる',e3sample:'転げる',e4read:'ころ-がす',e4sample:'転がす',e5read:'ころ-ぶ',e5sample:'転ぶ',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -4916,7 +4922,7 @@ var value = new Vue({
                 letter:'都',
                 figure:'11',
                 part:'阝',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ト',e1sample:'都会、都心、首都',e2read:'ツ',e2sample:'都合、都度',e3read:'みやこ',e3sample:'都、都落ち',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5007,7 +5013,7 @@ var value = new Vue({
                 letter:'等',
                 figure:'12',
                 part:'竹',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'トウ',e1sample:'等分、等級、平等',e2read:'ひと-しい',e2sample:'等しい',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5046,7 +5052,7 @@ var value = new Vue({
                 letter:'農',
                 figure:'13',
                 part:'辰',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ノウ',e1sample:'農業、農具、酪農',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5059,7 +5065,7 @@ var value = new Vue({
                 letter:'波',
                 figure:'8',
                 part:'氵',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ハ',e1sample:'波浪、波及、電波',e2read:'なみ',e2sample:'波、波立つ、荒波',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5072,7 +5078,7 @@ var value = new Vue({
                 letter:'配',
                 figure:'10',
                 part:'酉',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ハイ',e1sample:'配分、交配、心配',e2read:'くば-る',e2sample:'配る',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5215,7 +5221,7 @@ var value = new Vue({
                 letter:'鼻',
                 figure:'14',
                 part:'鼻',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'はな',e1sample:'鼻、鼻血、小鼻',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'ビ',j1sample:'鼻音、鼻孔、耳鼻科',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5241,7 +5247,7 @@ var value = new Vue({
                 letter:'氷',
                 figure:'5',
                 part:'水',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ヒョウ',e1sample:'氷点、氷山、結氷',e2read:'こおり',e2sample:'氷',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5280,7 +5286,7 @@ var value = new Vue({
                 letter:'病',
                 figure:'10',
                 part:'疒',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ビョウ',e1sample:'病気、病根、看病',e2read:'やまい',e2sample:'病',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'や-む',j1sample:'病む、病み付き',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5397,7 +5403,7 @@ var value = new Vue({
                 letter:'勉',
                 figure:'10',
                 part:'力',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ベン',e1sample:'勉強、勉学、勤勉',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5475,7 +5481,7 @@ var value = new Vue({
                 letter:'役',
                 figure:'7',
                 part:'彳',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ヤク',e1sample:'役所、役目、荷役',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'エキ',j1sample:'役務、使役、兵役',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5579,7 +5585,7 @@ var value = new Vue({
                 letter:'洋',
                 figure:'9',
                 part:'氵',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'ヨウ',e1sample:'洋楽、洋風、海洋',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5683,7 +5689,7 @@ var value = new Vue({
                 letter:'緑',
                 figure:'14',
                 part:'糸',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'リョク',e1sample:'緑茶、緑陰、新緑',e2read:'みどり',e2sample:'緑、薄緑',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5709,7 +5715,7 @@ var value = new Vue({
                 letter:'列',
                 figure:'6',
                 part:'刂',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'レツ',e1sample:'列外、列車、陳列',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -5722,7 +5728,7 @@ var value = new Vue({
                 letter:'練',
                 figure:'14',
                 part:'糸',
-                weak:'1',
+                weak:'',
                 etc2:'',
                 e1read:'レン',e1sample:'練習、試練、熟練',e2read:'ね-る',e2sample:'練る、練り直す',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
@@ -28162,9 +28168,9 @@ var value = new Vue({
 
 
                 //******途中でurl生成した場合苦手が合った場合0になるのを防ぐよ***** */
-                if(int_exist1==0 && this.year_group[int_loop1].weak==1){
-                    int_weak=1
-                }
+                //if(int_exist1==0 && this.year_group[int_loop1].weak==1){
+                //    int_weak=1
+                //}
                 str_binary=str_binary+int_weak
                 //console.log(this.year_group[int_loop1].letter +" "+ int_weak)
             }
@@ -28326,6 +28332,21 @@ var value = new Vue({
                 this.view_mode=str_view_mode
   
                 //console.log(this.year_group[0].letter)
+                
+                if(str_school!=null){
+                    this.url_prop=str_school
+                }
+                
+                if(str_year!=null){
+                    this.url_prop=this.url_prop + str_year
+                }
+                if(str_semester!=null && str_semester.length!=0){
+                    this.url_prop=this.url_prop + " Semester" + str_semester
+                }
+                
+
+
+
 
             }
             //console.log(this.year_group.length)
@@ -28397,6 +28418,7 @@ var value = new Vue({
                     } 
     
                     return (this.weak_items.length == this.turnIndex);
+                    
                 }
 
             }
