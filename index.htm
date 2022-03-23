@@ -196,8 +196,6 @@
 
                     <!-- ************************************************************ -->
                     <div v-else-if="view_mode==3">
-
-
                         <div class="over_flow_no mar_b16">
                             <div class="fnt_s48 flt_lef mar_r48">
                                 {{ weak_cnt }}
@@ -206,9 +204,7 @@
                                 {{this.url_prop}}
                             </div>
                         </div>
-
-
-
+                        <!-- ************* -->
                         <div v-for="(currentTurn,index) in weak_items">
                             <div class="flt_lef tex_cen letter2_box cur_poi" @click="rtn_toggle(index)">
                                 <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at" v-bind:id="['letter_'+index]">
@@ -225,6 +221,47 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==4">
+                        <div class="over_flow_no mar_b16">
+                            <div class="fnt_s48 flt_lef mar_r48">
+                                {{ filtered_cnt }}
+                            </div>
+                            <div class="flt_lef fnt_s36 pad_t16">
+                                {{this.url_prop}}
+                            </div>
+                        </div>
+
+
+
+                        <div v-for="(currentTurn,index) in filtered_items" class="over_flow_no">
+
+<div class="flt_lef" style="width:18%;">
+                            <img src="img/visibility.png" class="visibility">
+</div>
+
+<div class="flt_lef fnt_s36" style="width:51%;">
+{{currentTurn.e1sample}} {{currentTurn.j1sample}}
+</div>
+
+
+<div class="flt_lef" style="width:31%;">
+    {{ currentTurn.letter}}
+</div>
+
+</div>
+
+
+
+
+                    </div>
+
+
+
+
+
+
 
 
                 </div>

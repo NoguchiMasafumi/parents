@@ -265,6 +265,11 @@
     .h256{height:calc((100vw - 48px) * 0.47);}
     .h648{height:648px;}
 
+
+
+    .visibility{
+        width:calc(((100vw - 48px) / 6) - 8px);
+    }
     
 
 }
