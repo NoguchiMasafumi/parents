@@ -269,13 +269,13 @@
                             </div>
                         </div>
 
-                        <div v-for="(currentTurn,index) in weak_items" class="over_flow_no" style="margin-bottom:2px;">
+                        <div v-for="(currentTurn,index) in weak_items" class="over_flow_no bor_c01" style="margin-bottom:1px;border-bottom-width: 1px;border-bottom-style: solid;">
                             <div class="flt_lef" style="width:16%;" @click="visibility_toggle(index)">
-                                <img src="img/visibility.png" class="visibility">
+                                <img src="img/visibility.png" class="visibility" style="margin-top:14px;">
                             </div>
 
 
-                            <div v-if="currentTurn.weak==1" class="caution2_all flt_lef fnt_s36 h144 rad_4" style="width:45%;line-height:110%;padding:2px;">
+                            <div v-if="currentTurn.weak==1" class="caution2_all flt_lef fnt_s36 h144 rad_4" style="width:45%;line-height:110%;padding:2px;margin-bottom: 1px;">
                                 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
                             </div> 
 
@@ -283,7 +283,7 @@
                                 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
                             </div>
 
-                            <div class="flt_lef fnt_s36" style="width:35%;">
+                            <div class="flt_lef fnt_s36" style="width:35%;margin-top:12px;">
                                 <div class="flt_lef pad_t16">（</div>    
                                     <div class="flt_lef tex_cen" style="width:74%;height:24px;">
                                         <span v-bind:id="['letter_'+ index]" class="disp_no fnt_s48">
