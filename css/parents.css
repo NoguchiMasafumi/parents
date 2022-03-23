@@ -264,13 +264,18 @@
         height:24px;  
         float:left;
         text-align: center;
+        font-family: 'Noto Serif JP',serif;
+        line-height:100%;
+        padding-top:6px;
     }
-
+    .round_bracket{
+        padding-top:20px;
+        float: left;
+    }
 
     .letter3_box{
         font-size:calc(((100vw / 4) * 0.9) / 6);
         width:35%;
-        margin-top:12px;
         float:left;
     }
 

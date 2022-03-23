@@ -28096,7 +28096,7 @@ var value = new Vue({
                 tgt.remove('chkd')
             }else{
                 tgt.add('caution2_all')
-            }S
+            }
         },
         visibility_toggle: function(index){
             var tgt=document.getElementById('letter_'+index).classList
