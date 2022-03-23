@@ -235,19 +235,27 @@
 
 
 
-                        <div v-for="(currentTurn,index) in filtered_items" class="over_flow_no">
+                        <div v-for="(currentTurn,index) in filtered_items" class="over_flow_no h144">
 
-<div class="flt_lef" style="width:18%;">
+<div class="flt_lef" style="width:18%;" @click="visibility_toggle(index)">
                             <img src="img/visibility.png" class="visibility">
 </div>
 
-<div class="flt_lef fnt_s36" style="width:51%;">
+<div class="flt_lef fnt_s36" style="width:51%;line-height:110%;">
 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
 </div>
 
 
-<div class="flt_lef" style="width:31%;">
-    {{ currentTurn.letter}}
+<div class="flt_lef fnt_s36" style="width:31%;">
+    
+<div class="flt_lef">（</div>    
+    <div class="flt_lef tex_cen" style="width:60%;height:24px;">
+        <span v-bind:id="['letter_'+ index]" class="disp_no">
+        {{ currentTurn.letter}}
+        </span>
+    </div>
+<div class="flt_lef">）</div>
+
 </div>
 
 </div>

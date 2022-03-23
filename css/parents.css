@@ -270,7 +270,7 @@
     .visibility{
         width:calc(((100vw - 48px) / 6) - 8px);
     }
-    
+
 
 }
 /******************** for smart phone ***************************/
@@ -331,7 +331,7 @@ a{color:#000000;}
 
 
 .disp_blk{display: block;}
-
+.disp_no{display: none;}
 
 
 .lh50p{line-height:50%}

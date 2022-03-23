@@ -28084,8 +28084,14 @@ var value = new Vue({
                 this.view_mode=0
             }
             this.turnIndex=0
-
-
+        },
+        visibility_toggle: function(index){
+            var tgt=document.getElementById('letter_'+index).classList
+            if(tgt.contains('disp_no')==true){
+                tgt.remove('disp_no')
+            }else{
+                tgt.add('disp_no')
+            }
         },
         create_year_group: function(array){
             for (let i = array.length - 1; i > -1; i--) {
