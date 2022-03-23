@@ -28087,6 +28087,17 @@ var value = new Vue({
             }
             this.turnIndex=0
         },
+        sample_toggle: function(index){
+            var tgt=document.getElementById('sample_'+index).classList
+            if(tgt.contains('caution2_all')==true){
+                tgt.remove('caution2_all')
+                tgt.add('chkd')
+            }else if(tgt.contains('chkd')==true){
+                tgt.remove('chkd')
+            }else{
+                tgt.add('caution2_all')
+            }S
+        },
         visibility_toggle: function(index){
             var tgt=document.getElementById('letter_'+index).classList
             if(tgt.contains('disp_no')==true){

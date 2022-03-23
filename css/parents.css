@@ -272,9 +272,6 @@
 
 
 
-    .visibility{
-        width:calc(((100vw - 48px) / 6) - 8px);
-    }
 
     .rad_4{
         border-radius: 4px;
