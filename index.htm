@@ -233,29 +233,33 @@
                             </div>
                         </div>
 
-                        <div v-for="(currentTurn,index) in filtered_items" class="over_flow_no h144">
-                            <div class="flt_lef" style="width:16%;" @click="visibility_toggle(index)">
+                        <div v-for="(currentTurn,index) in filtered_items" class="self_study1">
+                            <div class="flt_lef" @click="visibility_toggle(index)">
                                 <img src="img/visibility.png" class="visibility">
                             </div>
 
-                            <div v-if="currentTurn.weak==1" class="caution2_all flt_lef fnt_s36 h144" style="width:48%;line-height:110%;">
+                            <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
                                 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
                             </div> 
 
-                            <div v-else class="flt_lef fnt_s36 h144" style="width:48%;line-height:110%;">
+                            <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)">
                                 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
                             </div>
 
-                            <div class="flt_lef fnt_s36" style="width:36%;">
+                            <div class="letter3_box">
                                 <div class="flt_lef pad_t16">（</div>    
-                                    <div class="flt_lef tex_cen" style="width:76%;height:24px;">
-                                        <span v-bind:id="['letter_'+ index]" class="disp_no fnt_s48">
+                                    <div class="letter3 fnt_s48">
+                                        <span v-bind:id="['letter_'+ index]" class="disp_no">
                                         {{ currentTurn.letter}}
                                         </span>
                                     </div>
                                 <div class="flt_lef pad_t16">）</div>
                             </div>
                         </div>
+                        <div class="h144">
+                        
+                        </div>
+
                     </div>
 
                     <!-- ************************************************************ -->
@@ -269,30 +273,34 @@
                             </div>
                         </div>
 
-                        <div v-for="(currentTurn,index) in weak_items" class="over_flow_no bor_c01" style="margin-bottom:1px;border-bottom-width: 1px;border-bottom-style: solid;">
-                            <div class="flt_lef" style="width:16%;" @click="visibility_toggle(index)">
-                                <img src="img/visibility.png" style="margin-top:14px;">
+                        <div v-for="(currentTurn,index) in weak_items" class="self_study1">
+                            <div class="flt_lef" @click="visibility_toggle(index)">
+                                <img src="img/visibility.png" class="visibility">
                             </div>
 
 
-                            <div v-bind:id="['sample_'+ index]" v-if="currentTurn.weak==1" class="caution2_all flt_lef fnt_s36 h144 rad_4" style="width:45%;line-height:110%;padding:2px;margin-bottom: 1px;" @click="sample_toggle(index)">
+                            <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
                                 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
                             </div> 
 
-                            <div v-bind:id="['sample_'+ index]" v-else class="flt_lef fnt_s36 h144" style="width:45%;line-height:110%;" @click="sample_toggle(index)">
+                            <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)">
                                 {{currentTurn.e1sample}} {{currentTurn.j1sample}}
                             </div>
 
-                            <div class="flt_lef fnt_s36" style="width:35%;margin-top:12px;">
+                            <div class="letter3_box">
                                 <div class="flt_lef pad_t16">（</div>    
-                                    <div class="flt_lef tex_cen" style="width:74%;height:24px;">
-                                        <span v-bind:id="['letter_'+ index]" class="disp_no fnt_s48">
-                                        {{ currentTurn.letter}}
+                                    <div class="letter3 fnt_s48">
+                                        <span v-bind:id="['letter_'+ index]" class="disp_no">
+                                            {{ currentTurn.letter}}
                                         </span>
                                     </div>
                                 <div class="flt_lef pad_t16">）</div>
                             </div>
                         </div>
+                        <div class="h144">
+                        
+                        </div>
+
                     </div>
 
 

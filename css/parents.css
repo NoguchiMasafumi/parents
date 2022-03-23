@@ -138,6 +138,7 @@
         font-family: 'Noto Serif JP',serif;
         line-height:94%;
         border-radius: 12px;
+        margin-bottom:2px;
     }
 
 
@@ -163,6 +164,7 @@
     .read_sample2{
         font-size:12px;
         height:54px;
+        line-height:110%;
     }
     
     .quest_lef{width:calc((100vw - 48px) * 0.48);}
@@ -203,6 +205,7 @@
 
     .caution2_all{
         background-color: rgb(230, 152, 152);
+        border-radius: 4px;
     }
 
 
@@ -229,6 +232,48 @@
     .mar_t_btn_square_tex2{
         margin-top:calc(((100vw / 4) * 0.9) / 3);
     }
+
+
+
+    .self_study1{
+        border-color:rgb(212, 224, 236);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        margin-bottom:1px;
+        overflow:hidden;
+    }
+
+    .visibility{
+        margin-top: 14px;
+        margin-right:5px;
+    }
+
+    .read_sample3{
+        font-size:calc(((100vw / 4) * 0.9) / 6);
+        height:58px;
+        width:45%;
+        line-height:110%;
+        padding:2px;
+        margin-bottom: 1px;
+        float:left;
+    }
+
+
+    .letter3{
+        width:74%;
+        height:24px;  
+        float:left;
+        text-align: center;
+    }
+
+
+    .letter3_box{
+        font-size:calc(((100vw / 4) * 0.9) / 6);
+        width:35%;
+        margin-top:12px;
+        float:left;
+    }
+
 
     .fnt_s24{font-size:calc(((100vw / 4) * 0.9) / 8);}
     .fnt_s36{font-size:calc(((100vw / 4) * 0.9) / 6);}
@@ -273,9 +318,6 @@
 
 
 
-    .rad_4{
-        border-radius: 4px;
-    }
 }
 /******************** for smart phone ***************************/
 

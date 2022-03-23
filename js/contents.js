@@ -28470,7 +28470,7 @@ var value = new Vue({
                         break;
                     }
                 }
-                this.filtered_cnt=this.shuffle_items.length
+                //this.filtered_cnt=this.shuffle_items.length
                 //return this.shuffle_items[this.turnIndex];
 
                 if(this.filtered_items[this.turnIndex].weak==1){
