@@ -320,13 +320,6 @@
     .h256{height:calc((100vw - 48px) * 0.47);}
     .h648{height:648px;}
 
-    summary {
-        list-style: none;
-    }
-    
-    summary::-webkit-details-marker {
-        display: none;
-    }
 
 
 }
@@ -462,24 +455,31 @@ a{color:#000000;}
 
 .smooth_corner_r41 {
     border-radius: 41px;
-  }
-  @supports (mask-image: paint(smooth-corners)) {
+}
+@supports (mask-image: paint(smooth-corners)) {
     .smooth_corner_r41.is-loaded {
-      border-radius: 0;
-      mask-image: paint(smooth-corners);
-      --smooth-corners: 6.8;
+        border-radius: 0;
+        mask-image: paint(smooth-corners);
+        --smooth-corners: 6.8;
     }
-  }
+}
 
 
 
 
 
-  html {
+html {
     touch-action: manipulation;
-  }
+}
 
 
+summary {
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
 
 
 
