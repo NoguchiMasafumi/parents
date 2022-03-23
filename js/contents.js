@@ -28081,6 +28081,8 @@ var value = new Vue({
             }else if(this.view_mode==3){
                 this.view_mode=4
             }else if(this.view_mode==4){
+                this.view_mode=5
+            }else if(this.view_mode==5){
                 this.view_mode=0
             }
             this.turnIndex=0
@@ -28479,7 +28481,7 @@ var value = new Vue({
                     return this.weak_items[this.turnIndex];
             }else if(this.view_mode==2 || this.view_mode==4){
                 return this.filtered_items;
-            }else if(this.view_mode==3){
+            }else if(this.view_mode==3 || this.view_mode==5){
                 return this.weak_items;
             }
 
