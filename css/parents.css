@@ -67,6 +67,70 @@
         color:rgb(255, 255, 255);
     }
 
+    .caution2_all{
+        background-color: rgb(230, 152, 152);
+        border-radius: 4px;
+    }
+
+
+
+
+
+
+
+    /* ************ PC view 4_5***************** */
+    .self_study1{
+        border-color:rgb(212, 224, 236);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        margin-bottom:2px;
+        overflow:hidden;
+        float:left;
+    }
+
+    .visibility{
+        margin-top:8px;
+        margin-right:8px;
+    }
+
+    .read_sample3{
+        font-size:24px;
+        float:left;
+        width:396px;
+        height:56px;
+        line-height:110%;
+        padding:2px;
+        margin-bottom:2px;
+
+    }
+
+
+    .letter3{
+        float:left;
+        text-align: center;
+        font-family: 'Noto Serif JP',serif;
+        line-height:100%;
+        width:200px;
+        height:24px;
+        padding-top:8px;
+    }
+    .round_bracket{
+        float: left;
+        font-size:24px;
+        padding-top:8px;
+    }
+
+    .letter3_box{
+        font-size:24px;
+        float:left;
+    }
+    .letter3_s108{
+        font-size:24px;
+    }
+    /* ************ PC view 4_5***************** */
+
+
+
     .fnt_s24{font-size:24px;}
     .fnt_s36{font-size:36px;}
     .fnt_s48{font-size:48px;}
@@ -140,10 +204,6 @@
         border-radius: 12px;
         margin-bottom:2px;
     }
-
-
-
-
     @supports (mask-image: paint(smooth-corners)) {
         .letter2.is-loaded {
           border-radius: 0;
@@ -234,7 +294,7 @@
     }
 
 
-
+    /* ************ view 4_5***************** */
     .self_study1{
         border-color:rgb(212, 224, 236);
         border-bottom-width: 1px;
@@ -278,6 +338,10 @@
         width:35%;
         float:left;
     }
+    .letter3_s108{
+        font-size:calc(((100vw / 4) * 0.9) / 2);
+    }
+    /* ************ view 4_5***************** */
 
 
     .fnt_s24{font-size:calc(((100vw / 4) * 0.9) / 8);}
