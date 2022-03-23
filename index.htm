@@ -18,10 +18,35 @@
 
             <div id="header" class="">
                 <!--script src="js/menu.js"></script-->
-                <a href='year_select.htm'>年</a>　
-                <span class="cur_poi" @click="view_toggle()">表示切替</span>　
-                <span>学期</span>　
-                <span>パス</span>
+                <div class="flt_lef mar_r24">
+                    <a href='year_select.htm'>年</a>　
+                </div>
+
+                <!--div class="flt_lef">
+                    <span class="cur_poi" @click="view_toggle()">表示切替</span>　
+                </div-->
+
+                <div class="flt_lef mar_r24">
+                    <details id="detail1" style="z-index: 99;position:relative;background-color: rgb(255,255,255);">
+                        <summary>表示切替</summary>
+                        <div @click="view0()">単_全</div>
+                        <div @click="view1()">単_苦手</div>
+                        <div @click="view2()">一覧_全</div>
+                        <div @click="view3()">一覧_苦手</div>
+                        <div @click="view4()">練習_全</div>
+                        <div @click="view5()">練習_苦手</div>
+                    </details>
+                </div>
+            
+
+
+                <div class="flt_lef mar_r24">
+                    <span>学期</span>　
+                </div>
+
+                <div class="flt_lef">
+                    <span>パス</span>
+                </div>
             </div>
 
 

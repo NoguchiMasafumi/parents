@@ -28087,6 +28087,30 @@ var value = new Vue({
             }
             this.turnIndex=0
         },
+        view0:function(){
+            detail1.open=false
+            this.view_mode=0
+        },
+        view1:function(){
+            detail1.open=false
+            this.view_mode=1
+        },
+        view2:function(){
+            detail1.open=false
+            this.view_mode=2
+        },
+        view3:function(){
+            detail1.open=false
+            this.view_mode=3
+        },
+        view4:function(){
+            detail1.open=false
+            this.view_mode=4
+        },
+        view5:function(){
+            detail1.open=false
+            this.view_mode=5
+        },
         sample_toggle: function(index){
             var tgt=document.getElementById('sample_'+index).classList
             if(tgt.contains('caution2_all')==true){

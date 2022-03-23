@@ -320,7 +320,13 @@
     .h256{height:calc((100vw - 48px) * 0.47);}
     .h648{height:648px;}
 
-
+    summary {
+        list-style: none;
+    }
+    
+    summary::-webkit-details-marker {
+        display: none;
+    }
 
 
 }
