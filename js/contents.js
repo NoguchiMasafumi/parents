@@ -28033,50 +28033,106 @@ var value = new Vue({
             this.rest_clss()
         },
         jud_o: function(array,index){
-            this.v_cau="chkd"
 
             if(this.view_mode==0){
                 this.filtered_items[this.turnIndex].weak="9"
+                arc1=this.filtered_items
+                arc2=this.weak_items
             }else{
                 this.weak_items[this.turnIndex].weak="9"
+                arc1=this.weak_items
+                arc2=this.filtered_items
             }
-        
+            int_chk1=0
+            for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
+                if(arc2[int_loop1].letter==arc1[this.turnIndex].letter){
+                    int_chk1=1
+                    arc2[int_loop1].weak="9"
+                    break;
+                }
+            }
         },
         jud_x: function(index){
             this.v_cau="caution1"
             if(this.view_mode==0){
                 this.filtered_items[this.turnIndex].weak="1"
+                arc1=this.filtered_items
+                arc2=this.weak_items
             }else{
                 this.weak_items[this.turnIndex].weak="9"
+                arc1=this.weak_items
+                arc2=this.filtered_items
             }
+            int_chk1=0
+            for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
+                if(arc2[int_loop1].letter==arc1[this.turnIndex].letter){
+                    int_chk1=1
+                    arc2[int_loop1].weak="1"
+                    break;
+                }
+            }
+            if(int_chk1==0){
+                arc2.push(arc1[this.turnIndex])
+                if(this.view_mode==0){
+                    this.weak_cnt++
+                }
+
+            }
+
+
+
         },
         jud_cxl: function(index){
             this.v_cau=""
             if(this.view_mode==0){
                 this.filtered_items[this.turnIndex].weak=""
+                arc1=this.filtered_items
+                arc2=this.weak_items
+
             }else{
-                this.weak_items[this.turnIndex].weak="9"
+                this.weak_items[this.turnIndex].weak=""
+                arc1=this.weak_items
+                arc2=this.filtered_items
+
             }
+            int_chk1=0
+            for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
+                if(arc2[int_loop1].letter==arc1[this.turnIndex].letter){
+                    int_chk1=1
+                    arc2[int_loop1].weak=""
+                    break;
+                }
+            }
+
+
+
 
         },
         rtn_toggle: function(index){
             var tgt=document.getElementById('letter_'+index).classList
 
-            if(this.view_mode==3){
-                if(tgt.contains('caution1_all')==true){
-                    tgt.remove('caution1_all')
+            var str_caution_class='caution1_all'
+
+            if(this.view_mode==0 || this.view_mode==1){
+                str_caution_class='caution1'
+            }
+
+
+            if(this.view_mode==1 || this.view_mode==3){
+                if(tgt.contains(str_caution_class)==true){
+                    tgt.remove(str_caution_class)
                     tgt.add('chkd')
                 }else if(tgt.contains('chkd')==true){
                     tgt.remove('chkd')
                 }else{
-                    tgt.add('caution1_all')
+                    tgt.add(str_caution_class)
                 }
             }else{
-                if(tgt.contains('caution1_all')==true){
-                    tgt.remove('caution1_all')
+                if(tgt.contains(str_caution_class)==true){
+                    tgt.remove(str_caution_class)
                 }else if(tgt.contains('chkd')==true){
                     tgt.remove('chkd')
-                    tgt.add('caution1_all')
+                    tgt.add(str_caution_class)
                 }else{
                     tgt.add('chkd')
                 }
@@ -28102,26 +28158,32 @@ var value = new Vue({
         },
         view0:function(){
             detail1.open=false
+            this.turnIndex=0
             this.view_mode=0
         },
         view1:function(){
             detail1.open=false
+            this.turnIndex=0
             this.view_mode=1
         },
         view2:function(){
             detail1.open=false
+            this.turnIndex=0
             this.view_mode=2
         },
         view3:function(){
             detail1.open=false
+            this.turnIndex=0
             this.view_mode=3
         },
         view4:function(){
             detail1.open=false
+            this.turnIndex=0
             this.view_mode=4
         },
         view5:function(){
             detail1.open=false
+            this.turnIndex=0
             this.view_mode=5
         },
         sample_toggle: function(index){

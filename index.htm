@@ -88,10 +88,17 @@
 
                         <div class="over_flow_no">
 
-                            <div v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15" v-bind:class="[v_cau]">
+                            <div v-if="currentTurn.weak==1" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi caution1" @click="rtn_toggle(turnIndex)">
+                                {{ currentTurn.letter }}
+                            </div>                            
+
+                            <div v-else-if="currentTurn.weak==9" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi chkd" @click="rtn_toggle(turnIndex)">
                                 {{ currentTurn.letter }}
                             </div>                            
                             
+                            <div v-else v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi" @click="rtn_toggle(turnIndex)">
+                                {{ currentTurn.letter }}
+                            </div>                            
                             
                             
                             <div class="flt_lef mar_b15 quest_rig">
