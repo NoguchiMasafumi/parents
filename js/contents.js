@@ -4183,7 +4183,7 @@ var value = new Vue({
                 part:'又',
                 weak:'',
                 etc2:'',
-                e1read:'ジュ',e1sample:'受諾、受験、甘受',e2read:'う-ける',e2sample:'受ける、受付',e3read:'う-かる',e3sample:'受かる',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'ジュ',e1sample:'受諾、受験、甘受',e2read:'う-ける',e2sample:'受ける',e3read:'う-かる',e3sample:'受かる',e4read:'うけ-る',e4sample:'受付',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8369,7 +8369,7 @@ var value = new Vue({
                 part:'艹',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'いばら',e1sample:'茨城',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8382,7 +8382,7 @@ var value = new Vue({
                 part:'女',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'ひめ',e1sample:'愛媛',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8395,7 +8395,7 @@ var value = new Vue({
                 part:'山',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'おか',e1sample:'岡山、静岡、福岡',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8408,7 +8408,7 @@ var value = new Vue({
                 part:'氵',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'がた',e1sample:'新潟',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8421,7 +8421,7 @@ var value = new Vue({
                 part:'⼭',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'ぎ',e1sample:'岐阜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8434,7 +8434,7 @@ var value = new Vue({
                 part:'⺣',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'くま',e1sample:'熊本',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8447,7 +8447,7 @@ var value = new Vue({
                 part:'香',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'か',e1sample:'香川',e2read:'かお-り',e2sample:'香り',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8460,7 +8460,7 @@ var value = new Vue({
                 part:'亻',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'さ',e1sample:'佐賀',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8473,7 +8473,7 @@ var value = new Vue({
                 part:'土',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'さい',e1sample:'埼玉',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8486,7 +8486,7 @@ var value = new Vue({
                 part:'山',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'さき',e1sample:'長崎',e2read:'ざき',e2sample:'宮崎',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8499,7 +8499,7 @@ var value = new Vue({
                 part:'氵',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'し',e1sample:'滋賀',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8512,7 +8512,7 @@ var value = new Vue({
                 part:'鹿',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'か',e1sample:'鹿児島',e2read:'しか',e2sample:'鹿せんべい',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8525,7 +8525,7 @@ var value = new Vue({
                 part:'糸',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'なわ',e1sample:'沖縄',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8538,7 +8538,7 @@ var value = new Vue({
                 part:'二',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'い',e1sample:'福井',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8551,7 +8551,7 @@ var value = new Vue({
                 part:'氵',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'おき',e1sample:'沖縄',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8564,7 +8564,7 @@ var value = new Vue({
                 part:'木',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'とち',e1sample:'栃木',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8577,7 +8577,7 @@ var value = new Vue({
                 part:'大',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'な',e1sample:'奈良',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8590,7 +8590,7 @@ var value = new Vue({
                 part:'木',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'なし',e1sample:'山梨',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8603,7 +8603,7 @@ var value = new Vue({
                 part:'阝',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'さか',e1sample:'大阪',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -8616,7 +8616,7 @@ var value = new Vue({
                 part:'阜',
                 weak:'',
                 etc2:'',
-                e1read:'',e1sample:'',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
+                e1read:'ふ',e1sample:'岐阜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
             },
@@ -28061,14 +28061,27 @@ var value = new Vue({
         },
         rtn_toggle: function(index){
             var tgt=document.getElementById('letter_'+index).classList
-            if(tgt.contains('caution1_all')==true){
-                tgt.remove('caution1_all')
-                tgt.add('chkd')
-            }else if(tgt.contains('chkd')==true){
-                tgt.remove('chkd')
+
+            if(this.view_mode==3){
+                if(tgt.contains('caution1_all')==true){
+                    tgt.remove('caution1_all')
+                    tgt.add('chkd')
+                }else if(tgt.contains('chkd')==true){
+                    tgt.remove('chkd')
+                }else{
+                    tgt.add('caution1_all')
+                }
             }else{
-                tgt.add('caution1_all')
+                if(tgt.contains('caution1_all')==true){
+                    tgt.remove('caution1_all')
+                }else if(tgt.contains('chkd')==true){
+                    tgt.remove('chkd')
+                    tgt.add('caution1_all')
+                }else{
+                    tgt.add('chkd')
+                }
             }
+
         },
         view_toggle: function(){
             //console.log(this.view_mode)
@@ -28113,22 +28126,44 @@ var value = new Vue({
         },
         sample_toggle: function(index){
             var tgt=document.getElementById('sample_'+index).classList
-            if(tgt.contains('caution2_all')==true){
-                tgt.remove('caution2_all')
-                tgt.add('chkd')
-            }else if(tgt.contains('chkd')==true){
-                tgt.remove('chkd')
+
+            if(this.view_mode==5){
+                if(tgt.contains('caution2_all')==true){
+                    tgt.remove('caution2_all')
+                    tgt.add('chkd')
+                }else if(tgt.contains('chkd')==true){
+                    tgt.remove('chkd')
+                }else{
+                    tgt.add('caution2_all')
+                }
             }else{
-                tgt.add('caution2_all')
+                if(tgt.contains('caution2_all')==true){
+                    tgt.remove('caution2_all')
+                }else if(tgt.contains('chkd')==true){
+                    tgt.remove('chkd')
+                    tgt.add('caution2_all')
+                }else{
+                    tgt.add('chkd')
+                }
             }
+
+
         },
-        visibility_toggle: function(index){
-            var tgt=document.getElementById('letter_'+index).classList
-            if(tgt.contains('disp_no')==true){
-                tgt.remove('disp_no')
+        visibility_toggle: function(mode,index){
+            if(mode=="filtered"){
+                arc=this.filtered_items
             }else{
-                tgt.add('disp_no')
+                arc=this.weak_items
             }
+
+            if(arc[index].etc2==''){
+                arc[index].etc2=1
+            }else{
+                arc[index].etc2=''
+            }
+
+
+
         },
         create_year_group: function(array){
             for (let i = array.length - 1; i > -1; i--) {
