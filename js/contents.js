@@ -28195,10 +28195,10 @@ var value = new Vue({
                 }
             }
             int_chk1=0
-            console.log(arc2.length)
+            //console.log(arc2.length)
             for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
                 
-                console.log(arc2[int_loop1].letter +" " +arc1[index].letter)
+                //console.log(arc2[int_loop1].letter +" " +arc1[index].letter)
                 if(arc2[int_loop1].letter==arc1[index].letter){
 
                     int_chk1=1
