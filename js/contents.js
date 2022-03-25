@@ -28195,8 +28195,12 @@ var value = new Vue({
                 }
             }
             int_chk1=0
+            console.log(arc2.length)
             for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
+                
+                console.log(arc2[int_loop1].letter +" " +arc1[index].letter)
                 if(arc2[int_loop1].letter==arc1[index].letter){
+
                     int_chk1=1
                     arc2[int_loop1].weak=str_decide1
                     break;
@@ -28204,9 +28208,9 @@ var value = new Vue({
             }
             //無くて=int_chk1　caution1=x=赤化　で　arc2に　letter　が存在しなかったら。無かったっつってるだろ。
             if(int_chk1==0 && str_decide1==1){
-                arc2.push(arc1[this.turnIndex])
+                arc2.push(arc1[index])
                 //if(this.view_mode==0){
-                    this.weak_cnt++
+                this.weak_cnt++
                 //}
             }
 
