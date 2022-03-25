@@ -44,47 +44,44 @@
                     <span>学期</span>　
                 </div>
 
-                <div class="flt_lef">
-                    <span>パス</span>
+                <div class="flt_lef" @click="create_status_now()">
+                    <span>URL</span>
                 </div>
             </div>
 
 
             <div id="content" v-cloak>
-                <div class="fnt_s12">
-                    {{status_info}}
-                </div>
+                <!-- ****************************************************************************************** -->
+                <div v-if="!completed && create_url!=1">
 
-
-                <!-- ************************************************************ -->
-                <div v-if="view_mode==0 || view_mode==1">
-
-
-                    <div v-if="view_mode==0 && !completed" class="over_flow_no mar_b10">
-                        <div class="count_font flt_lef mar_r48">
-                            {{ turnIndex+1 }} / {{ filtered_cnt }}
-                        </div>
-
-                        <div class="url_prop">
-                            {{this.url_prop}}
-                        </div>
-
+                    <div class="fnt_s12">
+                        {{status_info}}
                     </div>
+    
 
-                    <div v-if="view_mode==1 && !completed" class="over_flow_no mar_b10">
-                        <div class="count_font flt_lef mar_r48">
-                            {{ turnIndex+1 }} / {{ weak_cnt }}
+
+                    <div v-if="view_mode==0 || view_mode==1">
+
+                        <div v-if="view_mode==0" class="over_flow_no mar_b10">
+                            <div class="count_font flt_lef mar_r48">
+                                {{ turnIndex+1 }} / {{ filtered_cnt }}
+                            </div>
+    
+                            <div class="url_prop">
+                                {{this.url_prop}}
+                            </div>
+    
                         </div>
-                        <div class="url_prop">
-                            {{this.url_prop}}
+    
+                        <div v-if="view_mode==1" class="over_flow_no mar_b10">
+                            <div class="count_font flt_lef mar_r48">
+                                {{ turnIndex+1 }} / {{ weak_cnt }}
+                            </div>
+                            <div class="url_prop">
+                                {{this.url_prop}}
+                            </div>
+    
                         </div>
-
-                    </div>
-
-
-
-                    <div v-if="!completed">
-
 
                         <div class="over_flow_no">
 
@@ -105,7 +102,7 @@
                                 <div class="fnt_s12 school_year_semester">
                                     {{ currentTurn.school}}{{ currentTurn.year}}
                                     <span v-if="currentTurn.semester!=''">
-                                         Semester{{ currentTurn.semester}}
+                                        Semester{{ currentTurn.semester}}
                                     </span>
                                 </div>
 
@@ -157,207 +154,240 @@
                         <div class="btn-radius-solid h60 tex_cen btn_banner1 mar_b24 jud_cxl cur_poi" @click="jud_cxl()">
                             <div class="fnt_s32 lh100p mar_t12 fnt_c00">cancel</div>
                         </div>
-
-
-                    </div>
-                    <div class="w100p" v-if="completed">
-
-
-
-                        <div class="fnt_s32 mar_b24">
-                            <span v-if="view_mode==0">
-                                {{ filtered_items.length }}
-                            </span>
-                            <span v-else=>
-                                {{ weak_items.length }}
-                            </span>
-                            問 終了です！</div>
-
-
-                        <div class="fnt_s16 mar_b24">
-                            <a v-bind:href="[current_url]">今回の結果を反映させたURLはこちら</a>
-                        </div>
-
-                        <div class="fnt_s12 over_flow_wrap_any mar_b24">
-                            <a v-bind:href="[current_url]">{{current_url}}</a>
-                        </div>
-
-
-                        <div class="btn-radius-solid btn_square1 tex_cen mar_r48 flt_lef cur_poi" @click="reduceAnswer()">
-                            <div class="fnt_s48 lh100p mar_t15 fnt_c00"><</div>
-                            <div class="fnt_s16 fnt_c00">もどる</div>
-                        </div>
-                        <div class="btn-radius-solid btn_square1 tex_cen flt_lef cur_poi" @click="back_to_first()">
-                            <div class="fnt_s16 lh100p mar_t32 fnt_c00">はじめに</div>
-                            <div class="fnt_s16 fnt_c00">もどる</div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <!-- ************************************************************ -->
-                <div v-else-if="view_mode==2">
-
-
-                    <div class="over_flow_no mar_b10">
-                        <div class="count_font flt_lef mar_r48">
-                            {{ filtered_cnt }}
-                        </div>
-
-                        <div class="url_prop">
-                            {{this.url_prop}}
-                        </div>
                     </div>
 
 
 
-                    <div v-for="(currentTurn,index) in filtered_items">
-                        <div class="flt_lef tex_cen letter2_box">
-                            <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
-                                {{ currentTurn.letter}}
+
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==2">
+
+
+                        <div class="over_flow_no mar_b10">
+                            <div class="count_font flt_lef mar_r48">
+                                {{ filtered_cnt }}
                             </div>
 
-                            <div v-else class="letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
-                                {{ currentTurn.letter}}
+                            <div class="url_prop">
+                                {{this.url_prop}}
+                            </div>
+                        </div>
+
+
+
+                        <div v-for="(currentTurn,index) in filtered_items">
+                            <div class="flt_lef tex_cen letter2_box">
+
+
+                                <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else-if="currentTurn.weak==9" class="chkd letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else class="letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div class="read_sample2" @click="rtn_toggle(index)">
+                                    {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==3">
+                        <div class="over_flow_no mar_b10">
+                            <div class="count_font flt_lef mar_r48">
+                                {{ weak_cnt }}
+                            </div>
+                            <div class="url_prop">
+                                {{this.url_prop}}
+                            </div>
+                        </div>
+                        <!-- ************* -->
+                        <div v-for="(currentTurn,index) in weak_items">
+                            <div class="flt_lef tex_cen letter2_box">
+
+                                <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else-if="currentTurn.weak==9" class="chkd letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else class="letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div class="read_sample2" @click="rtn_toggle(index)">
+                                    {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==4">
+                        <div class="over_flow_no mar_b10">
+                            <div class="count_font flt_lef mar_r48">
+                                {{ filtered_cnt }}
+                            </div>
+                            <div class="url_prop">
+                                {{this.url_prop}}
+                            </div>
+                        </div>
+
+                        <div v-for="(currentTurn,index) in filtered_items" class="self_study1">
+                            <div class="flt_lef">
+                                <img src="img/visibility.png" class="visibility" @click="visibility_toggle('filtered',index)">
                             </div>
 
-                            <div class="read_sample2" @click="rtn_toggle(index)">
+                            <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
+                                {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                            </div> 
+
+                            <div v-else-if="currentTurn.weak==9" v-bind:id="['sample_'+ index]" class="chkd read_sample3" @click="sample_toggle(index)">
+                                {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                            </div> 
+
+                            <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)">
                                 {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
                             </div>
-                        </div>
-                    </div>
-                </div>
 
+                            <div class="letter3_box cur_poi" @click="visibility_toggle('filtered',index)">
+                                <div class="round_bracket">（</div>    
+                                    <div class="letter3 letter3_s108">
 
-                <!-- ************************************************************ -->
-                <div v-else-if="view_mode==3">
-                    <div class="over_flow_no mar_b10">
-                        <div class="count_font flt_lef mar_r48">
-                            {{ weak_cnt }}
+                                        <span v-if="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
+                                            {{ currentTurn.letter}}
+                                        </span>
+                                        <span v-else="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]">
+                                            {{ currentTurn.letter}}
+                                        </span>
+
+                                    </div>
+                                <div class="round_bracket">）</div>
+                            </div>
                         </div>
-                        <div class="url_prop">
-                            {{this.url_prop}}
+                        <div class="h60">
+                        
                         </div>
+
                     </div>
-                    <!-- ************* -->
-                    <div v-for="(currentTurn,index) in weak_items">
-                        <div class="flt_lef tex_cen letter2_box">
-                            <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
-                                {{ currentTurn.letter}}
+
+                    <!-- ************************************************************ -->
+                    <div v-else-if="view_mode==5">
+                        <div class="over_flow_no mar_b10">
+                            <div class="count_font flt_lef mar_r48">
+                                {{weak_cnt}}
+                            </div>
+                            <div class="url_prop">
+                                {{this.url_prop}}
+                            </div>
+                        </div>
+
+                        <div v-for="(currentTurn,index) in weak_items" class="self_study1">
+                            <div class="flt_lef">
+                                <img src="img/visibility.png" class="visibility" @click="visibility_toggle('weak',index)">
                             </div>
 
-                            <div v-else class="letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
-                                {{ currentTurn.letter}}
-                            </div>
 
-                            <div class="read_sample2" @click="rtn_toggle(index)">
+                            <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
+                                {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                            </div> 
+
+                            <div v-else-if="currentTurn.weak==9" v-bind:id="['sample_'+ index]" class="chkd read_sample3" @click="sample_toggle(index)">
+                                {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                            </div> 
+
+                            <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)">
                                 {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
                             </div>
+
+                            <div class="letter3_box cur_poi" @click="visibility_toggle('weak',index)">
+                                <div class="round_bracket">（</div>    
+                                    <div class="letter3 letter3_s108">
+
+
+
+                                        <span v-if="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
+                                            {{ currentTurn.letter}}
+                                        </span>
+                                        <span v-else="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]">
+                                            {{ currentTurn.letter}}
+                                        </span>
+
+
+                                    </div>
+                                <div class="round_bracket">）</div>
+                            </div>
                         </div>
+                        <div class="h60">
+                        
+                        </div>
+
                     </div>
-                </div>
 
-                <!-- ************************************************************ -->
-                <div v-else-if="view_mode==4">
-                    <div class="over_flow_no mar_b10">
-                        <div class="count_font flt_lef mar_r48">
-                            {{ filtered_cnt }}
-                        </div>
-                        <div class="url_prop">
-                            {{this.url_prop}}
-                        </div>
-                    </div>
 
-                    <div v-for="(currentTurn,index) in filtered_items" class="self_study1">
-                        <div class="flt_lef">
-                            <img src="img/visibility.png" class="visibility" @click="visibility_toggle('filtered',index)">
-                        </div>
 
-                        <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
-                            {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
-                        </div> 
 
-                        <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)">
-                            {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
-                        </div>
 
-                        <div class="letter3_box cur_poi" @click="visibility_toggle('filtered',index)">
-                            <div class="round_bracket">（</div>    
-                                <div class="letter3 letter3_s108">
 
-                                    <span v-if="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
-                                        {{ currentTurn.letter}}
-                                    </span>
-                                    <span v-else="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]">
-                                        {{ currentTurn.letter}}
-                                    </span>
 
-                                </div>
-                            <div class="round_bracket">）</div>
-                        </div>
-                    </div>
-                    <div class="h60">
-                    
-                    </div>
+
+
+
+
+
+
+
+
+
+
+
 
                 </div>
 
-                <!-- ************************************************************ -->
-                <div v-else-if="view_mode==5">
-                    <div class="over_flow_no mar_b10">
-                        <div class="count_font flt_lef mar_r48">
-                            {{weak_cnt}}
-                        </div>
-                        <div class="url_prop">
-                            {{this.url_prop}}
-                        </div>
+                <!-- ****************************************************************************************** -->
+                <div v-if="completed || create_url==1">
+                    <div v-if="view_mode==0 || view_mode==1" class="fnt_s32 mar_b24">
+
+
+                        <span v-if="view_mode==0">
+                            {{ filtered_items.length }}
+                        </span>
+                        <span v-else>
+                            {{ weak_items.length }}
+                        </span>
+                        問 終了です！
                     </div>
 
-                    <div v-for="(currentTurn,index) in weak_items" class="self_study1">
-                        <div class="flt_lef">
-                            <img src="img/visibility.png" class="visibility" @click="visibility_toggle('weak',index)">
-                        </div>
 
-
-                        <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
-                            {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
-                        </div> 
-
-                        <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)">
-                            {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
-                        </div>
-
-                        <div class="letter3_box cur_poi" @click="visibility_toggle('weak',index)">
-                            <div class="round_bracket">（</div>    
-                                <div class="letter3 letter3_s108">
-
-
-
-                                    <span v-if="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
-                                        {{ currentTurn.letter}}
-                                    </span>
-                                    <span v-else="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]">
-                                        {{ currentTurn.letter}}
-                                    </span>
-
-
-                                </div>
-                            <div class="round_bracket">）</div>
-                        </div>
-                    </div>
-                    <div class="h60">
-                    
+                    <div class="fnt_s16 mar_b24">
+                        <a v-bind:href="[current_url]">今回の結果を反映させたURLはこちら</a>
                     </div>
 
+                    <div class="fnt_s12 over_flow_wrap_any mar_b24">
+                        <a v-bind:href="[current_url]">{{current_url}}</a>
+                    </div>
+
+
+                    <div class="btn-radius-solid btn_square1 tex_cen mar_btn_square1 flt_lef cur_poi" @click="reduceAnswer()">
+                        <div class="btn_square_tex1 lh100p fnt_c00"><</div>
+                        <div class="btn_square_tex2 fnt_c00">もどる</div>
+                    </div>
+
+                    <div class="btn-radius-solid btn_square1 tex_cen flt_lef cur_poi" @click="back_to_first()">
+                        <div class="fnt_s16 lh100p mar_t32 fnt_c00">はじめに</div>
+                        <div class="fnt_s16 fnt_c00">もどる</div>
+                    </div>
                 </div>
-
-
-
-
-
-
 
             </div>
         </div>

@@ -27812,6 +27812,7 @@ var value = new Vue({
         ],
         v_cau:'',
         v_cau_all:'',
+        create_url:'',
         part_items:[
             {part:'一',part_name:'イチ'},
             {part:'口',part_name:'くち くちへん'},
@@ -28071,6 +28072,9 @@ var value = new Vue({
                     break;
                 }
             }
+
+
+            //無くて=int_chk1　caution1=x=赤化　で　arc2に　letter　が存在しなかったら。無かったっつってるだろ。
             if(int_chk1==0){
                 arc2.push(arc1[this.turnIndex])
                 if(this.view_mode==0){
@@ -28109,38 +28113,107 @@ var value = new Vue({
 
         },
         rtn_toggle: function(index){
-            var tgt=document.getElementById('letter_'+index).classList
-
-            var str_caution_class='caution1_all'
-
-            if(this.view_mode==0 || this.view_mode==1){
-                str_caution_class='caution1'
-            }
-
-
-            if(this.view_mode==1 || this.view_mode==3){
-                if(tgt.contains(str_caution_class)==true){
-                    tgt.remove(str_caution_class)
-                    tgt.add('chkd')
-                }else if(tgt.contains('chkd')==true){
-                    tgt.remove('chkd')
-                }else{
-                    tgt.add(str_caution_class)
-                }
+            if(this.view_mode==0 || this.view_mode==2){
+                arc1=this.filtered_items
+                arc2=this.weak_items
             }else{
-                if(tgt.contains(str_caution_class)==true){
-                    tgt.remove(str_caution_class)
-                }else if(tgt.contains('chkd')==true){
-                    tgt.remove('chkd')
-                    tgt.add(str_caution_class)
+                arc1=this.weak_items
+                arc2=this.filtered_items
+            }
+
+            //*************** 右回り ************** */
+            var str_decide1='';
+            if(this.view_mode==0 || this.view_mode==2){
+                if(arc1[index].weak=='' || arc1[index].weak=='0'){
+                    arc1[index].weak='9'
+                    str_decide1='9'
+                }else if(arc1[index].weak=='9'){
+                    arc1[index].weak='1'
+                    str_decide1='1'
                 }else{
-                    tgt.add('chkd')
+                    arc1[index].weak=''
+                }
+            //*************** 左回り ************** */
+            }else{
+                if(arc1[index].weak=='' || arc1[index].weak=='0'){
+                    arc1[index].weak='1'
+                    str_decide1='1'
+                }else if(arc1[index].weak=='1'){
+                    arc1[index].weak='9'
+                    str_decide1='9'
+                }else{
+                    arc1[index].weak=''
                 }
             }
+            int_chk1=0
+            for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
+                if(arc2[int_loop1].letter==arc1[index].letter){
+                    int_chk1=1
+                    arc2[int_loop1].weak=str_decide1
+                    break;
+                }
+            }
+            //無くて=int_chk1　caution1=x=赤化　で　arc2に　letter　が存在しなかったら。無かったっつってるだろ。
+            if(int_chk1==0 && str_decide1==1){
+                arc2.push(arc1[this.turnIndex])
+                //if(this.view_mode==0){
+                    this.weak_cnt++
+                //}
+            }
+        },
+        sample_toggle: function(index){
+            if(this.view_mode==4){
+                arc1=this.filtered_items
+                arc2=this.weak_items
+            }else{
+                arc1=this.weak_items
+                arc2=this.filtered_items
+            }
+
+            //*************** 右回り ************** */
+            var str_decide1='';
+            if(this.view_mode==4){
+                if(arc1[index].weak=='' || arc1[index].weak=='0'){
+                    arc1[index].weak='9'
+                    str_decide1='9'
+                }else if(arc1[index].weak=='9'){
+                    arc1[index].weak='1'
+                    str_decide1='1'
+                }else{
+                    arc1[index].weak=''
+                }
+            //*************** 左回り ************** */
+            }else{
+                if(arc1[index].weak=='' || arc1[index].weak=='0'){
+                    arc1[index].weak='1'
+                    str_decide1='1'
+                }else if(arc1[index].weak=='1'){
+                    arc1[index].weak='9'
+                    str_decide1='9'
+                }else{
+                    arc1[index].weak=''
+                }
+            }
+            int_chk1=0
+            for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
+                if(arc2[int_loop1].letter==arc1[index].letter){
+                    int_chk1=1
+                    arc2[int_loop1].weak=str_decide1
+                    break;
+                }
+            }
+            //無くて=int_chk1　caution1=x=赤化　で　arc2に　letter　が存在しなかったら。無かったっつってるだろ。
+            if(int_chk1==0 && str_decide1==1){
+                arc2.push(arc1[this.turnIndex])
+                //if(this.view_mode==0){
+                    this.weak_cnt++
+                //}
+            }
+
+
 
         },
         view_toggle: function(){
-            //console.log(this.view_mode)
             if(this.view_mode==0){
                 this.view_mode=1
             }else if(this.view_mode==1){
@@ -28160,56 +28233,55 @@ var value = new Vue({
             detail1.open=false
             this.turnIndex=0
             this.view_mode=0
+            this.create_url=''
         },
         view1:function(){
             detail1.open=false
             this.turnIndex=0
             this.view_mode=1
+            this.create_url=''
         },
         view2:function(){
             detail1.open=false
             this.turnIndex=0
             this.view_mode=2
+            this.create_url=''
         },
         view3:function(){
             detail1.open=false
             this.turnIndex=0
             this.view_mode=3
+            this.create_url=''
         },
         view4:function(){
             detail1.open=false
             this.turnIndex=0
             this.view_mode=4
+            this.create_url=''
         },
         view5:function(){
             detail1.open=false
             this.turnIndex=0
             this.view_mode=5
+            this.create_url=''
         },
-        sample_toggle: function(index){
-            var tgt=document.getElementById('sample_'+index).classList
+        create_status_now: function(){
 
-            if(this.view_mode==5){
-                if(tgt.contains('caution2_all')==true){
-                    tgt.remove('caution2_all')
-                    tgt.add('chkd')
-                }else if(tgt.contains('chkd')==true){
-                    tgt.remove('chkd')
-                }else{
-                    tgt.add('caution2_all')
-                }
+            console.log("11")
+
+            console.log(this.shuffled)
+            this.create_status_code()
+
+            this.create_url=1;
+
+            if(this.view_mode==0 || this.view_mode==2 || this.view_mode==4){
+                this.turnIndex=this.filtered_items.length
+                //return (this.filtered_items.length == this.turnIndex++);
             }else{
-                if(tgt.contains('caution2_all')==true){
-                    tgt.remove('caution2_all')
-                }else if(tgt.contains('chkd')==true){
-                    tgt.remove('chkd')
-                    tgt.add('caution2_all')
-                }else{
-                    tgt.add('chkd')
-                }
+                this.turnIndex=this.weak_items.length
+                //return (this.weak_items.length == this.turnIndex++);
+
             }
-
-
         },
         visibility_toggle: function(mode,index){
             if(mode=="filtered"){
@@ -28285,21 +28357,21 @@ var value = new Vue({
                 let int_weak=0
                 let int_exist1=0
 
-                if(this.view_mode==0){
+                if(this.view_mode==0 || this.view_mode==2 || this.view_mode==4){
                     for (let int_loop2 = 0; int_loop2 < this.filtered_items.length; int_loop2++) {
                         if(this.year_group[int_loop1].letter == this.filtered_items[int_loop2].letter){
-                            if(this.answers[int_loop2].length!=0){
-                                int_weak=this.answers[int_loop2]
+                            if(this.filtered_items[int_loop2].weak==1){
+                                int_weak=1
                                 int_exist1=1
                                 break
                             }
                         }
                     }
-                }else if(this.view_mode==1){
+                }else if(this.view_mode==1 || this.view_mode==3 || this.view_mode==5){
                     for (let int_loop2 = 0; int_loop2 < this.weak_items.length; int_loop2++) {
                         if(this.year_group[int_loop1].letter == this.weak_items[int_loop2].letter){
-                            if(this.answers[int_loop2].length!=0){
-                                int_weak=this.answers[int_loop2]
+                            if(this.weak_items[int_loop2].weak==1){
+                                int_weak=1
                                 int_exist1=1
                                 break
                             }
@@ -28617,7 +28689,10 @@ var value = new Vue({
                 return this.weak_items;
             }
 
+            //if(this.create_url==1){
 
+            //    console.log("dd")
+            //}
 
         },
         completed: function() {
@@ -28630,7 +28705,7 @@ var value = new Vue({
 
                 if(this.view_mode==0){
                     if(this.filtered_items.length==this.turnIndex){
-                        console.log("gg")
+                        //console.log("gg")
                         this.create_status_code()
                         return this.current_url
                     } 
@@ -28638,7 +28713,7 @@ var value = new Vue({
                     return (this.filtered_items.length == this.turnIndex);
                 }else if(this.view_mode==1){
                     if(this.weak_items.length==this.turnIndex){
-                        console.log("gg")
+                        //console.log("gg")
                         this.create_status_code()
                         return this.current_url
                     } 
