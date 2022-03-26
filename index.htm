@@ -16,34 +16,38 @@
 
         <div id="app">
 
-            <div id="header" class="">
+            <div id="header">
                 <!--script src="js/menu.js"></script-->
                 <!--div class="flt_lef">
                     <span class="cur_poi" @click="view_toggle()">表示切替</span>　
                 </div-->
 
                 <div class="flt_lef mar_r24">
-                    <details class="cur_poi" id="detail1" style="z-index: 99;position:relative;background-color: rgb(255,255,255);">
+                    <details class="cur_poi" id="detail1" style="background-color: rgb(255,255,255);">
                         <summary>表示切替</summary>
-                        <div @click="view0()">単_全</div>
-                        <div @click="view1()">単_苦手</div>
-                        <div @click="view2()">一覧_全</div>
-                        <div @click="view3()">一覧_苦手</div>
-                        <div @click="view4()">練習_全</div>
-                        <div @click="view5()">練習_苦手</div>
+                        <div class="summary_contents bor_c03 bor_w1 shd2_9">
+                            <div @click="view0()">単_全</div>
+                            <div @click="view1()">単_苦手</div>
+                            <div @click="view2()">一覧_全</div>
+                            <div @click="view3()">一覧_苦手</div>
+                            <div @click="view4()">練習_全</div>
+                            <div @click="view5()">練習_苦手</div>
+                        </div>
                     </details>
                 </div>
             
                 <div class="flt_lef mar_r24">
-                    <details class="cur_poi" id="year1" style="z-index: 99;position:relative;background-color: rgb(255,255,255);">
+                    <details class="cur_poi" id="year1" style="background-color: rgb(255,255,255);">
                         <summary>年</summary>
-                        <div @click="change_disp('Elementary','1')">小1</div>
-                        <div @click="change_disp('Elementary','2')">小2</div>
-                        <div @click="change_disp('Elementary','3')">小3</div>
-                        <div @click="change_disp('Elementary','4')">小4</div>
-                        <div @click="change_disp('Elementary','5')">小5</div>
-                        <div @click="change_disp('Elementary','6')">小6</div>
-                        <div @click="change_disp('Junior_High','')">中学</div>
+                        <div class="summary_contents bor_c03 bor_w1 shd2_9">
+                            <div @click="change_disp('Elementary','1')">小1</div>
+                            <div @click="change_disp('Elementary','2')">小2</div>
+                            <div @click="change_disp('Elementary','3')">小3</div>
+                            <div @click="change_disp('Elementary','4')">小4</div>
+                            <div @click="change_disp('Elementary','5')">小5</div>
+                            <div @click="change_disp('Elementary','6')">小6</div>
+                            <div @click="change_disp('Junior_High','')">中学</div>
+                        </div>
                     </details>
 
 
@@ -52,12 +56,14 @@
 
 
                 <div class="flt_lef mar_r24">
-                    <details class="cur_poi" id="semester1" style="z-index: 99;position:relative;background-color: rgb(255,255,255);">
+                    <details class="cur_poi" id="semester1" style="background-color: rgb(255,255,255);">
                         <summary>学期</summary>
-                        <div @click="change_semester('1')">1</div>
-                        <div @click="change_semester('2')">2</div>
-                        <div @click="change_semester('3')">3</div>
-                        <div @click="change_semester('')">全</div>
+                        <div class="summary_contents bor_c03 bor_w1 shd2_9">
+                            <div @click="change_semester('1')">1</div>
+                            <div @click="change_semester('2')">2</div>
+                            <div @click="change_semester('3')">3</div>
+                            <div @click="change_semester('')">全</div>
+                        </div>
                     </details>
                 </div>
 

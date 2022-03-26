@@ -266,6 +266,8 @@
         font-size:calc((100vw - 48px) * 0.09);
 
     }
+
+
     #content{
         padding-top:calc((100vw - 48px) * 0.14);
         margin-left:24px;
@@ -601,6 +603,26 @@ summary::-webkit-details-marker {
     display: none;
 }
 
-details div{line-height:180%;}
+summary{
+    /*z-index: 99;*/
+    /*position: absolute;*/
+    display:block;
+}
+details .summary_contents{
+    line-height:180%;
+    position: absolute;
+    background-color: #fff;
+    padding:8px 8px 8px 16px;
+}
+
+
+.opc_01{opacity:0.95;}
+
+.shd2_9{box-shadow: 0px 2px 8px -2px #999999;-moz-box-shadow: 0px 2px 8px -2px #999999;-webkit-box-shadow: 0px 2px 8px -2px #999999;}
+.shd8_9{box-shadow: 0px 8px 8px -2px #999999;-moz-box-shadow: 0px 8px 8px -2px #999999;-webkit-box-shadow: 0px 8px 8px -2px #999999;}
+
+.shd2_3{box-shadow: 0px 2px 8px -2px #333333;-moz-box-shadow: 0px 2px 8px -2px #333333;-webkit-box-shadow: 0px 2px 8px -2px #333333;}
+.shd8_3{box-shadow: 0px 8px 8px -2px #333333;-moz-box-shadow: 0px 8px 8px -2px #333333;-webkit-box-shadow: 0px 8px 8px -2px #333333;}
+
 
 [v-cloak]{display:none;}
