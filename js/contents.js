@@ -28275,6 +28275,7 @@ var value = new Vue({
             }
             this.shuffled=0
             this.turnIndex=0
+            this.view_mode=2
             window.location.href = 'index.htm?school='+this.str_school+'&year='+this.str_year+'&view_mode='+this.view_mode
         },
         change_semester:function(semester){
@@ -28295,7 +28296,7 @@ var value = new Vue({
 
             this.shuffled=0
             this.turnIndex=0
-            this.view_mode=0
+            //this.view_mode=0
             //console.log(semester)
             this.first_set()
         },
@@ -28580,7 +28581,7 @@ var value = new Vue({
                 }
                 //console.log(this.weak_binary_from_status)
             }else{
-                this.status_info="このURLですと苦手問題は判別できません。1度最後まで回答してみて下さい。苦手が反映されたURLが表示されます。";
+                this.status_info="このURLですと苦手問題は判別できません。表示を切替えるか、1度最後まで回答すると。苦手が反映されたURLが表示されます。";
             }
 
             //console.log(this.status_info)
@@ -28711,9 +28712,10 @@ var value = new Vue({
 
             this.shuffled=1
             //this.rest_clss()
-            //console.log(str_view_mode)    
-            this.view_mode=this.str_view_mode
-
+            //console.log(str_view_mode)
+            if(this.view_mode=="" || this.view_mode==null){
+                this.view_mode=this.str_view_mode
+            }
             //console.log(this.year_group[0].letter)
             
             if(this.str_school!=null){
