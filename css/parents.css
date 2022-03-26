@@ -131,8 +131,12 @@
     }
 
     .visibility{
-        margin-top:12px;
-        margin-right:8px;
+        /*margin-top:12px;*/
+        /*margin-right:8px;*/
+        padding-top:12px;
+        padding-right:8px;
+        width:53px;
+
     }
 
     .read_sample3{
@@ -330,8 +334,11 @@
     }
 
     .visibility{
-        margin-top: 14px;
-        margin-right:5px;
+        /*margin-top: 14px;*/
+        /*margin-right:5px;*/
+        padding-top:14px;
+        padding-right:5px;
+        width:53px;
     }
 
     .read_sample3{

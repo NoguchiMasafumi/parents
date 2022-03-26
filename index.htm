@@ -266,8 +266,8 @@
                         </div>
 
                         <div v-for="(currentTurn,index) in filtered_items" class="self_study1">
-                            <div class="flt_lef">
-                                <img src="img/visibility.png" class="visibility" @click="visibility_toggle('filtered',index)">
+                            <div class="flt_lef visibility">
+                                <img src="img/visibility.png" @click="visibility_toggle('filtered',index)">
                             </div>
 
                             <div v-if="currentTurn.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
@@ -315,8 +315,8 @@
                         </div>
 
                         <div v-for="(currentTurn,index) in weak_items" class="self_study1">
-                            <div class="flt_lef">
-                                <img src="img/visibility.png" class="visibility" @click="visibility_toggle('weak',index)">
+                            <div class="flt_lef visibility">
+                                <img src="img/visibility.png" @click="visibility_toggle('weak',index)">
                             </div>
 
 
