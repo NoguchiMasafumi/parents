@@ -439,15 +439,22 @@ a{color:#000000;}
 
 
 
-    .judge{font-size:240px;font-family: serif;line-height: 100%;
-    float:left;}
+.judge{font-size:240px;font-family: serif;line-height: 100%;
+float:left;}
 
 
 
 
-    .flt_lef{float:left;}
-    .over_flow_no{overflow: hidden;}
-    .over_flow_wrap_any{overflow-wrap:anywhere;}
+.flt_lef{float:left;}
+
+.over_flow_no{
+    overflow: hidden;
+}
+
+.over_flow_wrap_any{
+    overflow-wrap:anywhere;
+    word-break: break-all;
+}
 
 .btn_c06{background-color: rgb(221, 221, 255);}
 
