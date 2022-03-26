@@ -1,18 +1,3 @@
-const params = new URLSearchParams(window.location.search);
-var str_school=params.get("school");
-var str_year=params.get("year");
-var str_semester=params.get("semester");
-var str_weak=params.get("weak");
-var str_status=params.get("status");
-var str_digit=params.get("digit");
-var str_view_mode=params.get("view_mode");
-
-
-if (str_school=="" && str_year==""){str_year=3}
-if(str_status==null || str_status==""){str_status=""}
-if(str_digit==null || str_digit==""){str_digit=""}
-if(str_view_mode==null || str_view_mode==""){str_view_mode=0}
-
 
 
 window.onbeforeunload = function(e) {
@@ -24,6 +9,12 @@ window.onbeforeunload = function(e) {
 var value = new Vue({
     el: '#app',
     data: {
+        str_school:new URLSearchParams(window.location.search).get('school'),
+        str_year:new URLSearchParams(window.location.search).get('year'),
+        str_semester:new URLSearchParams(window.location.search).get('semester'),
+        str_status:new URLSearchParams(window.location.search).get('status'),
+        str_digit:new URLSearchParams(window.location.search).get('digit'),
+        str_view_mode:new URLSearchParams(window.location.search).get('view_mode'),
         answers: [],
         shuffle_items: [],
         filtered_items: [],
@@ -28020,18 +28011,20 @@ var value = new Vue({
             this.answers.push(index);
             this.turnIndex++;
             if(this.filtered_items.length!=this.turnIndex){
-                this.rest_clss()
+                //this.rest_clss()
             }
 
         },
         reduceAnswer: function(index) {
             this.answers.pop(index);
             this.turnIndex--;
-            this.rest_clss()
+            //this.rest_clss()
         },
         back_to_first: function(){
             this.turnIndex=0;
-            this.rest_clss()
+            this.create_url=''
+            
+            //this.rest_clss()
         },
         jud_o: function(array,index){
 
@@ -28154,8 +28147,9 @@ var value = new Vue({
                 }
             }
             //無くて=int_chk1　caution1=x=赤化　で　arc2に　letter　が存在しなかったら。無かったっつってるだろ。
+            //console.log(int_chk1)
             if(int_chk1==0 && str_decide1==1){
-                arc2.push(arc1[this.turnIndex])
+                arc2.push(arc1[index])
                 //if(this.view_mode==0){
                     this.weak_cnt++
                 //}
@@ -28269,11 +28263,47 @@ var value = new Vue({
             this.view_mode=5
             this.create_url=''
         },
+        change_disp:function(school,year){
+            year1.open=false
+
+            if(school!=""){this.str_school=school;}
+
+            if(this.str_school=='Elementary'){
+                if(year!=""){this.str_year=year;}
+            }else{
+                this.str_year=""
+            }
+            this.shuffled=0
+            this.turnIndex=0
+            window.location.href = 'index.htm?school='+this.str_school+'&year='+this.str_year+'&view_mode='+this.view_mode
+        },
+        change_semester:function(semester){
+            semester1.open=false
+
+            //console.log(semester)
+
+            if(semester!=""){
+                this.str_semester=semester
+            }else{
+                this.str_semester=""
+            }
+            this.year_group.splice(0)
+            this.filtered_items.splice(0)
+            this.shuffle_items.splice(0)
+            this.weak_items.splice(0)
+
+
+            this.shuffled=0
+            this.turnIndex=0
+            this.view_mode=0
+            //console.log(semester)
+            this.first_set()
+        },
         create_status_now: function(){
 
-            console.log("11")
+            //console.log("11")
 
-            console.log(this.shuffled)
+            //console.log(this.shuffled)
             this.create_status_code()
 
             this.create_url=1;
@@ -28304,8 +28334,9 @@ var value = new Vue({
 
         },
         create_year_group: function(array){
+            //console.log(this.str_year)
             for (let i = array.length - 1; i > -1; i--) {
-                if(array[i].year==str_year){
+                if(array[i].year==this.str_year){
                     this.year_group.push(array[i])
                 }
             }
@@ -28321,14 +28352,22 @@ var value = new Vue({
             return array
         },
         filtering: function(array) {
+
+            //console.log(this.str_school)
+            //console.log(this.str_year)
+
+
+
+
+
             for (let i = array.length - 1; i > -1; i--) {
                 let int_doit1=0
-                if(array[i].school==str_school){int_doit1=1}
-                if(int_doit1==1 && str_year!=""){
-                    if(array[i].year==str_year){int_doit1=1}else{int_doit1=0}
+                if(array[i].school==this.str_school){int_doit1=1}
+                if(int_doit1==1 && this.str_year!=""){
+                    if(array[i].year==this.str_year){int_doit1=1}else{int_doit1=0}
                 }
-                if(int_doit1==1 && str_semester!=""){
-                    if(array[i].semester==str_semester){int_doit1=1}else{int_doit1=0}
+                if(int_doit1==1 && (this.str_semester!="" && this.str_semester!=null)){
+                    if(array[i].semester==this.str_semester){int_doit1=1}else{int_doit1=0}
                 }
                 if(int_doit1==1){
                     this.filtered_items.push(array[i])
@@ -28338,17 +28377,17 @@ var value = new Vue({
             /*array.splice(12,array.length)*/
             return this.filtered_items
         },
-        rest_clss: function(index){
-            this.v_cau="cc" + this.turnIndex
-            if(this.filtered_items[this.turnIndex].weak==1){
-                this.v_cau="caution1"
-            }else if(this.filtered_items[this.turnIndex].weak==9){
-                this.v_cau="chkd"
-
-            }else{
-                this.v_cau=""
-            }
-        },
+        //rest_clss: function(index){
+        //    this.v_cau="cc" + this.turnIndex
+        //    if(this.filtered_items[this.turnIndex].weak==1){
+        //        this.v_cau="caution1"
+        //    }else if(this.filtered_items[this.turnIndex].weak==9){
+        //        this.v_cau="chkd"
+        //
+        //    }else{
+        //        this.v_cau=""
+        //    }
+        //},
         create_status_code: function(){
             //console.log(this.year_group[0].letter)
             //console.log(this.year_group.length)
@@ -28362,6 +28401,7 @@ var value = new Vue({
                 let int_exist1=0
 
                 if(this.view_mode==0 || this.view_mode==2 || this.view_mode==4){
+
                     for (let int_loop2 = 0; int_loop2 < this.filtered_items.length; int_loop2++) {
                         if(this.year_group[int_loop1].letter == this.filtered_items[int_loop2].letter){
                             if(this.filtered_items[int_loop2].weak==1){
@@ -28425,10 +28465,9 @@ var value = new Vue({
 
             this.current_url=location.protocol
             this.current_url=this.current_url+location.pathname
-            this.current_url=this.current_url+'?school='+str_school
-            this.current_url=this.current_url+'&year='+str_year
-            this.current_url=this.current_url+'&semester='+str_semester
-            this.current_url=this.current_url+'&weak='+str_weak
+            this.current_url=this.current_url+'?school='+this.str_school
+            this.current_url=this.current_url+'&year='+this.str_year
+            this.current_url=this.current_url+'&semester='+this.str_semester
             
             this.current_url=this.current_url+'&status='+str_decimal
             this.current_url=this.current_url+'&digit='+this.year_group.length
@@ -28480,179 +28519,235 @@ var value = new Vue({
             let str_zero_digit=""
 
 
-            for(int_loop1=0;int_loop1 < parseInt(str_digit);int_loop1++){
+            for(int_loop1=0;int_loop1 < parseInt(this.str_digit);int_loop1++){
                 str_zero_digit=str_zero_digit+0
             }
             //console.log(str_zero_digit)
             //console.log(result)
             var str_pre_binary=str_zero_digit+result
-            this.weak_binary_from_status = str_pre_binary.slice(-str_digit)
+            this.weak_binary_from_status = str_pre_binary.slice(-this.str_digit)
             //console.log(this.weak_binary_from_status)
-        }
+        },
+        first_set: function(){
 
-    },
-    computed: {
-        currentTurn: function() {
-            if(this.shuffled==0){
-                /*this.shuffle_items = this.shuffle(this.questions)*/
-                //console.log(str_status)
+            
 
 
-                this.create_year_group(this.questions)
 
-                if(str_status!=null && str_status.length!=0){
-                    this.dec_to_bin(str_status)
-                    let int_loop1_rev=0
-                    for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
-                        /* **********************ここでweak対比表が見られる************************* */
-                        /* **********************ここでweak対比表が見られる************************* */
-                        //console.log(this.year_group[int_loop1].letter + " " + this.weak_binary_from_status[int_loop1_rev])
-                        /* **********************ここでweak対比表が見られる************************* */
-                        /* **********************ここでweak対比表が見られる************************* */
-                        this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
-                        int_loop1_rev=int_loop1_rev+1
-                    }
-                    //console.log(this.weak_binary_from_status)
-                }else{
-                    this.status_info="このURLですと苦手問題は判別できません。1度最後まで回答してみて下さい。苦手が反映されたURLが表示されます。";
-                }
+            if ((this.str_school==null || this.str_school=="") && (this.str_year==null || this.str_year=="")){
+                this.str_school='Elementary'
+                this.str_year=3
+            }
+  
+  
+            //console.log(this.str_semester)
+  
+            if(this.str_semester=="undefined" || this.str_semester==null || this.str_semester==""){this.str_semester=""}
+            if(this.str_status==null || this.str_status==""){this.str_status=""}
+            if(this.str_digit==null || this.str_digit==""){this.str_digit=""}
+            if(this.str_view_mode==null || this.str_view_mode==""){this.str_view_mode=0}
 
-                //***********ここを超えると shuffle 完了*************** */
+
+
+
+
+
+            //console.log(this.shuffled)
+
+            /*this.shuffle_items = this.shuffle(this.questions)*/
+            //console.log(str_status)
+
+
+            //console.log(this.questions.length)
+            this.create_year_group(this.questions)
+            //console.log(this.year_group.length)
+
+
+
+            if(this.str_status!=null && this.str_status.length!=0){
+                this.dec_to_bin(this.str_status)
+                let int_loop1_rev=0
                 for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
-                    this.shuffle_items.push(this.year_group[int_loop1])
+                    /* **********************ここでweak対比表が見られる************************* */
+                    /* **********************ここでweak対比表が見られる************************* */
+                    //console.log(this.year_group[int_loop1].letter + " " + this.weak_binary_from_status[int_loop1_rev])
+                    /* **********************ここでweak対比表が見られる************************* */
+                    /* **********************ここでweak対比表が見られる************************* */
+                    this.year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
+                    int_loop1_rev=int_loop1_rev+1
                 }
-                //console.log(this.year_group[0].letter)
-                this.shuffle(this.shuffle_items)
+                //console.log(this.weak_binary_from_status)
+            }else{
+                this.status_info="このURLですと苦手問題は判別できません。1度最後まで回答してみて下さい。苦手が反映されたURLが表示されます。";
+            }
+
+            //console.log(this.status_info)
 
 
 
-                //***********ここを超えると filter 完了*************** */
-                this.filtering(this.shuffle_items)
-                this.filtered_cnt=this.filtered_items.length
+            //***********ここを超えると shuffle 完了*************** */
+            for(int_loop1=this.year_group.length-1;int_loop1>-1;int_loop1--){
+                this.shuffle_items.push(this.year_group[int_loop1])
+            }
+
+            //console.log(this.year_group.length)
+            //console.log(this.year_group[0].letter)
+            this.shuffle(this.shuffle_items)
 
 
-                for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
-
-                    ar_spl1=this.filtered_items[int_loop1].e1read.split("-")
-                    this.filtered_items[int_loop1].e1sample=this.filtered_items[int_loop1].e1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e2read.split("-")
-                    this.filtered_items[int_loop1].e2sample=this.filtered_items[int_loop1].e2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e3read.split("-")
-                    this.filtered_items[int_loop1].e3sample=this.filtered_items[int_loop1].e3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e4read.split("-")
-                    this.filtered_items[int_loop1].e4sample=this.filtered_items[int_loop1].e4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e5read.split("-")
-                    this.filtered_items[int_loop1].e5sample=this.filtered_items[int_loop1].e5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e6read.split("-")
-                    this.filtered_items[int_loop1].e6sample=this.filtered_items[int_loop1].e6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e7read.split("-")
-                    this.filtered_items[int_loop1].e7sample=this.filtered_items[int_loop1].e7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e8read.split("-")
-                    this.filtered_items[int_loop1].e8sample=this.filtered_items[int_loop1].e8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e9read.split("-")
-                    this.filtered_items[int_loop1].e9sample=this.filtered_items[int_loop1].e9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e10read.split("-")
-                    this.filtered_items[int_loop1].e10sample=this.filtered_items[int_loop1].e10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].e11read.split("-")
-                    this.filtered_items[int_loop1].e11sample=this.filtered_items[int_loop1].e11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j1read.split("-")
-                    this.filtered_items[int_loop1].j1sample=this.filtered_items[int_loop1].j1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j2read.split("-")
-                    this.filtered_items[int_loop1].j2sample=this.filtered_items[int_loop1].j2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j3read.split("-")
-                    this.filtered_items[int_loop1].j3sample=this.filtered_items[int_loop1].j3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j4read.split("-")
-                    this.filtered_items[int_loop1].j4sample=this.filtered_items[int_loop1].j4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j5read.split("-")
-                    this.filtered_items[int_loop1].j5sample=this.filtered_items[int_loop1].j5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j6read.split("-")
-                    this.filtered_items[int_loop1].j6sample=this.filtered_items[int_loop1].j6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j7read.split("-")
-                    this.filtered_items[int_loop1].j7sample=this.filtered_items[int_loop1].j7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j8read.split("-")
-                    this.filtered_items[int_loop1].j8sample=this.filtered_items[int_loop1].j8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j9read.split("-")
-                    this.filtered_items[int_loop1].j9sample=this.filtered_items[int_loop1].j9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j10read.split("-")
-                    this.filtered_items[int_loop1].j10sample=this.filtered_items[int_loop1].j10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].j11read.split("-")
-                    this.filtered_items[int_loop1].j11sample=this.filtered_items[int_loop1].j11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h1read.split("-")
-                    this.filtered_items[int_loop1].h1sample=this.filtered_items[int_loop1].h1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h2read.split("-")
-                    this.filtered_items[int_loop1].h2sample=this.filtered_items[int_loop1].h2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h3read.split("-")
-                    this.filtered_items[int_loop1].h3sample=this.filtered_items[int_loop1].h3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h4read.split("-")
-                    this.filtered_items[int_loop1].h4sample=this.filtered_items[int_loop1].h4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h5read.split("-")
-                    this.filtered_items[int_loop1].h5sample=this.filtered_items[int_loop1].h5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h6read.split("-")
-                    this.filtered_items[int_loop1].h6sample=this.filtered_items[int_loop1].h6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h7read.split("-")
-                    this.filtered_items[int_loop1].h7sample=this.filtered_items[int_loop1].h7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h8read.split("-")
-                    this.filtered_items[int_loop1].h8sample=this.filtered_items[int_loop1].h8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h9read.split("-")
-                    this.filtered_items[int_loop1].h9sample=this.filtered_items[int_loop1].h9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h10read.split("-")
-                    this.filtered_items[int_loop1].h10sample=this.filtered_items[int_loop1].h10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                    ar_spl1=this.filtered_items[int_loop1].h11read.split("-")
-                    this.filtered_items[int_loop1].h11sample=this.filtered_items[int_loop1].h11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
-                }
+            //console.log(this.shuffle_items.length)
 
 
+            //***********ここを超えると filter 完了*************** */
+            this.filtering(this.shuffle_items)
+            this.filtered_cnt=this.filtered_items.length
 
 
+            for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
 
-
-
-
-
-
+                ar_spl1=this.filtered_items[int_loop1].e1read.split("-")
+                this.filtered_items[int_loop1].e1sample=this.filtered_items[int_loop1].e1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e2read.split("-")
+                this.filtered_items[int_loop1].e2sample=this.filtered_items[int_loop1].e2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e3read.split("-")
+                this.filtered_items[int_loop1].e3sample=this.filtered_items[int_loop1].e3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e4read.split("-")
+                this.filtered_items[int_loop1].e4sample=this.filtered_items[int_loop1].e4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e5read.split("-")
+                this.filtered_items[int_loop1].e5sample=this.filtered_items[int_loop1].e5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e6read.split("-")
+                this.filtered_items[int_loop1].e6sample=this.filtered_items[int_loop1].e6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e7read.split("-")
+                this.filtered_items[int_loop1].e7sample=this.filtered_items[int_loop1].e7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e8read.split("-")
+                this.filtered_items[int_loop1].e8sample=this.filtered_items[int_loop1].e8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e9read.split("-")
+                this.filtered_items[int_loop1].e9sample=this.filtered_items[int_loop1].e9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e10read.split("-")
+                this.filtered_items[int_loop1].e10sample=this.filtered_items[int_loop1].e10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].e11read.split("-")
+                this.filtered_items[int_loop1].e11sample=this.filtered_items[int_loop1].e11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j1read.split("-")
+                this.filtered_items[int_loop1].j1sample=this.filtered_items[int_loop1].j1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j2read.split("-")
+                this.filtered_items[int_loop1].j2sample=this.filtered_items[int_loop1].j2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j3read.split("-")
+                this.filtered_items[int_loop1].j3sample=this.filtered_items[int_loop1].j3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j4read.split("-")
+                this.filtered_items[int_loop1].j4sample=this.filtered_items[int_loop1].j4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j5read.split("-")
+                this.filtered_items[int_loop1].j5sample=this.filtered_items[int_loop1].j5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j6read.split("-")
+                this.filtered_items[int_loop1].j6sample=this.filtered_items[int_loop1].j6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j7read.split("-")
+                this.filtered_items[int_loop1].j7sample=this.filtered_items[int_loop1].j7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j8read.split("-")
+                this.filtered_items[int_loop1].j8sample=this.filtered_items[int_loop1].j8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j9read.split("-")
+                this.filtered_items[int_loop1].j9sample=this.filtered_items[int_loop1].j9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j10read.split("-")
+                this.filtered_items[int_loop1].j10sample=this.filtered_items[int_loop1].j10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].j11read.split("-")
+                this.filtered_items[int_loop1].j11sample=this.filtered_items[int_loop1].j11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h1read.split("-")
+                this.filtered_items[int_loop1].h1sample=this.filtered_items[int_loop1].h1sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h2read.split("-")
+                this.filtered_items[int_loop1].h2sample=this.filtered_items[int_loop1].h2sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h3read.split("-")
+                this.filtered_items[int_loop1].h3sample=this.filtered_items[int_loop1].h3sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h4read.split("-")
+                this.filtered_items[int_loop1].h4sample=this.filtered_items[int_loop1].h4sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h5read.split("-")
+                this.filtered_items[int_loop1].h5sample=this.filtered_items[int_loop1].h5sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h6read.split("-")
+                this.filtered_items[int_loop1].h6sample=this.filtered_items[int_loop1].h6sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h7read.split("-")
+                this.filtered_items[int_loop1].h7sample=this.filtered_items[int_loop1].h7sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h8read.split("-")
+                this.filtered_items[int_loop1].h8sample=this.filtered_items[int_loop1].h8sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h9read.split("-")
+                this.filtered_items[int_loop1].h9sample=this.filtered_items[int_loop1].h9sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h10read.split("-")
+                this.filtered_items[int_loop1].h10sample=this.filtered_items[int_loop1].h10sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+                ar_spl1=this.filtered_items[int_loop1].h11read.split("-")
+                this.filtered_items[int_loop1].h11sample=this.filtered_items[int_loop1].h11sample.replace(new RegExp(this.filtered_items[int_loop1].letter,"g"),ar_spl1[0])
+            }
 
 
 
 
 
-                //***********ここを超えると weak 完了*************** */
+
+
+
+
+
+
+
+
+
+
+            //***********ここを超えると weak 完了*************** */
+
+            if(this.str_status!=null && this.str_status.length!=0){
+
+                console.log("ないのに？")
+
                 for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
                     if(this.filtered_items[int_loop1].weak==1){
                         this.weak_items.push(this.filtered_items[int_loop1])
                     }
                 }
-                this.weak_cnt=this.weak_items.length
-
-
-
-
-
-
-                this.shuffled=1
-                this.rest_clss()
-                //console.log(str_view_mode)    
-                this.view_mode=str_view_mode
-  
-                //console.log(this.year_group[0].letter)
-                
-                if(str_school!=null){
-                    this.url_prop=str_school
-                }
-                
-                if(str_year!=null){
-                    this.url_prop=this.url_prop + str_year
-                }
-                if(str_semester!=null && str_semester.length!=0){
-                    this.url_prop=this.url_prop + " Semester" + str_semester
-                }
-                
-
-
-
-
+            
             }
-            //console.log(this.year_group.length)
+            this.weak_cnt=this.weak_items.length
 
+            
+
+
+
+
+            this.shuffled=1
+            //this.rest_clss()
+            //console.log(str_view_mode)    
+            this.view_mode=this.str_view_mode
+
+            //console.log(this.year_group[0].letter)
+            
+            if(this.str_school!=null){
+                this.url_prop=this.str_school
+            }
+            
+            if(this.str_year!=null){
+                this.url_prop=this.url_prop + this.str_year
+            }
+            if(this.str_semester!=null && this.str_semester.length!=0){
+                this.url_prop=this.url_prop + " Semester" + this.str_semester
+            }
+                
+
+
+
+
+        }
+
+    },
+    computed: {
+        currentTurn: function() {
+
+
+
+
+
+
+            if(this.shuffled==0){
+                this.first_set()
+            }
+
+            //console.log(this.year_group.length)
+            //console.log(this.filtered_items.length)
+            
+            //console.log(this.turnIndex)
             let ar_path=location.pathname.split("/")
             str_page_file=ar_path[ar_path.length-1]
             //console.log(this.view_mode)
@@ -28696,7 +28791,8 @@ var value = new Vue({
             //if(this.create_url==1){
 
             //    console.log("dd")
-            //}
+            //}            
+
 
         },
         completed: function() {

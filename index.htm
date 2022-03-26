@@ -19,7 +19,18 @@
             <div id="header" class="">
                 <!--script src="js/menu.js"></script-->
                 <div class="flt_lef mar_r24">
-                    <a href='year_select.htm'>年</a>　
+                    <details class="cur_poi" id="year1" style="z-index: 99;position:relative;background-color: rgb(255,255,255);">
+                        <summary>年</summary>
+                        <div @click="change_disp('Elementary','1')">小1</div>
+                        <div @click="change_disp('Elementary','2')">小2</div>
+                        <div @click="change_disp('Elementary','3')">小3</div>
+                        <div @click="change_disp('Elementary','4')">小4</div>
+                        <div @click="change_disp('Elementary','5')">小5</div>
+                        <div @click="change_disp('Elementary','6')">小6</div>
+                        <div @click="change_disp('Junior_High','')">中学</div>
+                    </details>
+
+
                 </div>
 
                 <!--div class="flt_lef">
@@ -41,7 +52,13 @@
 
 
                 <div class="flt_lef mar_r24">
-                    <span>学期</span>　
+                    <details class="cur_poi" id="semester1" style="z-index: 99;position:relative;background-color: rgb(255,255,255);">
+                        <summary>学期</summary>
+                        <div @click="change_semester('1')">1</div>
+                        <div @click="change_semester('2')">2</div>
+                        <div @click="change_semester('3')">3</div>
+                        <div @click="change_semester('')">全</div>
+                    </details>
                 </div>
 
                 <div class="flt_lef" @click="create_status_now()">
@@ -356,7 +373,7 @@
 
                 <!-- ****************************************************************************************** -->
                 <div v-if="completed || create_url==1">
-                    <div v-if="view_mode==0 || view_mode==1" class="fnt_s32 mar_b24">
+                    <div v-if="view_mode==0 || view_mode==1" class="fnt_s32">
 
 
                         <span v-if="view_mode==0">
@@ -369,24 +386,41 @@
                     </div>
 
 
-                    <div class="fnt_s16 mar_b24">
+                    <div class="fnt_s16 mar_t24 mar_b24">
                         <a v-bind:href="[current_url]">今回の結果を反映させたURLはこちら</a>
                     </div>
 
-                    <div class="fnt_s12 over_flow_wrap_any mar_b24">
+                    <div class="fnt_s12 over_flow_wrap_any mar_b24 w100p">
                         <a v-bind:href="[current_url]">{{current_url}}</a>
                     </div>
 
 
-                    <div class="btn-radius-solid btn_square1 tex_cen mar_btn_square1 flt_lef cur_poi" @click="reduceAnswer()">
-                        <div class="btn_square_tex1 lh100p fnt_c00"><</div>
-                        <div class="btn_square_tex2 fnt_c00">もどる</div>
+
+
+                    <div v-if="view_mode==0 || view_mode==1">
+                        <div class="btn-radius-solid btn_square1 tex_cen mar_btn_square1 flt_lef cur_poi" @click="reduceAnswer()">
+                            <div class="btn_square_tex1 lh100p fnt_c00"><</div>
+                            <div class="btn_square_tex2 fnt_c00">もどる</div>
+                        </div>
+                    </div>
+                    <div v-else>
+                        <div class="btn-radius-solid btn_square1 tex_cen mar_btn_square1 flt_lef cur_poi" @click="back_to_first()">
+                            <div class="btn_square_tex1 lh100p fnt_c00"><</div>
+                            <div class="btn_square_tex2 fnt_c00">もどる</div>
+                        </div>
                     </div>
 
-                    <div class="btn-radius-solid btn_square1 tex_cen flt_lef cur_poi" @click="back_to_first()">
-                        <div class="fnt_s16 lh100p mar_t32 fnt_c00">はじめに</div>
-                        <div class="fnt_s16 fnt_c00">もどる</div>
+
+
+
+                    <div v-if="view_mode==0 || view_mode==1">
+                        <div class="btn-radius-solid btn_square1 tex_cen flt_lef cur_poi" @click="back_to_first()">
+                            <div class="fnt_s16 lh100p mar_t32 fnt_c00">はじめに</div>
+                            <div class="fnt_s16 fnt_c00">もどる</div>
+                        </div>
                     </div>
+
+
                 </div>
 
             </div>

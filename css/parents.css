@@ -236,9 +236,6 @@
     .read_box{
         height:calc((100vw - 48px) * 0.3);
     }
-    .read_sample1{
-        height:calc((100vw - 48px) * 0.2);
-    }
     .part_name{
         height:calc((100vw - 48px) * 0.1);
     }
@@ -413,6 +410,7 @@
 .mar_t5{margin-top:5px;}
 .mar_t12{margin-top:12px;}
 .mar_t15{margin-top:15px;}
+.mar_t24{margin-top:24px;}
 .mar_t32{margin-top:32px;}
 
 
@@ -455,6 +453,10 @@ a{color:#000000;}
 
 
 
+.read_sample1{
+    height:76px;
+    line-height:110%;
+}
 
 
 
@@ -490,7 +492,7 @@ a{color:#000000;}
 .lh50p{line-height:50%}
 .lh100p{line-height:100%}
 
-
+.w100p{width:100%;}
 
 .w120{width:120px;}
 
