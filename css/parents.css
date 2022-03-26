@@ -233,9 +233,7 @@
         }
     }
     .letter2_box{width:calc(((100vw - 48px) / 4));}
-    .read_box{
-        height:calc((100vw - 48px) * 0.3);
-    }
+
     .part_name{
         height:calc((100vw - 48px) * 0.1);
     }
@@ -462,6 +460,10 @@ float:left;}
 
 .read_sample1{
     height:76px;
+    line-height:110%;
+}
+.read_box{
+    height:80px;
     line-height:110%;
 }
 
