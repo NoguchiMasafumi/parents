@@ -28023,7 +28023,7 @@ var value = new Vue({
         back_to_first: function(){
             this.turnIndex=0;
             this.create_url=''
-            
+
             //this.rest_clss()
         },
         jud_o: function(array,index){
@@ -28464,6 +28464,7 @@ var value = new Vue({
 
 
             this.current_url=location.protocol
+            this.current_url=this.current_url+location.hostname
             this.current_url=this.current_url+location.pathname
             this.current_url=this.current_url+'?school='+this.str_school
             this.current_url=this.current_url+'&year='+this.str_year
