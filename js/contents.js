@@ -1,5 +1,4 @@
 
-
 window.onbeforeunload = function(e) {
     e.returnValue = "再読込みをしようとしています。よろしいですか？";
 }
@@ -28475,6 +28474,10 @@ var value = new Vue({
             this.current_url=this.current_url+'&status='+str_decimal
             this.current_url=this.current_url+'&digit='+this.year_group.length
             this.current_url=this.current_url+'&view_mode='+this.view_mode
+
+
+
+
 
             //console.log(location.href+'&status='+str_decimal+'&digit='+str_binary.length)
         },
