@@ -423,7 +423,7 @@
 .mar_t24{margin-top:24px;}
 .mar_t32{margin-top:32px;}
 
-
+.mar_r4{margin-right:4px;}
 
 
 
@@ -623,6 +623,12 @@ details .summary_contents{
 
 .shd2_3{box-shadow: 0px 2px 8px -2px #333333;-moz-box-shadow: 0px 2px 8px -2px #333333;-webkit-box-shadow: 0px 2px 8px -2px #333333;}
 .shd8_3{box-shadow: 0px 8px 8px -2px #333333;-moz-box-shadow: 0px 8px 8px -2px #333333;-webkit-box-shadow: 0px 8px 8px -2px #333333;}
+
+.logo1{
+    padding-top:12px;
+    float:left;
+    margin-right: 8px;
+}
 
 
 [v-cloak]{display:none;}
