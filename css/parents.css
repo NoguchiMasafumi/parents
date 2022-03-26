@@ -601,6 +601,6 @@ summary::-webkit-details-marker {
     display: none;
 }
 
-
+details div{line-height:180%;}
 
 [v-cloak]{display:none;}
