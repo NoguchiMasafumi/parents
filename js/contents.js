@@ -28464,6 +28464,7 @@ var value = new Vue({
 
 
             this.current_url=location.protocol
+            this.current_url=this.current_url+'//'
             this.current_url=this.current_url+location.hostname
             this.current_url=this.current_url+location.pathname
             this.current_url=this.current_url+'?school='+this.str_school
