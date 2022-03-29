@@ -7,7 +7,7 @@
                     {{ currentTurn.e1sample }}
                 </div>
                 
-                <div style="height:50px;width:50px;float: left;" @click="visibility_toggle('weak',turn)">
+                <div style="height:50px;width:50px;float: left;border-width:1px;border-style:solid;border-color:black;" @click="visibility_toggle('weak',turn)">
                     <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
                 </div>
 
@@ -44,7 +44,7 @@
                         return array
                     },
                     visibility_toggle: function(mode,index){
-                        console.log(this.qq[index].etc2)
+                        //console.log(this.qq[index].etc2)
                         if(this.qq[index].etc2=='' || this.qq[index].etc2==null){
                             this.qq[index].etc2=1
                         }else{
@@ -58,6 +58,7 @@
 
                             //console.log(outside.questions.length)
                             this.qq = outside.questions
+                            this.shuffle(this.qq)
                             return this.qq[this.turn]
                             this.exec1=1
                         }else{
