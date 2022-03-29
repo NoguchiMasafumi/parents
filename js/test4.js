@@ -1,6 +1,13 @@
 const VALUE = 1
 export default Object.freeze(
     {
-        VALUE: VALUE
+        VALUE: VALUE,
+        quest: [
+            {
+                school:'elem'
+            },{
+                school:'juni'
+            }
+        ]
     }
 );
