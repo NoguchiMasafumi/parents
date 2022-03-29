@@ -1,14 +1,19 @@
 <html>
     <body>
         <div id="app">
-            {{ vv}}
+            {{ vv }}
 
             <div v-if="!completed">
                 <div v-for="currentTurn in qq">
-                    {{currentTurn.pp}}
+                    {{ currentTurn.pp }}
                 </div>    
             </div>
-        
+            <div v-else>
+                はいよ
+            </div>
+            
+
+
         </div>
 
         <script src="js/vue.min.js"></script>
@@ -41,8 +46,9 @@
             currentTurn: function() {
 
                 this.tool1()
-                if(this.vv!=0){
+                if(this.vv!="0"){
                     return this.ss
+                    return this.qq
                     console.log(",m")
                     //break;
                 }
@@ -57,7 +63,7 @@
                 //this.vv=outside.VALUE
                 this.vv="xxx";
                 
-                return this.qq;
+                //return this.qq;
             },
             completed: function() {
                 return (this.vv==this.ss);
