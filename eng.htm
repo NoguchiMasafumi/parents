@@ -3,11 +3,11 @@
 
         <div id="app">
             <div v-if="!completed" style="overflow: hidden;">
-                <div style="float:left;">
+                <div style="">
                     {{ currentTurn.e1sample }}
                 </div>
                 
-                <div style="padding:16px;height:24px;width:120px;float: left;border-width:1px;border-style:solid;border-color:black;" @click="visibility_toggle('weak',turn)">
+                <div style="padding:16px;height:24px;width:120px;border-width:1px;border-style:solid;border-color:black;" @click="visibility_toggle('weak',turn)">
                     <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
                 </div>
 
