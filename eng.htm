@@ -31,7 +31,7 @@
                     currentTurn: function() {
                         if(this.exec1==0){
 
-                            console.log(outside.questions.length)
+                            //console.log(outside.questions.length)
                             this.qq = outside.questions
                             return this.qq[this.turn]
                             this.exec1=1
@@ -40,7 +40,7 @@
                         }
                     },
                     completed: function() {
-                        return (this.turn==2);
+                        return (this.turn==outside.questions.length);
                     }
                 }
             })
