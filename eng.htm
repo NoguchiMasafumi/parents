@@ -2,11 +2,12 @@
     <body>
 
         <div id="app">
-            <div v-if="!completed">
-                {{ currentTurn.e1sample }}
+            <div v-if="!completed" style="overflow: hidden;">
+                <div style="float:left;">
+                    {{ currentTurn.e1sample }}
+                </div>
                 
-                
-                <div style="height:50px;width:50px;display:inline" @click="visibility_toggle('weak',turn)">
+                <div style="height:50px;width:50px;float: left;" @click="visibility_toggle('weak',turn)">
                     <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
                 </div>
 
