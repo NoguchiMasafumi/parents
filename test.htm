@@ -10,6 +10,9 @@
         <script src="js/vue.min.js"></script>
 
 <script>
+
+    import outside from './js/test4'
+
     var value = new Vue({
         el: '#app',
         data:{
@@ -18,13 +21,11 @@
         },
         methods:{
             tool1:function(){
-                import outside from './js/test4'
             }            
         },
         computed: {
             currentTurn:function(){
                 
-                tool1()
                 
                 console.log(outside.VALUE)
                 console.log("MM")
