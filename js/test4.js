@@ -1,5 +1,5 @@
 
-export default questions={
+export default quest1={
 
     data(){
         return{

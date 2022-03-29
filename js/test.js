@@ -22,23 +22,20 @@ var value = new Vue({
         ]
     },
     methods:{
+        ans: function(){
+        }
+
 
     },
     computed: {
         currentTurn: function() {
-
-            import test4_data from 'js/test4'
-
-            export default {
-              data(){
-                return{
-                  test2_questions: test4_data
-                }
-              }
-            }
             
 
-
+            import test4_data from './test4'
+            export default{
+                pp=test4_data[0].year
+            }
+            console.log(pp)
 
             //return test2_questions
         }
