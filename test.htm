@@ -47,33 +47,27 @@
         computed: {
             currentTurn: function() {
 
-                this.qq[0].pp="ssss1"
 
 
-                this.tool1()
                 if(this.vv!="0"){
+                    this.tool1()
                     alert("ss")
                     //return this.ss
                     //return this.qq
                     console.log(",m")
                     //break;
+                    this.vv="xxx";
+                    this.qq[0].pp="ssss1"
+                    return this.qq[this.turn]
                 }
 
                 //console.log(this.year_group.length)
                 //console.log(this.filtered_items.length)
-
-
                 //console.log(outside.VALUE)
                 //console.log("MM")
-                
                 //this.vv=outside.VALUE
-                this.vv="xxx";
-                
                 //return this.qq;
-
                 //return this.qq[this.turn]
-
-
             },
             completed: function() {
                 return (this.vv==this.ss);
