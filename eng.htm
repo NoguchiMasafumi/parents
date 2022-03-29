@@ -38,7 +38,9 @@
                 computed: {
                     currentTurn: function() {
                         if(this.turn<2){
-                            this.qq[this.turn].pp = outside.questions[this.turn].school
+
+                            console.log(outside.questions.length)
+                            this.qq[this.turn].pp = outside.questions[this.turn].letter
                             return this.qq[this.turn]
                         }
                     },
