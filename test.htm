@@ -47,7 +47,6 @@
         computed: {
             currentTurn: function() {
 
-                return this.qq[this.turn]
                 this.qq[0].pp="ssss1"
 
 
@@ -71,6 +70,10 @@
                 this.vv="xxx";
                 
                 //return this.qq;
+
+                return this.qq[this.turn]
+
+
             },
             completed: function() {
                 return (this.vv==this.ss);
