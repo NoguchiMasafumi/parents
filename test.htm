@@ -3,6 +3,9 @@
         <div id="app">
             <div v-if="!completed">
                 {{ vv}}
+                <div v-for="currentTurn in qq">
+                    {{currentTurn.pp}}
+                </div>    
             </div>
         
         </div>
@@ -18,15 +21,30 @@
         el: '#app',
         data:{
             vv:110,
-            ss:120
+            ss:120,
+            qq:[
+                {
+                    pp:1
+                },
+                {
+                    pp:2
+                }
+            ]
         },
         methods:{
             tool1:function(){
             }            
         },
         computed: {
-            currentTurn:function(){
+            currentTurn: function(){
 
+                
+                if(this.vv==0){
+                    return this.ss
+                }
+
+                //console.log(this.year_group.length)
+                //console.log(this.filtered_items.length)
 
 
                 //console.log(outside.VALUE)
@@ -35,7 +53,7 @@
                 this.vv=outside.VALUE
                 this.vv="xxx"
                 
-                return this.vv
+                return this.qq
             },
             completed: function() {
                 return (this.vv==this.ss);
