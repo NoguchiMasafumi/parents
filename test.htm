@@ -49,7 +49,7 @@
 
 
 
-                if(this.vv!="0"){
+                if(this.turn<2){
                     this.tool1()
                     alert("ss")
                     //return this.ss
@@ -57,7 +57,7 @@
                     console.log(",m")
                     //break;
                     this.vv="xxx";
-                    this.qq[0].pp="ssss1"
+                    this.qq[this.turn].pp="ssss1"
                     return this.qq[this.turn]
                 }
 
@@ -70,7 +70,7 @@
                 //return this.qq[this.turn]
             },
             completed: function() {
-                return (this.vv==this.ss);
+                return (this.turn==1);
 
             }
         }
