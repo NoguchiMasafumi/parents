@@ -2,6 +2,7 @@
     <body>
         <div id="app">
             <div v-if="!completed">
+                {{ currentTurn.vv}}
             </div>
         
         </div>
@@ -23,6 +24,7 @@
                 //import outside from "./js/test4";
                 //console.log(outside.VALUE)
                 console.log("MM")
+                return this.vv
             },
             completed: function() {
                 return (this.vv==this.ss);
