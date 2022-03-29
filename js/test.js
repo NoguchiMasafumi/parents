@@ -31,7 +31,7 @@ var value = new Vue({
         currentTurn: function() {
             
 
-            import test4_data from './test4'
+            import test4_data from 'test4'
             export default{
                 pp=test4_data[0].year
             }
