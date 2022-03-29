@@ -17,12 +17,16 @@
             ss:120
         },
         methods:{
-            
+            tool1:function(){
+                import outside from './js/test4'
+            }            
         },
         computed: {
             currentTurn:function(){
-                //import outside from "./js/test4";
-                //console.log(outside.VALUE)
+                
+                tool1()
+                
+                console.log(outside.VALUE)
                 console.log("MM")
                 return this.vv
             },
