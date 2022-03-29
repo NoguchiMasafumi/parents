@@ -6,9 +6,9 @@
                 {{ currentTurn.e1sample }}
                 
                 
-                
-                <span v-if="currentTurn.etc2==1" @click="visibility_toggle('weak',turn)">{{currentTurn.letter}}</span>
-
+                <div style="height:50px;width:50px;display:inline" @click="visibility_toggle('weak',turn)">
+                    <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
+                </div>
 
             </div>
             <div v-else>
