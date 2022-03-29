@@ -1,43 +1,53 @@
 var value = new Vue({
-
-
     el: '#app',
-    data: {
-        url_prop:'',
-        questions: [
+    data:{
+        vv:'s110',
+        ss:'s120',
+        qq:[
             {
-                school:'Elementary',
-                year:'1',
-                semester:'',
-                letter:'ss',
-                figure:'1'
+                pp:1
             },
             {
-                school:'Elementary',
-                year:'1',
-                semester:'',
-                letter:'dd',
-                figure:'5'
+                pp:2
             }
         ]
     },
     methods:{
-        ans: function(){
-        }
-
-
+        tool1:function(){
+            console.log("pp")
+        }            
     },
     computed: {
         currentTurn: function() {
-            
 
-            import test4_data from 'test4'
-            export default{
-                pp=test4_data[0].year
+
+            this.qq[0].pp="ssss1"
+
+
+            this.tool1()
+            if(this.vv!="0"){
+                alert("ss")
+                //return this.ss
+                //return this.qq
+                console.log(",m")
+                //break;
             }
-            console.log(pp)
 
-            //return test2_questions
+            //console.log(this.year_group.length)
+            //console.log(this.filtered_items.length)
+
+
+            //console.log(outside.VALUE)
+            //console.log("MM")
+            
+            //this.vv=outside.VALUE
+            this.vv="xxx";
+            
+            //return this.qq;
+        },
+        completed: function() {
+            return (this.vv==this.ss);
+
         }
     }
 })
