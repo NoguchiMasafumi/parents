@@ -2449,7 +2449,7 @@ export default Object.freeze(
                 school:'Elementary',
                 year:'',
                 season:'',
-                letter:'let's',
+                letter:'let\'s',
                 figure:'',
                 part:'',
                 weak:'',
