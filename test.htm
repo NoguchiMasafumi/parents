@@ -1,34 +1,22 @@
 <html>
     <body>
 
-        <div id="app">
-                <div v-for="(currentTurn,index) in test2_questions" class="self_study1">
-                    {{currentTurn.letter}}
-                </div>
-            </div>
-        </div>
 
+        <script src="js/vue.min.js"></script>
 
-<script type="module">
-var pp1=""
-import test4_data from './js/test4.js'
-export default{
-    //pp:test4_data.quest
-    //console.log(test4_data.quest.length)
-    test4_data
-    console.log(test4_data.length)
-}
-//pp1=pp.length
-
-
+<script>
+    var value = new Vue({
+        import outside from "./js/test4";
+        computed: {
+            console.log(outside.VALUE)
+        }
+    })
 </script>
 
 
 
 
 
-        <script src="js/vue.min.js"></script>
-        <script type="module" src="js/test.js"></script>
 
     </body>
 </html>
