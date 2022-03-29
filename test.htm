@@ -1,89 +1,52 @@
 <html>
     <body>
-        <div id="app">
-            {{ vv }}
 
+        <div id="app">
             <div v-if="!completed">
                 {{ currentTurn.rr }} {{ currentTurn.pp }}
             </div>
             <div v-else>
-                はいよ
+                もうない
             </div>
-            
-            <button value="tomo" @click="upp1()">
-
+            <button @click="upp1()">prev</button>
         </div>
 
+        
         <script src="js/vue.min.js"></script>
-
-
-<script type="module">
-    //import outside from './js/test4.js';
-</script>
-<script type="module">
-    import outside from './js/test4.js'
-    var value = new Vue({
-        el: '#app',
-        data:{
-            turn:0,
-            vv:'s110',
-            ss:'s120',
-            qq:[
-                {
-                    pp:1,
-                    rr:'1'
+        <script type="module">
+            import outside from './js/test4.js'
+            var value = new Vue({
+                el: '#app',
+                data:{
+                    turn:0,
+                    qq:[
+                        {
+                            pp:1,
+                            rr:'1'
+                        },
+                        {
+                            pp:2,
+                            rr:'2'
+                        }
+                    ]
                 },
-                {
-                    pp:2,
-                    rr:'2'
+                methods:{
+                    upp1:function(){
+                        this.turn++
+                    }            
+                },
+                computed: {
+                    currentTurn: function() {
+                        if(this.turn<2){
+                            this.qq[this.turn].pp = outside.quest[this.turn].school
+                            return this.qq[this.turn]
+                        }
+                    },
+                    completed: function() {
+                        return (this.turn==2);
+                    }
                 }
-            ]
-        },
-        methods:{
-            tool1:function(){
-                console.log("pp")
-            },
-            upp1:function(){
-                this.turn++
-            }            
-        },
-        computed: {
-            currentTurn: function() {
-
-
-
-                if(this.turn<2){
-                    this.tool1()
-                    //alert("ss")
-                    //return this.ss
-                    //return this.qq
-                    //console.log(outside.quest[1].school)
-                    //break;
-                    this.vv="xxx";
-                    this.qq[this.turn].pp=outside.quest[1].school
-                    return this.qq[this.turn]
-                }
-
-                //console.log(this.year_group.length)
-                //console.log(this.filtered_items.length)
-                //console.log(outside.VALUE)
-                //console.log("MM")
-                //this.vv=outside.VALUE
-                //return this.qq;
-                //return this.qq[this.turn]
-            },
-            completed: function() {
-                return (this.turn==2);
-
-            }
-        }
-    })
-</script>
-
-
-
-
-
-
+            })
+        </script>
     </body>
 </html>
