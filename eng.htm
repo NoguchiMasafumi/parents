@@ -3,7 +3,7 @@
 
         <div id="app">
             <div v-if="!completed">
-                {{ currentTurn.rr }} {{ currentTurn.pp }}
+                {{ currentTurn.school }} {{ currentTurn.letter }}
             </div>
             <div v-else>
                 もうない
@@ -18,17 +18,9 @@
             var value = new Vue({
                 el: '#app',
                 data:{
+                    exec1:0,
                     turn:0,
-                    qq:[
-                        {
-                            pp:1,
-                            rr:'1'
-                        },
-                        {
-                            pp:2,
-                            rr:'2'
-                        }
-                    ]
+                    qq:[]
                 },
                 methods:{
                     upp1:function(){
@@ -37,10 +29,13 @@
                 },
                 computed: {
                     currentTurn: function() {
-                        if(this.turn<2){
+                        if(this.exec1==0){
 
                             console.log(outside.questions.length)
-                            this.qq[this.turn].pp = outside.questions[this.turn].letter
+                            this.qq = outside.questions
+                            return this.qq[this.turn]
+                            this.exec1=1
+                        }else{
                             return this.qq[this.turn]
                         }
                     },
