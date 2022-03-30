@@ -979,6 +979,7 @@ var value = new Vue({
 
 
             if(this.shuffled==0){
+                this.questions=outside.questions
                 this.first_set()
             }
 
@@ -1038,7 +1039,6 @@ var value = new Vue({
                 //console.log(this.filtered_items.length)
                 //console.log(this.turnIndex)
 
-                this.questions=outside.questions
 
                 if(this.view_mode==0){
                     if(this.filtered_items.length==this.turnIndex){
