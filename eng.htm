@@ -4,18 +4,22 @@
             html {
                 touch-action: manipulation;
             }
+            #app{
+                width:calc(100vw - 48px);
+                margin-left:24px;
+            }
         </style>
         
     </head>
     <body>
 
-        <div id="app" style="width:100vw;">
+        <div id="app" >
             <div v-if="!completed" style="overflow: hidden;">
-                <div style="font-size:72px;margin-bottom:48px;">
+                <div style="font-size:72px;margin-bottom:48px;height:100px">
                     {{ currentTurn.e1sample }}
                 </div>
                 
-                <div style="padding:16px;height:100px;width:100vw;border-width:1px;border-style:solid;border-color:black;font-size:72px;margin-bottom:48px;" @click="visibility_toggle('weak',turn)">
+                <div style="padding:16px;height:100px;width:calc(100vw - 82px);border-width:1px;border-style:solid;border-color:black;font-size:72px;margin-bottom:48px;" @click="visibility_toggle('weak',turn)">
                     <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
                 </div>
 
