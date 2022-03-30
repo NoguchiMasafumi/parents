@@ -1040,7 +1040,6 @@ var value = new Vue({
 
                 this.questions=outside.questions
 
-
                 if(this.view_mode==0){
                     if(this.filtered_items.length==this.turnIndex){
                         //console.log("gg")
