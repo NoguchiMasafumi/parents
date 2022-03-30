@@ -5,6 +5,7 @@ window.onbeforeunload = function(e) {
 
 
 
+import outside1 from "./js/kanji_20220330.js"
 
 var value = new Vue({
     el: '#app',
