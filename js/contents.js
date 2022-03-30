@@ -979,7 +979,7 @@ var value = new Vue({
 
 
             if(this.shuffled==0){
-                this.questions=outside.questions
+                this.questions=outside1.questions
                 this.first_set()
             }
 
