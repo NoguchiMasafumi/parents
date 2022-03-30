@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta name='viewport' content='width=device-width,initial-scale=1.0' />
+
         <style>
             html {
                 touch-action: manipulation;
@@ -15,11 +17,11 @@
 
         <div id="app" >
             <div v-if="!completed" style="overflow: hidden;">
-                <div style="font-size:72px;margin-bottom:48px;height:100px">
+                <div style="font-size:48px;margin-bottom:36px;height:100px">
                     {{ currentTurn.e1sample }}
                 </div>
                 
-                <div style="padding:16px;height:100px;width:calc(100vw - 82px);border-width:1px;border-style:solid;border-color:black;font-size:72px;margin-bottom:48px;" @click="visibility_toggle('weak',turn)">
+                <div style="padding:16px;height:100px;width:calc(100vw - 82px);border-width:1px;border-style:solid;border-color:black;font-size:36px;margin-bottom:48px;" @click="visibility_toggle('weak',turn)">
                     <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
                 </div>
 
@@ -27,7 +29,7 @@
             <div v-else>
                 もうない
             </div>
-            <button @click="upp1()" style="font-size:72px;">prev</button>
+            <button @click="upp1()" style="font-size:36px;">prev</button>
         </div>
 
         
