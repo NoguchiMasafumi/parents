@@ -18,11 +18,11 @@
 
         <div id="app" >
             <div v-if="!completed" style="overflow: hidden;">
-                <div class="fnt_sx" style="margin-bottom:36px;height:100px">
+                <div class="fnt_sx" style="margin-bottom:36px;height:32px">
                     {{ currentTurn.e1sample }}
                 </div>
                 
-                <div class="fnt_sx" style="padding:16px;height:100px;width:calc(100vw - 82px);border-width:1px;border-style:solid;border-color:black;margin-bottom:48px;" @click="visibility_toggle('weak',turn)">
+                <div class="fnt_sx" style="padding:16px;height:32px;width:calc(100vw - 82px);border-width:1px;border-style:solid;border-color:black;margin-bottom:48px;" @click="visibility_toggle('weak',turn)">
                     <span v-if="currentTurn.etc2==1">{{currentTurn.letter}}</span>
                 </div>
 
