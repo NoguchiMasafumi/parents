@@ -30,6 +30,7 @@
                 もうない
             </div>
             <button @click="upp1()" style="font-size:36px;">prev</button>
+            <button @click="rew1()" style="font-size:36px;">rew</button>
         </div>
 
         
@@ -46,6 +47,9 @@
                 methods:{
                     upp1:function(){
                         this.turn++
+                    },
+                    rew1:function(){
+                        this.turn--
                     },
                     shuffle: function(array) {
                         for (let i = array.length - 1; i > 0; i--) {
