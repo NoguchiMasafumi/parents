@@ -10,13 +10,15 @@
                 width:calc(100vw - 48px);
                 margin-left:24px;
             }
-            .fnt_sx{font-size:24px;}
+            .fnt_sx{font-size:36px;}
         </style>
         
     </head>
     <body>
 
         <div id="app" >
+            {{ turn }} / {{qq_cnt}}
+
             <div v-if="!completed" style="overflow: hidden;">
                 <div class="fnt_sx" style="margin-bottom:36px;height:32px">
                     {{ currentTurn.e1sample }}
@@ -43,6 +45,7 @@
                 data:{
                     exec1:0,
                     turn:0,
+                    qq_cnt:0,
                     qq:[]
                 },
                 methods:{
@@ -77,6 +80,7 @@
 
                             //console.log(outside.questions.length)
                             this.qq = outside.questions
+                            this.qq_cnt=this.qq.length
                             this.shuffle(this.qq)
                            
                             this.exec1=1
