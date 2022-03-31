@@ -980,6 +980,9 @@ var value = new Vue({
 
 
             if(this.shuffled==0){
+
+                console.log(outside1.questions.length)
+
                 this.questions=outside1.questions
                 this.first_set()
             }
