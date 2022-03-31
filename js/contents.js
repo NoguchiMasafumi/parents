@@ -264,7 +264,8 @@ var value = new Vue({
             //this.rest_clss()
         },
         jud_o: function(array,index){
-
+            let arc1=''
+            let arc2=''
             if(this.view_mode==0){
                 this.filtered_items[this.turnIndex].weak="9"
                 arc1=this.filtered_items
@@ -284,7 +285,9 @@ var value = new Vue({
             }
         },
         jud_x: function(index){
-            this.v_cau="caution1"
+            let arc1=''
+            let arc2=''
+
             if(this.view_mode==0){
                 this.filtered_items[this.turnIndex].weak="1"
                 arc1=this.filtered_items
@@ -317,7 +320,8 @@ var value = new Vue({
 
         },
         jud_cxl: function(index){
-            this.v_cau=""
+            let arc1=''
+            let arc2=''
             if(this.view_mode==0){
                 this.filtered_items[this.turnIndex].weak=""
                 arc1=this.filtered_items
@@ -343,6 +347,9 @@ var value = new Vue({
 
         },
         rtn_toggle: function(index){
+            let arc1=''
+            let arc2=''
+
             if(this.view_mode==0 || this.view_mode==2){
                 arc1=this.filtered_items
                 arc2=this.weak_items
@@ -375,7 +382,8 @@ var value = new Vue({
                     arc1[index].weak=''
                 }
             }
-            int_chk1=0
+            let int_chk1=0
+            let int_loop1=0
             for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
                 if(arc2[int_loop1].letter==arc1[index].letter){
                     int_chk1=1
@@ -393,6 +401,9 @@ var value = new Vue({
             }
         },
         sample_toggle: function(index){
+            let arc1=''
+            let arc2=''
+
             if(this.view_mode==4){
                 arc1=this.filtered_items
                 arc2=this.weak_items
@@ -425,8 +436,9 @@ var value = new Vue({
                     arc1[index].weak=''
                 }
             }
-            int_chk1=0
+            let int_chk1=0
             //console.log(arc2.length)
+            let int_loop1=0
             for(int_loop1=0;int_loop1<arc2.length;int_loop1++){
                 
                 //console.log(arc2[int_loop1].letter +" " +arc1[index].letter)
@@ -556,6 +568,7 @@ var value = new Vue({
             }
         },
         visibility_toggle: function(mode,index){
+            let arc=''
             if(mode=="filtered"){
                 arc=this.filtered_items
             }else{
@@ -705,7 +718,10 @@ var value = new Vue({
             this.current_url=this.current_url+'//'
             this.current_url=this.current_url+location.hostname
             this.current_url=this.current_url+location.pathname
-            this.current_url=this.current_url+'?school='+this.str_school
+
+            this.current_url=this.current_url+'?focus='+this.str_focus
+
+            this.current_url=this.current_url+'&school='+this.str_school
             this.current_url=this.current_url+'&year='+this.str_year
             this.current_url=this.current_url+'&semester='+this.str_semester
             
@@ -721,7 +737,7 @@ var value = new Vue({
         },
         dec_to_bin: function(value){
             /* ******************************************************************************* */
-            num = new Num(value);
+            let num = new Num(value);
 
             var num2=num
             var byte;
@@ -761,7 +777,7 @@ var value = new Vue({
                 }
             }
             let str_zero_digit=""
-
+            let int_loop1=0
 
             for(int_loop1=0;int_loop1 < parseInt(this.str_digit);int_loop1++){
                 str_zero_digit=str_zero_digit+0
@@ -1017,24 +1033,22 @@ var value = new Vue({
             let int_loop1=0
             if(this.view_mode==0){
                 //console.log(this.filtered_items[this.turnIndex].part)
-                this.part_item_name=""
-                for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
-                    if(this.part_items[int_loop1].part==this.filtered_items[this.turnIndex].part){
-                        this.part_item_name=this.part_items[int_loop1].part_name
-                        break;
+                if(this.str_focus=='kanji'){
+                    this.part_item_name=""
+                    for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
+                        if(this.part_items[int_loop1].part==this.filtered_items[this.turnIndex].part){
+                            this.part_item_name=this.part_items[int_loop1].part_name
+                            break;
+                        }
                     }
-                }
-                //this.filtered_cnt=this.shuffle_items.length
-                //return this.shuffle_items[this.turnIndex];
-
-                if(this.filtered_items[this.turnIndex].weak==1){
-                    this.v_cau="caution1"
-                }else{
-                    this.v_cau=""
+                    //this.filtered_cnt=this.shuffle_items.length
+                    //return this.shuffle_items[this.turnIndex];
                 }
                 return this.filtered_items[this.turnIndex];
 
             }else if(this.view_mode==1){
+
+                if(this.str_focus=='kanji'){
                     this.part_item_name=""
                     for(int_loop1=0;int_loop1<this.part_items.length;int_loop1++){
                         if(this.part_items[int_loop1].part==this.weak_items[this.turnIndex].part){
@@ -1042,8 +1056,8 @@ var value = new Vue({
                             break;
                         }
                     }
-                    this.v_cau="caution1"
-                    return this.weak_items[this.turnIndex];
+                }
+                return this.weak_items[this.turnIndex];
             }else if(this.view_mode==2 || this.view_mode==4){
                 return this.filtered_items;
             }else if(this.view_mode==3 || this.view_mode==5){
