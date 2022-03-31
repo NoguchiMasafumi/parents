@@ -207,7 +207,11 @@
     .pad_t16{padding-top:16px;}
     .pad_t144{padding-top:144px;}
     
-
+    .logo1{
+        padding-top:4px;
+        float:left;
+        margin-right: 8px;
+    }
 
 
 }
@@ -454,7 +458,7 @@
     #url1{padding-top:10px;line-height:100%;}
 
     .logo1{
-        padding-top:12px;
+        padding-top:14px;
         float:left;
         margin-right: 8px;
     }
