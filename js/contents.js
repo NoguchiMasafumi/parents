@@ -1012,7 +1012,8 @@ var value = new Vue({
         currentTurn: function() {
 
             if(this.shuffled==0){
-                if(this.focus=="kanji"){
+                if(this.str_focus=="kanji"){
+                    console.log("kanji")
                     this.import_kanji()
                 }else{
                     this.import_english_words()
