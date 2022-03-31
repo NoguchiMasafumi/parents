@@ -3,9 +3,12 @@ window.onbeforeunload = function(e) {
     e.returnValue = "再読込みをしようとしています。よろしいですか？";
 }
 
+//let ssp="./kanji_20220330.js"
+
+//import outside1 from "./kanji_20220330.js"
 
 
-import outside1 from "./kanji_20220330.js"
+
 
 var value = new Vue({
     el: '#app',
@@ -234,7 +237,9 @@ var value = new Vue({
             {part:'幺',part_name:'ヨウ いとがしら'}
         ],
         part_item_name:'',
-        status_info:''
+        status_info:'',
+        outside2:'',
+        outside3:[]
     },
     methods: {
         addAnswer: function(index) {
@@ -769,7 +774,7 @@ var value = new Vue({
         first_set: function(){
 
             
-
+            let int_loop1=0
 
 
             if ((this.str_school==null || this.str_school=="") && (this.str_year==null || this.str_year=="")){
@@ -839,8 +844,7 @@ var value = new Vue({
             //***********ここを超えると filter 完了*************** */
             this.filtering(this.shuffle_items)
             this.filtered_cnt=this.filtered_items.length
-
-
+            let ar_spl1=""
             for(int_loop1=0;int_loop1<this.filtered_items.length;int_loop1++){
 
                 ar_spl1=this.filtered_items[int_loop1].e1read.split("-")
@@ -963,28 +967,44 @@ var value = new Vue({
             if(this.str_semester!=null && this.str_semester.length!=0){
                 this.url_prop=this.url_prop + " Semester" + this.str_semester
             }
-                
 
 
-
-
+        },
+        import_kanji: function(){
+            import("./kanji_20220330.js")
+            .then(module => {
+                //this.outside2 = new module;
+                //this.outside2 = new module.questions;
+                //this.outside2 = new module.Object
+                //this.outside2 = new module.freeze
+                //this.outside2 = new module.freeze()
+                //this.outside2 = new module.Object()
+                //this.outside2 = new module.Object(questions)
+                //this.outside2 = new module.Object.freeze()
+                //this.outside2 = module.freeze;
+                //this.outside2 = module.default.questions
+                //this.outside2 = module.questions
+                //this.outside2 = module.Object.freeze.questions
+                //this.outside3=module.questions
+                //console.log(module.length)
+                //console.log(module.Object.length)
+                //console.log(module.questions.length)
+                //console.log(module.freeze.length)
+                //console.log(module.default.length)
+                this.outside3=module.default
+                this.questions=this.outside3.questions
+                this.first_set()
+            });
         }
-
     },
     computed: {
         currentTurn: function() {
 
-
-
-
-
-
             if(this.shuffled==0){
-
-                console.log(outside1.questions.length)
-
-                this.questions=outside1.questions
-                this.first_set()
+                this.import_kanji()
+                //this.outside2 = import("./kanji_20220330.js")
+                //console.log(this.outside2.questions.length)
+                //console.log(this.outside3.length)
             }
 
             //console.log(this.year_group.length)
@@ -992,10 +1012,10 @@ var value = new Vue({
             
             //console.log(this.turnIndex)
             let ar_path=location.pathname.split("/")
-            str_page_file=ar_path[ar_path.length-1]
+            let str_page_file=ar_path[ar_path.length-1]
             //console.log(this.view_mode)
 
-
+            let int_loop1=0
             if(this.view_mode==0){
                 //console.log(this.filtered_items[this.turnIndex].part)
                 this.part_item_name=""
