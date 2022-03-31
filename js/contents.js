@@ -13,6 +13,7 @@ window.onbeforeunload = function(e) {
 var value = new Vue({
     el: '#app',
     data: {
+        str_focus:new URLSearchParams(window.location.search).get('focus'),
         str_school:new URLSearchParams(window.location.search).get('school'),
         str_year:new URLSearchParams(window.location.search).get('year'),
         str_semester:new URLSearchParams(window.location.search).get('semester'),
@@ -779,7 +780,11 @@ var value = new Vue({
 
             if ((this.str_school==null || this.str_school=="") && (this.str_year==null || this.str_year=="")){
                 this.str_school='Elementary'
-                this.str_year=3
+                if(this.str_focus=='kanji'){
+                    this.str_year=3
+                }else{
+                    this.str_year=""
+                }
             }
   
   
@@ -973,24 +978,14 @@ var value = new Vue({
         import_kanji: function(){
             import("./kanji_20220330.js")
             .then(module => {
-                //this.outside2 = new module;
-                //this.outside2 = new module.questions;
-                //this.outside2 = new module.Object
-                //this.outside2 = new module.freeze
-                //this.outside2 = new module.freeze()
-                //this.outside2 = new module.Object()
-                //this.outside2 = new module.Object(questions)
-                //this.outside2 = new module.Object.freeze()
-                //this.outside2 = module.freeze;
-                //this.outside2 = module.default.questions
-                //this.outside2 = module.questions
-                //this.outside2 = module.Object.freeze.questions
-                //this.outside3=module.questions
-                //console.log(module.length)
-                //console.log(module.Object.length)
-                //console.log(module.questions.length)
-                //console.log(module.freeze.length)
-                //console.log(module.default.length)
+                this.outside3=module.default
+                this.questions=this.outside3.questions
+                this.first_set()
+            });
+        },
+        import_english_words: function(){
+            import("./english_words_20220330.js")
+            .then(module => {
                 this.outside3=module.default
                 this.questions=this.outside3.questions
                 this.first_set()
@@ -1001,11 +996,15 @@ var value = new Vue({
         currentTurn: function() {
 
             if(this.shuffled==0){
-                this.import_kanji()
-                //this.outside2 = import("./kanji_20220330.js")
-                //console.log(this.outside2.questions.length)
-                //console.log(this.outside3.length)
+                if(this.focus=="kanji"){
+                    this.import_kanji()
+                }else{
+                    this.import_english_words()
+                }
+
             }
+
+
 
             //console.log(this.year_group.length)
             //console.log(this.filtered_items.length)
