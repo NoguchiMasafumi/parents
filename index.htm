@@ -111,38 +111,89 @@
 
                         <div class="over_flow_no">
 
-                            <div v-if="currentTurn.weak==1" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi caution1" @click="rtn_toggle(turnIndex)">
-                                {{ currentTurn.letter }}
-                            </div>                            
+ 
+ 
+                            <div v-if="focus=='kanji'" class="over_flow_no">
+                                <div v-if="currentTurn.weak==1" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi caution1" @click="rtn_toggle(turnIndex)">
+                                    {{ currentTurn.letter }}
+                                </div>                            
 
-                            <div v-else-if="currentTurn.weak==9" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi chkd" @click="rtn_toggle(turnIndex)">
-                                {{ currentTurn.letter }}
-                            </div>                            
-                            
-                            <div v-else v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi" @click="rtn_toggle(turnIndex)">
-                                {{ currentTurn.letter }}
-                            </div>                            
-                            
-                            
-                            <div class="flt_lef mar_b15 quest_rig">
-                                <div class="fnt_s12 school_year_semester">
-                                    {{ currentTurn.school}}{{ currentTurn.year}}
-                                    <span v-if="currentTurn.semester!=''">
-                                        Semester{{ currentTurn.semester}}
-                                    </span>
-                                </div>
+                                <div v-else-if="currentTurn.weak==9" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi chkd" @click="rtn_toggle(turnIndex)">
+                                    {{ currentTurn.letter }}
+                                </div>                            
+                                
+                                <div v-else v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi" @click="rtn_toggle(turnIndex)">
+                                    {{ currentTurn.letter }}
+                                </div>                            
 
-                                <div class="fnt_s24 over_flow_wrap_any read_box">
-                                    {{ currentTurn.e1read}}
-                                    {{ currentTurn.e2read}}
-                                    {{ currentTurn.j1read}}
+
+                                <div class="flt_lef mar_b15 quest_rig">
+                                    <div class="fnt_s12 school_year_semester">
+                                        {{ currentTurn.school}}{{ currentTurn.year}}
+                                        <span v-if="currentTurn.semester!=''">
+                                            Semester{{ currentTurn.semester}}
+                                        </span>
+                                    </div>
+    
+                                    <div class="fnt_s24 over_flow_wrap_any read_box">
+                                        {{ currentTurn.e1read}}
+                                        {{ currentTurn.e2read}}
+                                        {{ currentTurn.j1read}}
+                                    </div>
+                                    <div class="over_flow_no">
+                                        <div class="fnt_s32 flt_lef">{{ currentTurn.part}}　</div>
+                                        <div class="fnt_s24 pad_t16 flt_lef">{{ currentTurn.figure}}画</div>
+                                    </div>
+                                    <div class="fnt_s12 part_name">{{ part_item_name}}</div>
                                 </div>
-                                <div class="over_flow_no">
-                                    <div class="fnt_s32 flt_lef">{{ currentTurn.part}}　</div>
-                                    <div class="fnt_s24 pad_t16 flt_lef">{{ currentTurn.figure}}画</div>
-                                </div>
-                                <div class="fnt_s12 part_name">{{ part_item_name}}</div>
+    
+
+
+
+
+
+
+
+
+
+
+
                             </div>
+
+                            <div v-else class="over_flow_no">
+                                <div v-if="currentTurn.weak==1" v-bind:id="['letter_'+ turnIndex]" class="letter1_word mar_b15 cur_poi caution1" @click="rtn_toggle(turnIndex)">
+                                    {{ currentTurn.letter }}
+                                </div>                            
+
+                                <div v-else-if="currentTurn.weak==9" v-bind:id="['letter_'+ turnIndex]" class="letter1_word mar_b15 cur_poi chkd" @click="rtn_toggle(turnIndex)">
+                                    {{ currentTurn.letter }}
+                                </div>                            
+                                
+                                <div v-else v-bind:id="['letter_'+ turnIndex]" class="letter1_word mar_b15 cur_poi" @click="rtn_toggle(turnIndex)">
+                                    {{ currentTurn.letter }}
+                                </div>                            
+                                <div class="flt_lef mar_b15 quest_rig2">
+                                    <div class="fnt_s12 school_year_semester">
+                                        {{ currentTurn.school}}{{ currentTurn.year}}
+                                        <span v-if="currentTurn.semester!=''">
+                                            Semester{{ currentTurn.semester}}
+                                        </span>
+                                    </div>
+    
+                                    <div class="fnt_s24 over_flow_wrap_any read_box2">
+                                        {{ currentTurn.e1read}}
+                                        {{ currentTurn.e2read}}
+                                        {{ currentTurn.j1read}}
+                                    </div>
+                                    <div class="fnt_s12 part_name">{{ part_item_name}}</div>
+                                </div>
+
+
+                            </div>
+                            
+
+
+                            
                         </div>
 
                         <div class="mar_b15 fnt_s24 read_sample1">{{ currentTurn.e1sample}} {{ currentTurn.e2sample}} {{ currentTurn.j1sample}}</div>
@@ -207,9 +258,11 @@
 
 
                         <div v-for="(currentTurn,index) in filtered_items">
-                            <div class="flt_lef tex_cen letter2_box">
 
 
+
+
+                            <div v-if="focus=='kanji'" class="flt_lef tex_cen letter2_box">
                                 <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
                                     {{ currentTurn.letter}}
                                 </div>
@@ -226,6 +279,26 @@
                                     {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
                                 </div>
                             </div>
+
+                            <div v-else class="flt_lef letter2_box_word">
+                                <div v-if="currentTurn.weak==1" class="caution1_all letter2_word bor_w1 bor_c01 cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else-if="currentTurn.weak==9" class="chkd letter2_word bor_w1 bor_c01 cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div v-else class="letter2_word bor_w1 bor_c01 cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
+                                    {{ currentTurn.letter}}
+                                </div>
+
+                                <div class="read_sample2_word" @click="rtn_toggle(index)">
+                                    {{currentTurn.e1sample}} {{currentTurn.e2sample}} {{currentTurn.j1sample}}
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -293,16 +366,31 @@
 
                             <div class="letter3_box cur_poi" @click="visibility_toggle('filtered',index)">
                                 <div class="round_bracket">（</div>    
-                                    <div class="letter3 letter3_s108">
 
+
+
+
+                                    <div v-if="str_focus=='kanji'" class="letter3 letter3_s108">
                                         <span v-if="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
                                             {{ currentTurn.letter}}
                                         </span>
                                         <span v-else="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]">
                                             {{ currentTurn.letter}}
                                         </span>
-
                                     </div>
+
+                                    <div v-else class="letter3 letter3_word_s108">
+                                        <span v-if="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
+                                            {{ currentTurn.letter}}
+                                        </span>
+                                        <span v-else="currentTurn.etc2!=1" v-bind:id="['letter_'+ index]">
+                                            {{ currentTurn.letter}}
+                                        </span>
+                                    </div>
+
+
+
+
                                 <div class="round_bracket">）</div>
                             </div>
                         </div>
@@ -446,21 +534,6 @@
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
         <script src="js/num.min.js"></script>
-<script type="module" async>
-//let study_mode=new URLSearchParams(window.location.search).get('study_mode')
-//var str_file="";
-//if(study_mode=="kanji"){
-//import outside1 from "./js/kanji_20220330.js"
-//    //str_file="./js/kanji_20220330.js"
-//}else if(study_mode=="english_words"){
-//    import outside from "./js/english_words.js"
-//    //str_file="./js/english_words.js"
-//}
-//import outside from str_file
-</script>
-
-
-
         <script type="module" src="js/contents.js"></script>
 
     </body>
