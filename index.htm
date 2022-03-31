@@ -113,7 +113,7 @@
 
  
  
-                            <div v-if="focus=='kanji'" class="over_flow_no">
+                            <div v-if="str_focus=='kanji'" class="over_flow_no">
                                 <div v-if="currentTurn.weak==1" v-bind:id="['letter_'+ turnIndex]" class="letter1 mar_b15 cur_poi caution1" @click="rtn_toggle(turnIndex)">
                                     {{ currentTurn.letter }}
                                 </div>                            
@@ -262,7 +262,7 @@
 
 
 
-                            <div v-if="focus=='kanji'" class="flt_lef tex_cen letter2_box">
+                            <div v-if="str_focus=='kanji'" class="flt_lef tex_cen letter2_box">
                                 <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
                                     {{ currentTurn.letter}}
                                 </div>
@@ -316,7 +316,6 @@
                         <!-- ************* -->
                         <div v-for="(currentTurn,index) in weak_items">
                             <div class="flt_lef tex_cen letter2_box">
-
                                 <div v-if="currentTurn.weak==1" class="caution1_all letter2 bor_w1 bor_c01 mar_r_at mar_l_at cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
                                     {{ currentTurn.letter}}
                                 </div>
