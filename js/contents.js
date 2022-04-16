@@ -722,6 +722,81 @@ var value = new Vue({
                 this.single_h10sample=this.ar_filtered[this.turn].h10sample
                 this.single_h11read=this.ar_filtered[this.turn].h11read
                 this.single_h11sample=this.ar_filtered[this.turn].h11sample
+            }else if(this.url_view_mode==1){
+                this.single_school=this.ar_weak[this.turn].school
+                this.single_year=this.ar_weak[this.turn].year
+                this.single_semester=this.ar_weak[this.turn].semester
+                this.single_letter=this.ar_weak[this.turn].letter
+                this.single_figure=this.ar_weak[this.turn].figure
+                this.single_part=this.ar_weak[this.turn].part
+                this.single_weak=this.ar_weak[this.turn].weak
+                this.single_letter_disp=this.ar_weak[this.turn].letter_disp
+                this.single_e1read=this.ar_weak[this.turn].e1read
+                this.single_e1sample=this.ar_weak[this.turn].e1sample
+                this.single_e2read=this.ar_weak[this.turn].e2read
+                this.single_e2sample=this.ar_weak[this.turn].e2sample
+                this.single_e3read=this.ar_weak[this.turn].e3read
+                this.single_e3sample=this.ar_weak[this.turn].e3sample
+                this.single_e4read=this.ar_weak[this.turn].e4read
+                this.single_e4sample=this.ar_weak[this.turn].e4sample
+                this.single_e5read=this.ar_weak[this.turn].e5read
+                this.single_e5sample=this.ar_weak[this.turn].e5sample
+                this.single_e6read=this.ar_weak[this.turn].e6read
+                this.single_e6sample=this.ar_weak[this.turn].e6sample
+                this.single_e7read=this.ar_weak[this.turn].e7read
+                this.single_e7sample=this.ar_weak[this.turn].e7sample
+                this.single_e8read=this.ar_weak[this.turn].e8read
+                this.single_e8sample=this.ar_weak[this.turn].e8sample
+                this.single_e9read=this.ar_weak[this.turn].e9read
+                this.single_e9sample=this.ar_weak[this.turn].e9sample
+                this.single_e10read=this.ar_weak[this.turn].e10read
+                this.single_e10sample=this.ar_weak[this.turn].e10sample
+                this.single_e11read=this.ar_weak[this.turn].e11read
+                this.single_e11sample=this.ar_weak[this.turn].e11sample
+                this.single_j1read=this.ar_weak[this.turn].j1read
+                this.single_j1sample=this.ar_weak[this.turn].j1sample
+                this.single_j2read=this.ar_weak[this.turn].j2read
+                this.single_j2sample=this.ar_weak[this.turn].j2sample
+                this.single_j3read=this.ar_weak[this.turn].j3read
+                this.single_j3sample=this.ar_weak[this.turn].j3sample
+                this.single_j4read=this.ar_weak[this.turn].j4read
+                this.single_j4sample=this.ar_weak[this.turn].j4sample
+                this.single_j5read=this.ar_weak[this.turn].j5read
+                this.single_j5sample=this.ar_weak[this.turn].j5sample
+                this.single_j6read=this.ar_weak[this.turn].j6read
+                this.single_j6sample=this.ar_weak[this.turn].j6sample
+                this.single_j7read=this.ar_weak[this.turn].j7read
+                this.single_j7sample=this.ar_weak[this.turn].j7sample
+                this.single_j8read=this.ar_weak[this.turn].j8read
+                this.single_j8sample=this.ar_weak[this.turn].j8sample
+                this.single_j9read=this.ar_weak[this.turn].j9read
+                this.single_j9sample=this.ar_weak[this.turn].j9sample
+                this.single_j10read=this.ar_weak[this.turn].j10read
+                this.single_j10sample=this.ar_weak[this.turn].j10sample
+                this.single_j11read=this.ar_weak[this.turn].j11read
+                this.single_j11sample=this.ar_weak[this.turn].j11sample
+                this.single_h1read=this.ar_weak[this.turn].h1read
+                this.single_h1sample=this.ar_weak[this.turn].h1sample
+                this.single_h2read=this.ar_weak[this.turn].h2read
+                this.single_h2sample=this.ar_weak[this.turn].h2sample
+                this.single_h3read=this.ar_weak[this.turn].h3read
+                this.single_h3sample=this.ar_weak[this.turn].h3sample
+                this.single_h4read=this.ar_weak[this.turn].h4read
+                this.single_h4sample=this.ar_weak[this.turn].h4sample
+                this.single_h5read=this.ar_weak[this.turn].h5read
+                this.single_h5sample=this.ar_weak[this.turn].h5sample
+                this.single_h6read=this.ar_weak[this.turn].h6read
+                this.single_h6sample=this.ar_weak[this.turn].h6sample
+                this.single_h7read=this.ar_weak[this.turn].h7read
+                this.single_h7sample=this.ar_weak[this.turn].h7sample
+                this.single_h8read=this.ar_weak[this.turn].h8read
+                this.single_h8sample=this.ar_weak[this.turn].h8sample
+                this.single_h9read=this.ar_weak[this.turn].h9read
+                this.single_h9sample=this.ar_weak[this.turn].h9sample
+                this.single_h10read=this.ar_weak[this.turn].h10read
+                this.single_h10sample=this.ar_weak[this.turn].h10sample
+                this.single_h11read=this.ar_weak[this.turn].h11read
+                this.single_h11sample=this.ar_weak[this.turn].h11sample
             }
         }
     },
@@ -779,6 +854,22 @@ var value = new Vue({
 
                     //******************** ar_year_group
                     this.create_year_group(this.questions)
+
+
+
+                    //*********** put weak to ar_year_gropu ********** */
+                    //console.log(this.url_status)
+                    if(this.url_status!=null && this.url_status.length!=0){
+                        this.dec_to_bin(this.url_status)
+                        let int_loop1_rev=0
+                        for(int_loop1=this.ar_year_group.length-1;int_loop1>-1;int_loop1--){
+                            this.ar_year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
+                            int_loop1_rev=int_loop1_rev+1
+                        }
+                    }else{
+                        this.status_info="このURLですと苦手問題は判別できません。表示を切替えるか、1度最後まで回答すると。苦手が反映されたURLが表示されます。";
+                    }
+
 
                     //******************** ar_shuffle
                     //** 1st array copy. if use = then changing reflect to original */
@@ -877,37 +968,27 @@ var value = new Vue({
 
 
 
-                    //*********** put weak to ar_year_gropu ********** */
-                    if(this.url_status!=null && this.url_status.length!=0){
-                        this.dec_to_bin(this.url_status)
-                        let int_loop1_rev=0
-                        for(int_loop1=this.ar_year_group.length-1;int_loop1>-1;int_loop1--){
-                            this.ar_year_group[int_loop1].weak=this.weak_binary_from_status[int_loop1_rev]
-                            int_loop1_rev=int_loop1_rev+1
-                        }
-                    }else{
-                        this.status_info="このURLですと苦手問題は判別できません。表示を切替えるか、1度最後まで回答すると。苦手が反映されたURLが表示されます。";
-                    }
         
 
                     //**************************************** */
                     let ar_path=location.pathname.split("/")
                     let str_page_file=ar_path[ar_path.length-1]
-                    if(this.view_mode==0){
+                    if(this.urL_view_mode==0){
                         if(this.url_focus=='kanji'){
                             this.part_item_name=""
                             for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
-                                if(this.ar_part[int_loop1].part==this.ar_filtered[this.turnIndex].part){
+                                if(this.ar_part[int_loop1].part==this.ar_filtered[this.turn].part){
                                     this.part_item_name=this.ar_part[int_loop1].part_name
                                     break;
                                 }
                             }
                         }
-                    }else if(this.view_mode==1){
+                    }else if(this.url_view_mode==1){
                         if(this.url_focus=='kanji'){
                             this.part_item_name=""
+                            console.log("きてる")
                             for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
-                                if(this.ar_part[int_loop1].part==this.ar_weak[this.turnIndex].part){
+                                if(this.ar_part[int_loop1].part==this.ar_weak[this.turn].part){
                                     this.part_item_name=this.ar_part[int_loop1].part_name
                                     break;
                                 }
@@ -928,6 +1009,33 @@ var value = new Vue({
                     this.url_view_mode="finish"
 
                 }else{
+
+                    //**************************************** */
+                    let ar_path=location.pathname.split("/")
+                    let str_page_file=ar_path[ar_path.length-1]
+                    if(this.urL_view_mode==0){
+                        if(this.url_focus=='kanji'){
+                            this.part_item_name=""
+                            for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
+                                if(this.ar_part[int_loop1].part==this.ar_filtered[this.turn].part){
+                                    this.part_item_name=this.ar_part[int_loop1].part_name
+                                    break;
+                                }
+                            }
+                        }
+                    }else if(this.url_view_mode==1){
+                        if(this.url_focus=='kanji'){
+                            this.part_item_name=""
+                            console.log("きてる")
+                            for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
+                                if(this.ar_part[int_loop1].part==this.ar_weak[this.turn].part){
+                                    this.part_item_name=this.ar_part[int_loop1].part_name
+                                    break;
+                                }
+                            }
+                        }
+                    }   
+
                     this.view_control()
                 }
 

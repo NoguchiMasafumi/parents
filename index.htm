@@ -210,7 +210,170 @@
 
                 </div>
                 <!--********************* / view mode 0 *************************-->
-    
+
+                
+
+
+
+
+
+                <!--********************************************************-->
+                <div v-if="url_view_mode==1">
+
+                    <div class="over_flow_no mar_b10">
+                        <div class="count_font flt_lef mar_r48">
+                            {{ turn + 1 }} / {{ar_weak_count}}
+                        </div>
+
+                        <div class="url_prop">
+                            {{url_prop}}
+                        </div>
+                    </div>
+
+
+                    <!-- ******** 1つだけ出す場合 ******** -->
+                    <div class="over_flow_no">
+                        <!--********************************************************-->
+                        <div v-if="url_focus=='kanji'" class="over_flow_no">
+                            <div v-if="single_weak==1" v-bind:id="['letter_'+ turn]" class="letter1 mar_b15 cur_poi caution1" @click="rtn_toggle(turn)">
+                                {{ single_letter }}
+                            </div>                            
+
+                            <div v-else-if="single_weak==9" v-bind:id="['letter_'+ turn]" class="letter1 mar_b15 cur_poi chkd" @click="rtn_toggle(turn)">
+                                {{ single_letter }}
+                            </div>                            
+                            
+                            <div v-else v-bind:id="['letter_'+ turn]" class="letter1 mar_b15 cur_poi" @click="rtn_toggle(turn)">
+                                {{ single_letter }}
+                            </div>   
+
+                            <div class="flt_lef mar_b15 quest_rig">
+                                <div class="fnt_s12 school_year_semester">
+                                    {{url_school}}{{url_year}}
+                                    <span v-if="url_semester!=''">
+                                        Semester {{url_semester}}
+                                    </span>
+                                </div>
+
+                                <div class="fnt_s24 over_flow_wrap_any read_box">
+                                    {{single_e1read}}
+                                    {{single_e2read}}
+                                    {{single_j1read}}
+                                </div>
+                                <div class="over_flow_no">
+                                    <div class="fnt_s32 flt_lef">{{single_part}}　</div>
+                                    <div class="fnt_s24 pad_t16 flt_lef">{{single_figure}}画</div>
+                                </div>
+                                <div class="fnt_s12 part_name">{{part_item_name}}</div>
+                            </div>
+                        </div>
+                        <!--********************************************************-->
+
+
+                        <!--********************************************************-->
+                        <div v-else class="over_flow_no">
+                            <div v-if="single_weak==1" v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi caution1" @click="rtn_toggle(turn)">
+                                {{single_letter }}
+                            </div>                            
+
+                            <div v-else-if="single_weak==9" v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi chkd" @click="rtn_toggle(turn)">
+                                {{single_letter }}
+                            </div>                            
+                            
+                            <div v-else v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi" @click="rtn_toggle(turn)">
+                                {{single_letter }}
+                            </div>                            
+                            <div class="flt_lef mar_b15 quest_rig2">
+                                <div class="fnt_s12 school_year_semester">
+                                    {{url_school}}{{url_year}}
+                                    <span v-if="url_semester!=''">
+                                        Semester{{url_semester}}
+                                    </span>
+                                </div>
+
+                                <div class="fnt_s24 over_flow_wrap_any read_box2">
+                                    {{single_e1read}}
+                                    {{single_e2read}}
+                                    {{single_j1read}}
+                                </div>
+                                <div class="fnt_s12 part_name">{{part_item_name}}</div>
+                            </div>
+                        </div>
+                        <!--********************************************************-->
+                    </div>
+
+
+
+                    <div class="mar_b15 fnt_s24 read_sample1">{{single_e1sample}} {{single_e2sample}} {{single_j1sample}}</div>
+                    <div class="over_flow_no mar_b12">
+                        <div class="btn-radius-solid btn_square1 tex_cen mar_btn_square1 flt_lef cur_poi" @click="cue_forward()">
+                            <div class="btn_square_tex1 lh100p fnt_c00">></div>
+                            <div class="btn_square_tex2 fnt_c00">つぎへ</div>
+                        </div>
+
+                        <div class="btn-radius-solid btn_square1 tex_cen mar_btn_square1 flt_lef cur_poi" @click="review_rewind()">
+                            <div class="btn_square_tex1 lh100p fnt_c00"><</div>
+                            <div class="btn_square_tex2 fnt_c00">もどる</div>
+                        </div>
+
+                        <div class="btn-radius-solid btn_square1 tex_cen flt_lef cur_poi" @click="back_to_first()">
+                            <div class="btn_square_tex2 lh100p mar_t_btn_square_tex2 fnt_c00">はじめに</div>
+                            <div class="btn_square_tex2 fnt_c00">もどる</div>
+                        </div>
+                    </div>
+
+
+                    <div class="btn-radius-solid h60 tex_cen btn_banner1 mar_b12 jud_o cur_poi" @click="jud_o()">
+                        <div class="fnt_s48 lh100p mar_t5 fnt_c00"><img src="img/o.png" class="h50"></div>
+                    </div>
+                    
+                    <div class="btn-radius-solid h60 tex_cen btn_banner1 mar_b12 jud_x cur_poi" @click="jud_x()">
+                        <div class="fnt_s48 lh100p mar_t5 fnt_c00"><img src="img/x.png" class="h50"></div>
+                    </div>
+                    
+                    <div class="btn-radius-solid h60 tex_cen btn_banner1 jud_cxl cur_poi" @click="jud_cxl()">
+                        <div class="fnt_s32 lh100p mar_t12 fnt_c00">cancel</div>
+                    </div>
+
+                    <div class="h60">
+                    
+                    </div>
+
+                </div>
+                <!--********************* / view mode 1 *************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
