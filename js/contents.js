@@ -486,11 +486,18 @@ var value = new Vue({
         },
         //****** */
         visibility_toggle: function(mode,index){
-            //console.log(this.qq[index].etc2)
-            if(this.ar_filtered[index].etc2=='' || this.ar_filtered[index].etc2==null){
-                this.ar_filtered[index].etc2=1
-            }else{
-                this.ar_filtered[index].etc2=''
+            if(mode=='filtered'){
+                if(this.ar_filtered[index].letter_disp.length==0 || this.ar_filtered[index].letter_disp=='' || this.ar_filtered[index].letter_disp=='undefined'){
+                    this.ar_filtered[index].letter_disp=1
+                }else{
+                    this.ar_filtered[index].letter_disp=''
+                }
+            }else if(mode=='weak'){
+                if(this.ar_weak[index].letter_disp=='' || this.ar_weak[index].letter_disp==null){
+                    this.ar_weak[index].letter_disp=1
+                }else{
+                    this.ar_weak[index].letter_disp=''
+                }
             }
         },
         change_view_mode:function(index){
@@ -510,7 +517,7 @@ var value = new Vue({
             }
             this.turn=0
             this.url_view_mode=2
-            window.location.href = 'index_3.00.htm?focus='+this.url_focus+'&school='+this.url_school+'&year='+this.url_year+'&view_mode='+this.url_view_mode
+            window.location.href = 'index.htm?focus='+this.url_focus+'&school='+this.url_school+'&year='+this.url_year+'&view_mode='+this.url_view_mode
         },
         change_semester:function(semester){
             semester1.open=false
@@ -519,11 +526,14 @@ var value = new Vue({
             }else{
                 this.url_semester=""
             }
-            this.ar_year_group.splice(0)
-            this.ar_filtered.splice(0)
-            this.ar_shuffle.splice(0)
-            this.ar_weak.splice(0)
-            this.turn=0
+            window.location.href = 'index.htm?focus='+this.url_focus+'&school='+this.url_school+'&year='+this.url_year+'&semester='+this.url_semester+'&view_mode='+this.url_view_mode
+
+
+            //this.ar_year_group.splice(0)
+            //this.ar_filtered.splice(0)
+            //this.ar_shuffle.splice(0)
+            //this.ar_weak.splice(0)
+            //this.turn=0
 
             //this.currentTurn()
 
@@ -1003,7 +1013,7 @@ var value = new Vue({
 
                 });
             }else{
-                if(this.turn==this.ar_filtered_count){
+                if((this.url_view_mode==0||this.url_view_mode==2||this.url_view_mode==4) && this.turn==this.ar_filtered_count||(this.url_view_mode==1||this.url_view_mode==3||this.url_view_mode==5) && this.turn==this.ar_weak_count){
                     console.log("fin")
                     this.create_status_code()
                     this.url_view_mode="finish"

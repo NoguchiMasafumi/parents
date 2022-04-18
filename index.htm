@@ -514,19 +514,19 @@
 
 
                                 <div v-if="url_focus=='kanji'" class="letter3 letter3_s108">
-                                    <span v-if="show_ar.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
+                                    <span v-if="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]" class="disp_no">
                                         {{ show_ar.letter}}
                                     </span>
-                                    <span v-else="show_ar.etc2!=1" v-bind:id="['letter_'+ index]">
+                                    <span v-else="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]">
                                         {{ show_ar.letter}}
                                     </span>
                                 </div>
 
                                 <div v-else class="letter3 letter3_word_s108">
-                                    <span v-if="show_ar.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
+                                    <span v-if="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]" class="disp_no">
                                         {{ show_ar.letter}}
                                     </span>
-                                    <span v-else="show_ar.etc2!=1" v-bind:id="['letter_'+ index]">
+                                    <span v-else="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]">
                                         {{ show_ar.letter}}
                                     </span>
                                 </div>
@@ -583,10 +583,10 @@
 
 
 
-                                    <span v-if="show_ar.etc2!=1" v-bind:id="['letter_'+ index]" class="disp_no">
+                                    <span v-if="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]" class="disp_no">
                                         {{ show_ar.letter}}
                                     </span>
-                                    <span v-else="show_ar.etc2!=1" v-bind:id="['letter_'+ index]">
+                                    <span v-else="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]">
                                         {{ show_ar.letter}}
                                     </span>
 
