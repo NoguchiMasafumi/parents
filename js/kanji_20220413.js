@@ -8333,7 +8333,7 @@ export default Object.freeze(
                 figure:'',
                 part:'艹',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'いばら',e1sample:'茨城',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8346,7 +8346,7 @@ export default Object.freeze(
                 figure:'',
                 part:'女',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'ひめ',e1sample:'愛媛',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8359,7 +8359,7 @@ export default Object.freeze(
                 figure:'',
                 part:'山',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'おか',e1sample:'岡山、静岡、福岡',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8372,7 +8372,7 @@ export default Object.freeze(
                 figure:'',
                 part:'氵',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'がた',e1sample:'新潟',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8385,7 +8385,7 @@ export default Object.freeze(
                 figure:'',
                 part:'⼭',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'ぎ',e1sample:'岐阜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8398,7 +8398,7 @@ export default Object.freeze(
                 figure:'',
                 part:'⺣',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'くま',e1sample:'熊本',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8411,7 +8411,7 @@ export default Object.freeze(
                 figure:'',
                 part:'香',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'か',e1sample:'香川',e2read:'かお-り',e2sample:'香り',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8424,7 +8424,7 @@ export default Object.freeze(
                 figure:'',
                 part:'亻',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'さ',e1sample:'佐賀',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8437,7 +8437,7 @@ export default Object.freeze(
                 figure:'',
                 part:'土',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'さい',e1sample:'埼玉',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8450,7 +8450,7 @@ export default Object.freeze(
                 figure:'',
                 part:'山',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'さき',e1sample:'長崎',e2read:'ざき',e2sample:'宮崎',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8463,7 +8463,7 @@ export default Object.freeze(
                 figure:'',
                 part:'氵',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'し',e1sample:'滋賀',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8476,7 +8476,7 @@ export default Object.freeze(
                 figure:'',
                 part:'鹿',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'か',e1sample:'鹿児島',e2read:'しか',e2sample:'鹿せんべい',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8489,7 +8489,7 @@ export default Object.freeze(
                 figure:'',
                 part:'糸',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'なわ',e1sample:'沖縄',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8502,7 +8502,7 @@ export default Object.freeze(
                 figure:'',
                 part:'二',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'い',e1sample:'福井',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8515,7 +8515,7 @@ export default Object.freeze(
                 figure:'7',
                 part:'氵',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'おき',e1sample:'沖縄',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8528,7 +8528,7 @@ export default Object.freeze(
                 figure:'',
                 part:'木',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'とち',e1sample:'栃木',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8541,7 +8541,7 @@ export default Object.freeze(
                 figure:'',
                 part:'大',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'な',e1sample:'奈良',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8554,7 +8554,7 @@ export default Object.freeze(
                 figure:'',
                 part:'木',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'なし',e1sample:'山梨',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8567,7 +8567,7 @@ export default Object.freeze(
                 figure:'',
                 part:'阝',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'さか',e1sample:'大阪',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -8580,7 +8580,7 @@ export default Object.freeze(
                 figure:'',
                 part:'阜',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'ふ',e1sample:'岐阜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''

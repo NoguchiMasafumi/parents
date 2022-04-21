@@ -17,10 +17,11 @@
             <div id="header">
 
                 <div class="logo1">
-                    <details class="cur_poi" id="detail1" style="background-color: rgb(255,255,255);">
+                    <details class="cur_poi" id="change_focus" style="background-color: rgb(255,255,255);">
                         <summary><img src="img/logo1.png" style="width:24px;height:24px;"></summary>
                         <div class="summary_contents bor_c03 bor_w1 shd2_9">
-                            <div @click="focus0()">単_全</div>
+                            <div @click="change_focus('kanji')">漢字</div>
+                            <div @click="change_focus('english_words')">英単語</div>
                         </div>
                     </details>
                 </div>
@@ -66,7 +67,7 @@
                     </details>
                 </div>
 
-                <div class="flt_lef" id="url1" @click="create_status_now()">
+                <div class="flt_lef cur_poi" id="url1" @click="create_status_now()">
                     <span>URL</span>
                 </div>
 
