@@ -943,35 +943,6 @@ var value = new Vue({
                 //**************************************** */
                 let ar_path=location.pathname.split("/")
                 let str_page_file=ar_path[ar_path.length-1]
-                console.log("ippo")
-
-
-
-                console.log(this.urL_view_mode)
-
-
-                if(this.url_view_mode==0){
-                    if(this.url_focus=='kanji'){
-                        this.part_item_name=""
-                        for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
-                            if(this.ar_part[int_loop1].part==this.ar_filtered[this.turn].part){
-                                this.part_item_name=this.ar_part[int_loop1].part_name
-                                break;
-                            }
-                        }
-                    }
-                }else if(this.url_view_mode==1){
-                    if(this.url_focus=='kanji'){
-                        this.part_item_name=""
-                        console.log("きてる")
-                        for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
-                            if(this.ar_part[int_loop1].part==this.ar_weak[this.turn].part){
-                                this.part_item_name=this.ar_part[int_loop1].part_name
-                                break;
-                            }
-                        }
-                    }
-                }   
 
                 this.exec1=1
 
@@ -990,6 +961,38 @@ var value = new Vue({
 
         //****************** display control ******************* */
         view_control:function(){
+
+            console.log("ippo")
+
+
+            let int_loop1=0
+
+
+            if(this.url_view_mode==0){
+                if(this.url_focus=='kanji'){
+                    this.part_item_name=""
+                    for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
+                        if(this.ar_part[int_loop1].part==this.ar_filtered[this.turn].part){
+                            this.part_item_name=this.ar_part[int_loop1].part_name
+                            break;
+                        }
+                    }
+                }
+                console.log(this.part_item_name)
+            }else if(this.url_view_mode==1){
+                if(this.url_focus=='kanji'){
+                    this.part_item_name=""
+                    console.log("きてる")
+                    for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
+                        if(this.ar_part[int_loop1].part==this.ar_weak[this.turn].part){
+                            this.part_item_name=this.ar_part[int_loop1].part_name
+                            break;
+                        }
+                    }
+                }
+            }   
+
+
 
             if(this.url_view_mode==2){
                 //****全出し */
