@@ -800,7 +800,11 @@ var value = new Vue({
             let int_loop1=0
 
 
-            console.log(this.url_focus)
+
+
+
+
+
             if(this.url_focus=="english_words"){
                 this.import_file="./english_words_20220330.js"
             }else if(this.url_focus=="kanji"){
@@ -808,6 +812,10 @@ var value = new Vue({
             }else{
                 this.import_file="./kanji_20220413.js"
             }
+
+
+
+
             import(this.import_file)
             .then(module => {
                 this.rr = module.default
@@ -935,7 +943,14 @@ var value = new Vue({
                 //**************************************** */
                 let ar_path=location.pathname.split("/")
                 let str_page_file=ar_path[ar_path.length-1]
-                if(this.urL_view_mode==0){
+                console.log("ippo")
+
+
+
+                console.log(this.urL_view_mode)
+
+
+                if(this.url_view_mode==0){
                     if(this.url_focus=='kanji'){
                         this.part_item_name=""
                         for(int_loop1=0;int_loop1<this.ar_part.length;int_loop1++){
@@ -1170,6 +1185,8 @@ var value = new Vue({
             //****************** control array combination  ******************* */
 
             if(this.exec1==0){
+
+
                 this.first_set()
             }else{
                 if((this.url_view_mode==0||this.url_view_mode==2||this.url_view_mode==4) && this.turn==this.ar_filtered_count||(this.url_view_mode==1||this.url_view_mode==3||this.url_view_mode==5) && this.turn==this.ar_weak_count){
