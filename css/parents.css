@@ -42,8 +42,29 @@
           --smooth-corners: 12;
         }
     }
+    .letter2_word{
+        font-size:36px;
+        color:rgb(42, 42, 42);
+        width:342px;;
+        height:46px;;
+        font-family: 'Noto Serif JP',serif;
+        line-height:94%;
+        border-radius: 12px;
+        padding:2px 0px 0px 8px;
+        margin-bottom:2px;
+    }
+    @supports (mask-image: paint(smooth-corners)) {
+        .letter2_word.is-loaded {
+          border-radius: 0;
+          mask-image: paint(smooth-corners);
+          --smooth-corners: 6.8;
+        }
+    }
     .letter2_box{width:168px;}
+    .letter2_box_word{
+        margin:0px 8px 8px 0px;
 
+    }
     .read_box{
         height:80px;
     }
@@ -189,6 +210,12 @@
     .letter3_s108{
         font-size:48px;
     }
+
+    .letter3_word_s108{
+        padding-top:12px;
+
+    }
+
     /* ************ PC view 4_5***************** */
 
 

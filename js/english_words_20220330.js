@@ -9,7 +9,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'1つの、1人の',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -22,7 +22,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'について、に関する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -35,7 +35,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'午後',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -48,7 +48,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'もう一度、再び、また',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -61,7 +61,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'飛行機',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -74,7 +74,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'全部、全員、全て、みな',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -87,7 +87,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'いつも',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -100,7 +100,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'いる、ある',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -113,7 +113,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'そして、それから',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -126,7 +126,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'などなど',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -139,7 +139,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'動物',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -152,7 +152,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'リンゴ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -165,7 +165,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'4月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -178,7 +178,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'で、に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -191,7 +191,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'8月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -204,7 +204,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'秋',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -217,7 +217,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'カバン',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -230,7 +230,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'野球',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -243,7 +243,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'風呂、入浴',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -256,7 +256,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'である',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -269,7 +269,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'砂浜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -282,7 +282,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'豆',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -295,7 +295,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'クマ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -308,7 +308,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'美しい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -321,7 +321,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'牛肉',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -334,7 +334,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'一番良い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -347,7 +347,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'自転車',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -360,7 +360,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'大きい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -373,7 +373,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'自転車',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -386,7 +386,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'鳥',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -399,7 +399,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'誕生日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -412,7 +412,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'黒い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -425,7 +425,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'青い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -438,7 +438,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'身体',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -451,7 +451,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'本',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -464,7 +464,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'本屋',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -477,7 +477,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'箱',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -490,7 +490,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'少年',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -503,7 +503,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'パン',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -516,7 +516,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'朝食',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -529,7 +529,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'橋',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -542,7 +542,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'兄弟',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -555,7 +555,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'茶色の',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -568,7 +568,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'をみがく',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -581,7 +581,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'忙しい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -594,7 +594,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'買う',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -607,7 +607,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'のそばに、によって',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -620,7 +620,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ケーキ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -633,7 +633,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'することができる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -646,7 +646,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'帽子',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -659,7 +659,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'自動車',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -672,7 +672,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'猫',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -685,7 +685,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'いす',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -698,7 +698,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'鶏肉',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -711,7 +711,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'市',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -724,7 +724,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'同級生',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -737,7 +737,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'教室',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -750,7 +750,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'きれいな',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -763,7 +763,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'置き時計',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -776,7 +776,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'服',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -789,7 +789,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'曇った',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -802,7 +802,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'冷たい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -815,7 +815,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'色',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -828,7 +828,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'料理する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -841,7 +841,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'かっこいい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -854,7 +854,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'国',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -867,7 +867,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ウシ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -880,7 +880,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'カップ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -893,7 +893,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'可愛い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -906,7 +906,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'日付',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -919,7 +919,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -932,7 +932,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'１２月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -945,7 +945,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'おいしい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -958,7 +958,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'机',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -971,7 +971,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'辞書',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -984,7 +984,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'違う',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -997,7 +997,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'むずかしい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1010,7 +1010,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'夕食',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1023,7 +1023,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'皿',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1036,7 +1036,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1049,7 +1049,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'医者',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1062,7 +1062,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'イヌ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1075,7 +1075,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'下に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1088,7 +1088,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'劇',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1101,7 +1101,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'描く',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1114,7 +1114,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'夢',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1127,7 +1127,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'飲む',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1140,7 +1140,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'太鼓',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1153,7 +1153,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'耳',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1166,7 +1166,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'簡単な',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1179,7 +1179,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'食べる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1192,7 +1192,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'卵',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1205,7 +1205,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'8',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1218,7 +1218,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'18',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1231,7 +1231,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'80',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1244,7 +1244,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'小学校',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1257,7 +1257,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'11',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1270,7 +1270,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'英語',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1283,7 +1283,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'楽しむ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1296,7 +1296,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'夕方',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1309,7 +1309,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'出来事',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1322,7 +1322,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'みんな',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1335,7 +1335,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'興奮させる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1348,7 +1348,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'許す',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1361,7 +1361,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'目',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1374,7 +1374,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'顔',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1387,7 +1387,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'秋',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1400,7 +1400,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'家族',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1413,7 +1413,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'有名な',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1426,7 +1426,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'農場主',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1439,7 +1439,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'速い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1452,7 +1452,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'父',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1465,7 +1465,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'お気に入りの',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1478,7 +1478,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'2月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1491,7 +1491,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'祭り',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1504,7 +1504,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'15',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1517,7 +1517,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'50',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1530,7 +1530,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'元気な',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1543,7 +1543,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'1番目',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1556,7 +1556,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'魚',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1569,7 +1569,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'5',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1582,7 +1582,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'花',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1595,7 +1595,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'食べ物',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1608,7 +1608,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'のために',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1621,7 +1621,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'40',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1634,7 +1634,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'4',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1647,7 +1647,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'14',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1660,7 +1660,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'金曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1673,7 +1673,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'友達',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1686,7 +1686,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'カエル',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1699,7 +1699,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'～から',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1712,7 +1712,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'果物',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1725,7 +1725,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'楽しみ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1738,7 +1738,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'おかしな',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1751,7 +1751,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'未来',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1764,7 +1764,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ゴミ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1777,7 +1777,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'得る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1790,7 +1790,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'少女',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1803,7 +1803,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'行く',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1816,7 +1816,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'良い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1829,7 +1829,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'祖父',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1842,7 +1842,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'祖母',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1855,7 +1855,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ブドウ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1868,7 +1868,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'すばらしい、広大な',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1881,7 +1881,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'緑',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1894,7 +1894,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'推測する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1907,7 +1907,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'手',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1920,7 +1920,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'幸福な',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1933,7 +1933,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'一生懸命に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1946,7 +1946,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'かたい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1959,7 +1959,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'帽子',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1972,7 +1972,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'持っている',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1985,7 +1985,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'彼は',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -1998,7 +1998,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'頭',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2011,7 +2011,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'心臓、 心',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2024,7 +2024,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'助ける',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2037,7 +2037,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ここに',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2050,7 +2050,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'宿題',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2063,7 +2063,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'馬',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2076,7 +2076,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'病院',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2089,7 +2089,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'暑い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2102,7 +2102,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'家',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2115,7 +2115,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'どのぐらい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2128,7 +2128,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'百',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2141,7 +2141,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'空腹の',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2154,7 +2154,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'私は',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2167,7 +2167,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'中に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2180,7 +2180,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'おもしろい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2193,7 +2193,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ある、いる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2206,7 +2206,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'島',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2219,7 +2219,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'それは',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2232,7 +2232,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'1月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2245,7 +2245,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'日本',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2258,7 +2258,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'日本人',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2271,7 +2271,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'仕事',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2284,7 +2284,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'参加する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2297,7 +2297,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'7月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2310,7 +2310,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'跳ぶ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2323,7 +2323,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'6月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2336,7 +2336,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'親切な',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2349,7 +2349,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'王様',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2362,7 +2362,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ひざ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2375,7 +2375,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'知っている',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2388,7 +2388,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'湖',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2401,7 +2401,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'大きい、広い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2414,7 +2414,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'去る、残す、置いて行く',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2427,7 +2427,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'左',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2440,7 +2440,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'脚',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2453,7 +2453,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'さあ～しよう',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2466,7 +2466,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'図書館',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2479,7 +2479,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'生活',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2492,7 +2492,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'好む',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2505,7 +2505,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'聴く',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2518,7 +2518,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'住む',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2531,7 +2531,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'長い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2544,7 +2544,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'見る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2557,7 +2557,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'運',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2570,7 +2570,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'昼食',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2583,7 +2583,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'作る、～を～にする',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2596,7 +2596,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'多くの',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2609,7 +2609,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'地図',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2622,7 +2622,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'3月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2635,7 +2635,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'数学',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2648,7 +2648,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'５月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2661,7 +2661,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'私に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2674,7 +2674,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'会う',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2687,7 +2687,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'記憶',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2700,7 +2700,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'月曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2713,7 +2713,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'サル',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2726,7 +2726,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2739,7 +2739,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'朝',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2752,7 +2752,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'母',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2765,7 +2765,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'山',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2778,7 +2778,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ネズミ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2791,7 +2791,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'口',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2804,7 +2804,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'たくさん',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2817,7 +2817,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'美術館',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2830,7 +2830,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'音楽家',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2843,7 +2843,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'私の',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2856,7 +2856,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'名前',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2869,7 +2869,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'自然',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2882,7 +2882,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'１度も～ない',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2895,7 +2895,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'新しい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2908,7 +2908,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'新聞',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2921,7 +2921,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'良い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2934,7 +2934,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'夜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2947,7 +2947,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'9',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2960,7 +2960,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'19',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2973,7 +2973,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'90',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2986,7 +2986,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'鼻',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -2999,7 +2999,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'～でない',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3012,7 +3012,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'11月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3025,7 +3025,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'数',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3038,7 +3038,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'看護婦',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3051,7 +3051,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'10月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3064,7 +3064,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'古い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3077,7 +3077,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'の上に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3090,7 +3090,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'1',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3103,7 +3103,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'私たちの',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3116,7 +3116,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'外に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3129,7 +3129,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'公園',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3142,7 +3142,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'鉛筆',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3155,7 +3155,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'絵、写真',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3168,7 +3168,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ブタ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3181,7 +3181,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'場所',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3194,7 +3194,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'する、演奏する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3207,7 +3207,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'選手',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3220,7 +3220,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'どうぞ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3233,7 +3233,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'練習する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3246,7 +3246,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'紫色',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3259,7 +3259,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'置く',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3272,7 +3272,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'女王',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3285,7 +3285,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ウサギ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3298,7 +3298,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'雨降りの',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3311,7 +3311,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'読む',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3324,7 +3324,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'読書',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3337,7 +3337,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'本当に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3350,7 +3350,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'赤い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3363,7 +3363,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'乗る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3376,7 +3376,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'右',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3389,7 +3389,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'川',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3402,7 +3402,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'部屋',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3415,7 +3415,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'定規',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3428,7 +3428,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'走る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3441,7 +3441,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'悲しい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3454,7 +3454,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'サラダ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3467,7 +3467,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'同じ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3480,7 +3480,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'土曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3493,7 +3493,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'学校',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3506,7 +3506,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'科学',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3519,7 +3519,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'科学者',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3532,7 +3532,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'海',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3545,7 +3545,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'季節',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3558,7 +3558,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'2番目',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3571,7 +3571,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'見る、わかる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3584,7 +3584,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'９月',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3597,7 +3597,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'7',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3610,7 +3610,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'17',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3623,7 +3623,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'70',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3636,7 +3636,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'彼女は',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3649,7 +3649,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ヒツジ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3662,7 +3662,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'船',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3675,7 +3675,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'店',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3688,7 +3688,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'買物',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3701,7 +3701,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'短い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3714,7 +3714,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'肩',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3727,7 +3727,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'歌う',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3740,7 +3740,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'姉妹',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3753,7 +3753,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'座る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3766,7 +3766,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'6',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3779,7 +3779,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'16',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3792,7 +3792,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'60',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3805,7 +3805,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'眠る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3818,7 +3818,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'小さい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3831,7 +3831,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'蛇',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3844,7 +3844,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'雪の降る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3857,7 +3857,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'柔らかい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3870,7 +3870,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'時々',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3883,7 +3883,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'ごめんなさい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3896,7 +3896,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'スープ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3909,7 +3909,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'話す',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3922,7 +3922,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'をつづる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3935,7 +3935,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'スポーツ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3948,7 +3948,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'春',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3961,7 +3961,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'立つ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3974,7 +3974,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'星、スター',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -3987,7 +3987,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'駅',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4000,7 +4000,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'止める',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4013,7 +4013,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'まっすぐに',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4026,7 +4026,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'通り',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4039,7 +4039,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'強い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4052,7 +4052,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'勉強する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4065,7 +4065,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'科目、題目',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4078,7 +4078,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'地下鉄',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4091,7 +4091,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'夏',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4104,7 +4104,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'日曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4117,7 +4117,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'晴れた',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4130,7 +4130,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'スーパー',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4143,7 +4143,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'甘い',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4156,7 +4156,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'泳ぐ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4169,7 +4169,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'つくえ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4182,7 +4182,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'写真を撮る、(時間が)かかる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4195,7 +4195,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'話す',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4208,7 +4208,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'お茶',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4221,7 +4221,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'教える',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4234,7 +4234,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'先生',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4247,7 +4247,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'電話',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4260,7 +4260,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'お寺',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4273,7 +4273,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'10',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4286,7 +4286,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'教科書',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4299,7 +4299,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'あれ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4312,7 +4312,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'その',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4325,7 +4325,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'信じる',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4338,7 +4338,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'3番目',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4351,7 +4351,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'13',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4364,7 +4364,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'30',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4377,7 +4377,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'この',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4390,7 +4390,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'3',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4403,7 +4403,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'木曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4416,7 +4416,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'トラ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4429,7 +4429,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'時、～回',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4442,7 +4442,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'疲れた',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4455,7 +4455,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'～へ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4468,7 +4468,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'一緒に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4481,7 +4481,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'～もまた',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4494,7 +4494,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'歯',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4507,7 +4507,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'塔',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4520,7 +4520,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'街',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4533,7 +4533,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'列車',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4546,7 +4546,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'旅行',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4559,7 +4559,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'木',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4572,7 +4572,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'旅行',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4585,7 +4585,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'試す',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4598,7 +4598,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'火曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4611,7 +4611,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'曲がる、回る、変化する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4624,7 +4624,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'12',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4637,7 +4637,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'20',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4650,7 +4650,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'2',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4663,7 +4663,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'傘',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4676,7 +4676,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'下の',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4689,7 +4689,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'上へ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4702,7 +4702,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'使う',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4715,7 +4715,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'普通は',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4728,7 +4728,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'休暇',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4741,7 +4741,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'野菜',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4754,7 +4754,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'非常に',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4767,7 +4767,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'訪問する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4780,7 +4780,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'散歩',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4793,7 +4793,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'壁',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4806,7 +4806,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'欲しい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4819,7 +4819,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'でした',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4832,7 +4832,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'洗う',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4845,7 +4845,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'見る',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4858,7 +4858,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'水',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4871,7 +4871,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'道、方法',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4884,7 +4884,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'私たちは',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4897,7 +4897,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'天気',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4910,7 +4910,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'水曜日',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4923,7 +4923,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'歓迎する',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4936,7 +4936,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'よく、じょうずに',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4949,7 +4949,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'何',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4962,7 +4962,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'いつ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4975,7 +4975,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'どこに',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -4988,7 +4988,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'白',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5001,7 +5001,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'だれ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5014,7 +5014,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'なぜ',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5027,7 +5027,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'窓',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5040,7 +5040,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'冬',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5053,7 +5053,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'といっしょに',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5066,7 +5066,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'すばらしい',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5079,7 +5079,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'世界、地球',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5092,7 +5092,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'書く、手紙を書く',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5105,7 +5105,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'年',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5118,7 +5118,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'黄色',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5131,7 +5131,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'あなたは',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5144,7 +5144,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'あなたの',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''
@@ -5157,7 +5157,7 @@ export default Object.freeze(
                 figure:'',
                 part:'',
                 weak:'',
-                etc2:'',
+                letter_disp:'',
                 e1read:'',e1sample:'動物園',e2read:'',e2sample:'',e3read:'',e3sample:'',e4read:'',e4sample:'',e5read:'',e5sample:'',e6read:'',e6sample:'',e7read:'',e7sample:'',e8read:'',e8sample:'',e9read:'',e9sample:'',e10read:'',e10sample:'',e11read:'',e11sample:'',
                 j1read:'',j1sample:'',j2read:'',j2sample:'',j3read:'',j3sample:'',j4read:'',j4sample:'',j5read:'',j5sample:'',j6read:'',j6sample:'',j7read:'',j7sample:'',j8read:'',j8sample:'',j9read:'',j9sample:'',j10read:'',j10sample:'',j11read:'',j11sample:'',
                 h1read:'',h1sample:'',h2read:'',h2sample:'',h3read:'',h3sample:'',h4read:'',h4sample:'',h5read:'',h5sample:'',h6read:'',h6sample:'',h7read:'',h7sample:'',h8read:'',h8sample:'',h9read:'',h9sample:'',h10read:'',h10sample:'',h11read:'',h11sample:''

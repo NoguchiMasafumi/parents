@@ -512,9 +512,9 @@ var value = new Vue({
             this.ar_weak=[]
             this.ar_year_group=[]
             this.ar_shuffle=[]
+            window.location.href = 'index.htm?focus='+val+'&view_mode='+this.url_view_mode
     
             this.first_set()
-
 
         },
         change_view_mode:function(index){
