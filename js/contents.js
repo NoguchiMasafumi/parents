@@ -809,6 +809,8 @@ var value = new Vue({
                 this.import_file="./english_words_20220330.js"
             }else if(this.url_focus=="kanji"){
                 this.import_file="./kanji_20220413.js"
+            }else if(this.url_focus=="national_flag"){
+                this.import_file="./national_flag_20220513.js"
             }else{
                 this.import_file="./kanji_20220413.js"
             }
