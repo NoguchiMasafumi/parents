@@ -22,6 +22,8 @@
                         <div class="summary_contents bor_c03 bor_w1 shd2_9">
                             <div @click="change_focus('kanji')">漢字</div>
                             <div @click="change_focus('english_words')">英単語</div>
+                            <div @click="change_focus('national_flag')">国旗</div>
+                            <div @click="change_focus('automobile_manufacturers')">自動車メーカー</div>
                         </div>
                     </details>
                 </div>
@@ -172,7 +174,7 @@
                         <!--********************************************************-->
 
                         <!--********************************************************-->
-                        <div v-else-if="url_focus=='national_flag'" class="over_flow_no">
+                        <div v-else-if="url_focus=='national_flag' || url_focus=='automobile_manufacturers'" class="over_flow_no">
                             <div v-if="single_weak==1" v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi caution1" @click="rtn_toggle(turn)">
                                 {{single_letter }}
                             </div>                            
@@ -182,7 +184,7 @@
                             </div>                            
                             
                             <div v-else v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi" @click="rtn_toggle(turn)">
-                                <img v-bind:src="[single_letter]">
+                                <img v-bind:src="[single_letter]" style="height:200px;">
                             </div>                            
                             <div class="flt_lef mar_b15 quest_rig2">
                                 <div class="fnt_s12 school_year_semester">
@@ -336,7 +338,7 @@
                         <!--********************************************************-->
 
                         <!--********************************************************-->
-                        <div v-else-if="url_focus=='national_flag'" class="over_flow_no">
+                        <div v-else-if="url_focus=='national_flag' || url_focus=='automobile_manufacturers'" class="over_flow_no">
                             <div v-if="single_weak==1" v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi caution1" @click="rtn_toggle(turn)">
                                 {{single_letter }}
                             </div>                            
@@ -346,7 +348,7 @@
                             </div>                            
                             
                             <div v-else v-bind:id="['letter_'+ turn]" class="letter1_word mar_b15 cur_poi" @click="rtn_toggle(turn)">
-                                <img v-bind:src="[single_letter]">
+                                <img v-bind:src="[single_letter]" style="height:200px;">
                             </div>                            
                             <div class="flt_lef mar_b15 quest_rig2">
                                 <div class="fnt_s12 school_year_semester">
@@ -503,7 +505,7 @@
                         <!--*************************************************************-->
 
                         <!--*************************************************************-->
-                        <div v-else-if="url_focus=='national_flag'" class="flt_lef letter2_box_word">
+                        <div v-else-if="url_focus=='national_flag' || url_focus=='automobile_manufacturers'" class="flt_lef letter2_box_word">
                             <div v-if="show_ar.weak==1" class="caution1_all letter2_word bor_w1 bor_c01 cur_poi" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
                                 {{ show_ar.letter}}
                             </div>
@@ -513,7 +515,7 @@
                             </div>
 
                             <div v-else class="letter2_word bor_w1 bor_c01 cur_poi" style="height:100px;" v-bind:id="['letter_'+index]" @click="rtn_toggle(index)">
-                                <img v-bind:src="[show_ar.letter]">
+                                <img v-bind:src="[show_ar.letter]" style="height:100px;">
                             </div>
 
                             <div class="read_sample2_word" @click="rtn_toggle(index)">
@@ -618,7 +620,7 @@
                             </div>
                         </div>
 
-                        <div v-if="url_focus=='national_flag'" class="disp_in">
+                        <div v-if="url_focus=='national_flag' || url_focus=='automobile_manufacturers'" class="disp_in">
                             <div v-if="show_ar.weak==1" v-bind:id="['sample_'+ index]" class="caution2_all read_sample3" @click="sample_toggle(index)">
                                 {{show_ar.e1sample}} {{show_ar.e2sample}} {{show_ar.j1sample}}
                             </div> 
@@ -628,7 +630,7 @@
                             </div> 
 
                             <div v-else class="read_sample3" v-bind:id="['sample_'+ index]" @click="sample_toggle(index)" style="height:100px;">
-                                <img v-bind:src="[show_ar.letter]">
+                                <img v-bind:src="[show_ar.letter]" style="height:100px;">
 
                             </div>
                         </div>
@@ -661,7 +663,7 @@
                                     </span>
                                 </div>
 
-                                <div v-else-if="url_focus=='national_flag'" class="letter3 letter3_word_s108">
+                                <div v-else-if="url_focus=='national_flag' || url_focus=='automobile_manufacturers'" class="letter3 letter3_word_s108">
                                     <span v-if="show_ar.letter_disp!=1" v-bind:id="['letter_'+ index]" class="disp_no">
                                         {{ show_ar.letter}}
                                     </span>
