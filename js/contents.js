@@ -811,6 +811,8 @@ var value = new Vue({
                 this.import_file="./kanji_20220413.js"
             }else if(this.url_focus=="national_flag"){
                 this.import_file="./national_flag_20220513.js"
+            }else if(this.url_focus=="automobile_manufacturers"){
+                this.import_file="./automobile_manufacturers_20220517.js"
             }else{
                 this.import_file="./kanji_20220413.js"
             }
