@@ -304,11 +304,24 @@ var value = new Vue({
     methods:{
         //****************** control array combination  ******************* */
         create_year_group: function(array){
+            //console.log(this.url_year)
+            //console.log(array.length)
+            //console.log (this.url_year===null)
             for (let i = array.length - 1; i > -1; i--) {
-                if(array[i].year==this.url_year){
+                //console.log (this.url_year) 
+                if(this.url_year===null){
+                    //console.log("nullだ")
                     this.ar_year_group.push(array[i])
+                }else{
+                    if(array[i].year==this.url_year){
+                        //console.log("マッチだ")
+                        this.ar_year_group.push(array[i])
+                    }
                 }
             }
+
+            console.log(this.ar_year_group.length)
+
         },
         //****** */
         shuffle: function(array) {
@@ -329,13 +342,20 @@ var value = new Vue({
                 if(array[i].school==this.url_school){
                     int_doit1=1
                 }
-                if(int_doit1==1 && this.url_year!=""){
-                    if(array[i].year==this.url_year){
-                        int_doit1=1
-                    }else{
-                        int_doit1=0
+
+                if(this.url_year===null){
+                    //console.log(array[i].year)
+                    int_doit1=1
+                }else{
+                    if(int_doit1==1 && this.url_year!=""){
+                        if(array[i].year==this.url_year){
+                            int_doit1=1
+                        }else{
+                            int_doit1=0
+                        }
                     }
                 }
+
                 if(int_doit1==1 && (this.url_semester!="" && this.url_semester!=null)){
                     if(array[i].semester==this.url_semester){
                         int_doit1=1
@@ -827,9 +847,10 @@ var value = new Vue({
 
 
                 //******************** ar_year_group
+
                 this.create_year_group(this.questions)
 
-
+                //console.log(this.ar_year_group.length)
 
                 //*********** put weak to ar_year_gropu ********** */
                 //console.log(this.url_status)
