@@ -44,8 +44,8 @@
             
                 <div class="flt_lef mar_r24">
                     <details class="cur_poi" id="year1" style="background-color: rgb(255,255,255);">
-                        <summary>年</summary>
                         <div v-if="url_focus=='kanji'">
+                            <summary>年</summary>
                             <div class="summary_contents bor_c03 bor_w1 shd2_9">
                                 <div @click="change_disp('Elementary','1')">小1</div>
                                 <div @click="change_disp('Elementary','2')">小2</div>
@@ -58,6 +58,7 @@
                         </div>
 
                         <div v-else="url_focus=='automobile_manufacturers'">
+                            <summary>国</summary>
                             <div class="summary_contents bor_c03 bor_w1 shd2_9">
                                 <div @click="change_disp('Elementary','日本')">日本</div>
                                 <div @click="change_disp('Elementary','中国')">中国</div>
