@@ -45,15 +45,41 @@
                 <div class="flt_lef mar_r24">
                     <details class="cur_poi" id="year1" style="background-color: rgb(255,255,255);">
                         <summary>年</summary>
-                        <div class="summary_contents bor_c03 bor_w1 shd2_9">
-                            <div @click="change_disp('Elementary','1')">小1</div>
-                            <div @click="change_disp('Elementary','2')">小2</div>
-                            <div @click="change_disp('Elementary','3')">小3</div>
-                            <div @click="change_disp('Elementary','4')">小4</div>
-                            <div @click="change_disp('Elementary','5')">小5</div>
-                            <div @click="change_disp('Elementary','6')">小6</div>
-                            <div @click="change_disp('Junior_High','')">中学</div>
+                        <div v-if="url_focus=='kanji'">
+                            <div class="summary_contents bor_c03 bor_w1 shd2_9">
+                                <div @click="change_disp('Elementary','1')">小1</div>
+                                <div @click="change_disp('Elementary','2')">小2</div>
+                                <div @click="change_disp('Elementary','3')">小3</div>
+                                <div @click="change_disp('Elementary','4')">小4</div>
+                                <div @click="change_disp('Elementary','5')">小5</div>
+                                <div @click="change_disp('Elementary','6')">小6</div>
+                                <div @click="change_disp('Junior_High','')">中学</div>
+                            </div>
                         </div>
+
+                        <div v-else="url_focus=='automobile_manufacturers'">
+                            <div class="summary_contents bor_c03 bor_w1 shd2_9">
+                                <div @click="change_disp('Elementary','日本')">日本</div>
+                                <div @click="change_disp('Elementary','中国')">中国</div>
+                                <div @click="change_disp('Elementary','韓国')">韓国</div>
+                                <div @click="change_disp('Elementary','ロシア')">ロシア</div>
+                                <div @click="change_disp('Elementary','ルーマニア')">ルーマニア</div>
+                                <div @click="change_disp('Elementary','フランス')">フランス</div>
+                                <div @click="change_disp('Elementary','ドイツ')">ドイツ</div>
+                                <div @click="change_disp('Elementary','スウェーデン')">スウェーデン</div>
+                                <div @click="change_disp('Elementary','オーストラリア')">オーストラリア</div>
+                                <div @click="change_disp('Elementary','イタリア')">イタリア</div>
+                                <div @click="change_disp('Elementary','イギリス')">イギリス</div>
+                                <div @click="change_disp('Elementary','アメリカ')">アメリカ</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
                     </details>
                 </div>
 
