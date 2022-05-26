@@ -10667,7 +10667,7 @@ export default Object.freeze(
             },
             {
                 school:'Elementary',
-                year:'5',
+                year:'4',
                 semester:'',
                 letter:'富',
                 figure:'12',
