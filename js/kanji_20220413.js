@@ -6378,7 +6378,7 @@ export default Object.freeze(
             {
                 school:'Elementary',
                 year:'4',
-                semester:'',
+                semester:'1',
                 letter:'郡',
                 figure:'10',
                 part:'阝',
@@ -9146,8 +9146,8 @@ export default Object.freeze(
             },
             {
                 school:'Elementary',
-                year:'5',
-                semester:'',
+                year:'4',
+                semester:'1',
                 letter:'群',
                 figure:'13',
                 part:'羊',
@@ -12136,8 +12136,8 @@ export default Object.freeze(
             },
             {
                 school:'Elementary',
-                year:'6',
-                semester:'',
+                year:'4',
+                semester:'1',
                 letter:'城',
                 figure:'9',
                 part:'土',
