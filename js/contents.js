@@ -309,7 +309,7 @@ var value = new Vue({
             //console.log (this.url_year===null)
             for (let i = array.length - 1; i > -1; i--) {
                 //console.log (this.url_year) 
-                if(this.url_year===null){
+                if(this.url_year.length==0){
                     //console.log("nullだ")
                     this.ar_year_group.push(array[i])
                 }else{
