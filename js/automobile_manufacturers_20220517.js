@@ -822,7 +822,7 @@ export default Object.freeze(
                 school:'Elementary',
                 year:'アメリカ',
                 semester:'',
-                letter:'automobile_manufacturers/usa/dudge.png',
+                letter:'automobile_manufacturers/usa/dodge.png',
                 figure:'',
                 part:'',
                 weak:'',
